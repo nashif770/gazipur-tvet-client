@@ -37,12 +37,18 @@ const Answers = () => {
   //   console.log("filtered",filteredMCQs)
 
   return (
-    <div>
-  <div className="bg-slate-400 flex flex-col md:flex-row md:justify-center gap-8 p-6">
+    <div
+      className="bg-cover bg-center p-3"
+      style={{
+        backgroundImage:
+          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg',
+      }}
+    >
+  <div className="flex flex-col md:flex-row justify-center gap-3 p-3">
     {questionSets.map((button, index) => (
       <button
         key={index}
-        className="btn btn-primary w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
+        className="btn w-full btn-primary sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
         onClick={() => getSelection(button?.set)}
       >
         {button?.set}

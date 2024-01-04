@@ -20,7 +20,7 @@ const SocialLogin = () => {
 
       updateUserProfile(saveUser.name).then(() => {
         console.log("user profile updated");
-        fetch("http://localhost:5000/users", {
+        fetch("https://gazipur-tvet-server.vercel.app/users", {
           method: "POST",
           headers: {
             "content-type": "application/json",

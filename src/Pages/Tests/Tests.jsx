@@ -39,23 +39,35 @@ const Tests = () => {
   //   console.log("filtered",filteredMCQs)
 
   return (
-    <div>
-      <div className="bg-slate-400 flex flex-col md:flex-row md:justify-center gap-4 p-6">
+    <div
+      className="bg-cover bg-center p-3"
+      style={{
+        backgroundImage:
+          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg',
+      }}
+    >
+      <div className="flex flex-row justify-center gap-3 p-3">
+        <Link to={"/randomized"}>
+          <button className="btn w-full md:w-[100px] mb-2 md:mb-0 bg-red-700 border-none text-white">
+            Random
+          </button>
+        </Link>
+        <Link to={"/answers"}>
+          <button className="btn w-full md:w-[100px] mb-2 md:mb-0 bg-green-500 border-none text-white">
+            Answers
+          </button>
+        </Link>
+      </div>
+      <div className="flex flex-col md:flex-row md:justify-center gap-1 p-2">
         {questionSets.map((button, index) => (
           <button
             key={index}
-            className="btn btn-primary w-[100px] m-2"
+            className="btn btn-primary w-full md:w-[100px] mb-2 md:mb-0 md:mr-2"
             onClick={() => getSelection(button?.set)}
           >
             {button?.set}
           </button>
         ))}
-        <Link to={"/randomized"}>
-          <button className="btn w-[100px] m-2 bg-red-700 border-none text-white">Random</button>
-        </Link>
-        <Link to={"/answers"}>
-          <button className="btn w-[100px] m-2 bg-green-500 border-none text-white">Answers</button>
-        </Link>
       </div>
       <section>
         <div className="bg-teal-600 p-2 m-2">
@@ -63,7 +75,11 @@ const Tests = () => {
             Take Test (<span className="">{testSet}</span>)
           </h2>
         </div>
-        <McqPage questions={filteredMCQs} mainUser={mainUser} testSet={testSet}></McqPage>
+        <McqPage
+          questions={filteredMCQs}
+          mainUser={mainUser}
+          testSet={testSet}
+        ></McqPage>
       </section>
     </div>
   );

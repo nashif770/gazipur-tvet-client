@@ -11,7 +11,7 @@ const useUser = () => {
     data: storedUsers = [],
     error,
   } = useQuery("storedUsers", async () => {
-    const response = await fetch("http://localhost:5000/users");
+    const response = await fetch("https://gazipur-tvet-server.vercel.app/users");
     return response.json();
   });
 

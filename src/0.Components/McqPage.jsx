@@ -58,7 +58,7 @@ const McqPage = ({ questions, mainUser, testSet }) => {
       };
 
       console.log(resultHistory);
-      fetch("http://localhost:5000/result", {
+      fetch("https://gazipur-tvet-server.vercel.app/result", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -24,11 +24,19 @@ const RandomizedTest = () => {
   };
 
   return (
-    <div>
-      <div className="bg-red-400 flex justify-center gap-12 p-6">
+    <div
+      className="bg-cover bg-center p-3 min-h-screen"
+      style={{
+        backgroundImage:
+          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg',
+      }}
+    >
+      <div className="flex justify-center gap-3 p-3">
         <div className="flex justify-start">
           <Link to={"/tests"}>
-            <button className="btn bg-red-700 border-none text-white w-[100px]">Back to Tests</button>
+            <button className="btn bg-red-700 border-none text-white w-[100px]">
+              Back to Tests
+            </button>
           </Link>
         </div>
         <button className="btn btn-primary" onClick={randomizeQuestions}>

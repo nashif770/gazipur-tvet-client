@@ -8,7 +8,7 @@ const History = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/result`);
+        const response = await fetch(`https://gazipur-tvet-server.vercel.app/result`);
         const data = await response.json();
         setResult(data);
         console.log("result",data);
@@ -23,7 +23,13 @@ const History = () => {
   console.log("result", result);
 
   return (
-    <div className="overflow-x-auto h-screen">
+    <div
+      className="bg-cover bg-center min-h-screen"
+      style={{
+        backgroundImage:
+          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg',
+      }}
+    >
       <table className="table table-xs w-4/6 m-auto text-center bg-purple-500 text-white font-bold">
         <thead>
           <tr className="text-start">
@@ -37,7 +43,7 @@ const History = () => {
         </thead>
         <tbody className="">
           {result?.map((history, index) => (
-            <tr key={index}>
+            <tr key={index} className="hover:bg-slate-600">
               <th>{index + 1}</th>
               {user?.email === history.resultHistory?.userEmail ? (
                 <td className="text-black bg-green-500">

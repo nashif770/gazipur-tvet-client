@@ -34,7 +34,7 @@ const Registration = () => {
             batch: data.batch,
             date: new Date().getFullYear(),
           };
-          fetch("http://localhost:5000/users", {
+          fetch("https://gazipur-tvet-server.vercel.app/users", {
             method: "POST",
             headers: {
               "content-type": "application/json",
