@@ -1,0 +1,1702 @@
+[
+  {
+    "question_set": "Set 1",
+    "question": "Which one is used for online meeting?",
+    "options": ["Google Meet", "Gmail", "Excel", "None of above"],
+    "correct_answer": "Google Meet"
+  },
+  {
+    "question_set": "Set 1",
+    "question": "Google Classroom is used for -------?",
+    "options": [
+      "Online learning",
+      "Searching website",
+      "Physical learning",
+      "None of above"
+    ],
+    "correct_answer": "Online learning"
+  },
+  {
+    "question_set": "Set 1",
+    "question": "To start an online meeting which one is not essential?",
+    "options": [
+      "Internet connection",
+      "Computer/Smart phone",
+      "Web Browser",
+      "Microsoft Word"
+    ],
+    "correct_answer": "Microsoft Word"
+  },
+  {
+    "question_set": "Set 1",
+    "question": "Which one is not a presentation software?",
+    "options": [
+      "PowerPoint Presentation",
+      "Prezi",
+      "Google Slide",
+      "Microsoft Word"
+    ],
+    "correct_answer": "Microsoft Word"
+  },
+  {
+    "question_set": "Set 1",
+    "question": "Which one is not possible using Google Classroom?",
+    "options": [
+      "Assignment submission",
+      "Give certificate",
+      "Give a grade",
+      "Written test"
+    ],
+    "correct_answer": "Give certificate"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Why are headers and footers used in MS-Word?",
+    "options": [
+      "To enhance the overall appearance of the document",
+      "To mark the starting of a page",
+      "To make large document more readable",
+      "To allow page headers and footers to appear on document when it is printed"
+    ],
+    "correct_answer": "To allow page headers and footers to appear on document when it is printed"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "If you want to keep track of different editions of a document which features will you use?",
+    "options": ["Editions", "Versions", "Track Change", "All of above"],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Borders can be applied to.",
+    "options": ["Cells", "Text", "Paragraph", "All of above"],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "To get to the ‘Symbol’ dialog box, click on the --------- Tab and choose ‘Symbol’",
+    "options": ["Home", "Layout", "Insert", "View"],
+    "correct_answer": "Insert"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "The Greater Than sign (>) is an example of --operator.",
+    "options": ["Arithmetic", "Logical", "Conditional", "Greater"],
+    "correct_answer": "Logical"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "In Excel, rows are labeled as --------------",
+    "options": ["etc.", "1,2,3 etc.", "A1, A2, etc.", "$A$1, $A$2, etc."],
+    "correct_answer": "1,2,3 etc."
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "In Excel, which one denotes a range from B1, through E5",
+    "options": ["B1-E5", "B1:E5", "B1 to E5", "B1$E5"],
+    "correct_answer": "B1:E5"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "MS Excel stands for ----------------------------",
+    "options": [
+      "Mieromax Excel",
+      "Management Excel",
+      "Microsoft Excel",
+      "Microsoft Word"
+    ],
+    "correct_answer": "Microsoft Excel"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "--is the best alternative to MS excel offered by Google Inc",
+    "options": [
+      "Google Slides",
+      "Google Sheets",
+      "Google Files",
+      "Google Keep"
+    ],
+    "correct_answer": "Google Sheets"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "MS Excel file can NOT be directly exported as-------------",
+    "options": ["PDF", "TXT", "PPT", "CST"],
+    "correct_answer": "PPT"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "A file that contains one or more worksheets to organize data is known as--------------",
+    "options": ["Workbook", "Excel book", "Datasheet", "Spreadsheet"],
+    "correct_answer": "Workbook"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Which of the following is not Available on the ruler of MS Word Screen?",
+    "options": ["Tab stop box", "Center indent", "Left indent", "Right indent"],
+    "correct_answer": "Center indent"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Times new roman, Cambria, Arial are examples of---",
+    "options": ["Font face", "Clipart", "Smart art", "Themes"],
+    "correct_answer": "Font face"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Which term is not related to the font?",
+    "options": ["Font grammar", "Font color", "Font size", "Font face"],
+    "correct_answer": "Font grammar"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "------refers to back the object to one level or to all objects.",
+    "options": ["Align", "Rotate", "Send to back", "Bring to front"],
+    "correct_answer": "Send to back"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "You can use the ……… to insert Symbol",
+    "options": [
+      "Font dialog box",
+      "Text dialog box",
+      "Paragraph dialog box",
+      "Symbol dialog box"
+    ],
+    "correct_answer": "Symbol dialog box"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Press ………. to start the presentation from the beginning.",
+    "options": ["F5", "F6", "F7", "F8"],
+    "correct_answer": "F5"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "……… lowers the selected text below the baseline and changes the selected text to a smaller font size. If a smaller size is available",
+    "options": ["Superior script", "Upper font", "Subscript", "Footer"],
+    "correct_answer": "Subscript"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "Which term is related to increasing or decreasing the space between characters?",
+    "options": ["Page number", "Spacing", "Header", "Footer"],
+    "correct_answer": "Spacing"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "The ability to combine name and address with a standard document is called?",
+    "options": [
+      "Document formatting",
+      "Database Management",
+      "Mail merge",
+      "Form letter"
+    ],
+    "correct_answer": "Mail merge"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "How To Use Format Painter Multiple?",
+    "options": [
+      "By Click on Lock Format Painter Icon",
+      "Format Painter Cannot Be Used Multiple Times",
+      "By Double Click on The Format Painter Icon",
+      "None of Above"
+    ],
+    "correct_answer": "By Double Click on The Format Painter Icon"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "We can change the thickness of a line from –",
+    "options": ["Line Thick", "Line Height", "Line width", "Line Style"],
+    "correct_answer": "Line Style"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "In MS-Word for what does ruler help?",
+    "options": [
+      "To set indents",
+      "To change page margins",
+      "To set tabs",
+      "All of the above"
+    ],
+    "correct_answer": "All of the above"
+  },
+  {
+    "question_set": "Set 1",
+
+    "question": "In Microsoft Word shortcut key CTRL + W is used for",
+    "options": [
+      "Update the current web page",
+      "Close the current window",
+      "Open the Print dialog box",
+      "None of this"
+    ],
+    "correct_answer": "Close the current window"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Search Engine নয়?",
+    "options": ["Google", "Bing", "Google Chrome", "Yahoo"],
+    "correct_answer": "Google Chrome"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Social Media নয়?",
+    "options": ["Google Meet", "Facebook", "Likedin", "Tweeter"],
+    "correct_answer": "Google Meet"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Online storage নয়?",
+    "options": ["Dropbox", "Onedrive", "Google Drive", "Zoom"],
+    "correct_answer": "Zoom"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Email ID নয়?",
+    "options": [
+      "bteby@mail.com",
+      "btebcbt@gov.bd",
+      "@btebcbt.com",
+      "122bteb@gmail.com"
+    ],
+    "correct_answer": "@btebcbt.com"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Input Device নয়?",
+    "options": ["Scanner", "Monitor", "Mouse", "Barcode reader"],
+    "correct_answer": "Monitor"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Typing Software?",
+    "options": ["Sutonnymj", "Bijoy", "Kalpurush", "Nikush"],
+    "correct_answer": "Bijoy"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Numeric Character?",
+    "options": ["H", "K", "&", "7"],
+    "correct_answer": "7"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Anti-Virus নয়?",
+    "options": ["Linux", "Norton", "Avest", "Nood32"],
+    "correct_answer": "Linux"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি ¯’স্থায়ী storage Device নয়?",
+    "options": ["RAM", "Cash Memory", "SSD", "CPU R এরster"],
+    "correct_answer": "SSD"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি System Unit এর অংশ নয়?",
+    "options": ["Processor", "RAM", "Hard disk drive", "Flash drive"],
+    "correct_answer": "Flash drive"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "Projector enable করার Keyboard command কি?",
+    "options": [
+      "Windows Key + P",
+      "Windows Key + V",
+      "Windows Key + C",
+      "Windows Key + R"
+    ],
+    "correct_answer": "Windows Key + P"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "A4 সাইজের কাগজ কোনটি?",
+    "options": ["8.5”X11”", "8.27”X11.69”", "8.5”X14”", "8.5”X11.5”"],
+    "correct_answer": "8.27”X11.69”"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Document Paste করার Keyboard Command?",
+    "options": ["Ctrl + P", "Ctrl + C", "Ctrl + V", "Alt + V"],
+    "correct_answer": "Ctrl + V"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি page break এর keyboard command?",
+    "options": ["Ctrl + Break", "Ctrl + End", "Ctrl + Enter", "Ctrl + Home"],
+    "correct_answer": "Ctrl + Enter"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি MS Word এর File extension",
+    "options": [".dot", ".py", ".exe", ".docx"],
+    "correct_answer": ".docx"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "একই Formatting অন্য একাধিক Text এর উপর apply করতে নিচের কোন অপশনটি ব্যবহার করতে হয়?",
+    "options": [
+      "Copy and Paste old text",
+      "Copy, paste then edit",
+      "Use format painter",
+      "Use clipboard"
+    ],
+    "correct_answer": "Use format painter"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোন Line Spacing টি অগ্রহনযোগ্য",
+    "options": ["Multiple", "Double", "Triple", "Single"],
+    "correct_answer": "Triple"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "কোনটি Excel এর Valid data type নয়?",
+    "options": ["Date/time", "Label", "Charter", "Number"],
+    "correct_answer": "Charter"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "Excel Window এর কোন Area তে Value ও Formula লেখা যায়?",
+    "options": ["Formula bar", "Menu bar", "Title Bar", "Standard toolbar"],
+    "correct_answer": "Formula bar"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "Row নং 5 ও 6 এর Column C হতে E পর্যন্ত Cell গুলো হতে Largest number টি Select করার জন্য-",
+    "options": ["=large(c5:e6)", "=large(c5:e5)", "max(c5:e5)", "max(c5:e6)"],
+    "correct_answer": "=large(c5:e6)"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "MS – Excel এ ভাগশেষ বের করার জন্য কোন function ব্যবহার করা হয়?",
+    "options": ["mod()", "round()", "fact()", "div()"],
+    "correct_answer": "mod()"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "MS – Powerpoint এ তৈরী করা কোনও file এর extension হলো",
+    "options": [".ppt", ".pptx", ".xlsx", ".docx"],
+    "correct_answer": ".pptx"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "MS- Powerpoint এ কোন প্রেজেন্টেশনে নতুন ¯স্লাইড প্রবেশ করার অপশন হল",
+    "options": [
+      "Home > Slides > new slide",
+      "Home > Slides > layout",
+      "A, B DfqwU",
+      "কোনটিB bq"
+    ],
+    "correct_answer": "Home > Slides > new slide"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "MS- Powerpoint এ কোন প্রেজেন্টেশনে নতুন ¯স্লাইড প্রবেশ করার শর্টকাট হল",
+    "options": ["Ctrl+n", "Ctrl+m", "Shift_n", "Alt+n"],
+    "correct_answer": "Ctrl + m"
+  },
+  {
+    "question_set": "Set 2",
+    "question": "MS- Powerpoint এ নতুন প্রেজেন্টেশন তৈরীর শর্টকাট হল?",
+    "options": ["Ctrl+n", "Ctrl+m", "Shift_n", "Alt+n"],
+    "correct_answer": "Ctrl + n"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Which of the following is not a valid version of MS Office?",
+    "options": ["Office Vista", "Office XP", "Office 2007", "Office 2016"],
+    "correct_answer": "Office Vista"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "The key F12 is used to open a –",
+    "options": [
+      "Save dialog box",
+      "Open Dialog box",
+      "Save as dialog box",
+      "Close dialog box"
+    ],
+    "correct_answer": "Save as dialog box"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Portrait and Landscape are-",
+    "options": [
+      "Page border",
+      "Paper size",
+      "Page layout",
+      "Page orientation"
+    ],
+    "correct_answer": "Page orientation"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "To apply center alignment to a paragraph, we can press-",
+    "options": ["Ctrl+ S", "Ctrl+ E", "Ctrl+ C+A", "Ctrl+ c"],
+    "correct_answer": "Ctrl+ E"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Which is the text-styling feature of MS Word -",
+    "options": ["Word Color", "Word Art", "Word Font", "Word Fill"],
+    "correct_answer": "Word Art"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is the shortcut-key for a manual line break -",
+    "options": ["Ctrl+ Enter", "Alt+ Enter", "Shift+ Enter", "Space+ Enter"],
+    "correct_answer": "Shift+ Enter"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Which of the following is not word processing software",
+    "options": ["Paint", "Easy word", "MS word", "Word Perfect"],
+    "correct_answer": "Paint"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Ctrl+ Page Down is used to -",
+    "options": [
+      "Moves the cursor one page down",
+      "Moves the cursor one paragraph down",
+      "Moves the cursor one line down",
+      "Moves the cursor one screen down"
+    ],
+    "correct_answer": "Moves the cursor one page down"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "To select the entire column in MS Excel, press",
+    "options": [
+      "Ctrl+ C",
+      "Ctrl+ arrow key",
+      "Ctrl+ Shift+ Down Arrow",
+      "Ctrl+ S"
+    ],
+    "correct_answer": "Ctrl+ Shift+ Down Arrow"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Which one shortcut key is used to close the Spreadsheet",
+    "options": ["Ctrl+ S", "Ctrl+ arrow key", "Ctrl+ W", "Ctrl+ C"],
+    "correct_answer": "Ctrl+ W"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Give me an example of a cell address",
+    "options": ["11 25", "A21", "41A", "911"],
+    "correct_answer": "A21"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "You accidentally erased a record in the sheet. What command can be used to restore it immediately?",
+    "options": ["Insert", "Copy", "Replace", "Undo"],
+    "correct_answer": "Undo"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is the symbol for multiplying?",
+    "options": [">", "*", "│", "/"],
+    "correct_answer": "*"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is the keyboard shortcut used to go home tab",
+    "options": ["Ctrl+ work", "Ctrl+ Arrow key", "Alt+ Home", "Ctrl+ Home"],
+    "correct_answer": "Ctrl+ Home"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "With which of the following do all formulas in Excel start",
+    "options": ["=", "*", "$", "/"],
+    "correct_answer": "="
+  },
+  {
+    "question_set": "Set 3",
+    "question": "A spreadsheet contains",
+    "options": ["Columns", "Rows and columns", "Rows", "None of above"],
+    "correct_answer": "Rows and columns"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "NOT, AND, OR, and XOR are which type of operator",
+    "options": [
+      "Affirmative operator’s",
+      "Arithmetic operators",
+      "Relational operator’s",
+      "Logical operator"
+    ],
+    "correct_answer": "Logical operator"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Which of the following sections does not exist in a slide layout",
+    "options": ["Titles", "Lists", "Animations", "Charts"],
+    "correct_answer": "Animations"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "A new presentation can be created from",
+    "options": [
+      "Form existing presentation",
+      "Blank presentation",
+      "Form design Template",
+      "All of above"
+    ],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is the best way to create another copy of a slide?",
+    "options": [
+      "From insert menu choose Duplicate slide",
+      "Click the slide then press Ctrl+ A and paste in new slide",
+      "Redo everything on a new slide that you had done on the previous slide",
+      "None of above"
+    ],
+    "correct_answer": "From insert menu choose Duplicate slide"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "To insert a hyperlink in a slide",
+    "options": [
+      "Both b & c",
+      "Press Ctrl+ K",
+      "Choose insert>> Hyperlink",
+      "Hyperlinks can’t be inserted in slides"
+    ],
+    "correct_answer": "Both b & c"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Want your logo in the same position on every slide automatically? Insert on the",
+    "options": [
+      "Template master",
+      "Notes master",
+      "Slide master",
+      "Handout master"
+    ],
+    "correct_answer": "Slide master"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is the full name of NTFS?",
+    "options": [
+      "New technology file system",
+      "New technology Format system",
+      "New taxonomy file system",
+      "New taxonomy file service"
+    ],
+    "correct_answer": "New technology file system"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "One byte is equal to how many bits",
+    "options": ["4 bits", "8 bits", "12 bits", "16 bits"],
+    "correct_answer": "8 bits"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "Where are saved files stored in the computer?",
+    "options": ["RAM", "Cookies", "Cache", "Hard disk"],
+    "correct_answer": "Hard disk"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is windows?",
+    "options": [
+      "An application system",
+      "An operation system",
+      "An operating system",
+      "None of above"
+    ],
+    "correct_answer": "An operating system"
+  },
+  {
+    "question_set": "Set 3",
+    "question": "What is 'Facebook'",
+    "options": [
+      "Social network",
+      "Family Network",
+      "City Network",
+      "Wide Network"
+    ],
+    "correct_answer": "Social network"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "A device that holds a disk is called a",
+    "options": ["Drive", "ROM", "Memory", "RAM"],
+    "correct_answer": "Drive"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following panes is not available in Task pane",
+    "options": ["Getting Started", "Clip Art", "Search result", "Word Art"],
+    "correct_answer": "Search result"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which type of software would you use to make the computer perform a specific task such as writing a letter or drawing a picture?",
+    "options": [
+      "System software",
+      "Utility software",
+      "Operating software",
+      "Application software"
+    ],
+    "correct_answer": "Application software"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following units represents the largest amount of data",
+    "options": ["kilobytes", "Terabytes", "Gigabytes", "Megabytes"],
+    "correct_answer": "Terabytes"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "A file that the user can open and is called",
+    "options": ["Application", "Document", "Program", "Data"],
+    "correct_answer": "Document"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following allows you to select more than one slide in a presentation",
+    "options": [
+      "Alt+ Click each slide",
+      "Alt+ Drag each slide",
+      "Ctrl+ Click each slide",
+      "Esc+ Click each slide"
+    ],
+    "correct_answer": "Ctrl+ Click each slide"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What PowerPoint feature will you use to apply motion effects to different objects of a slide",
+    "options": [
+      "Animation Scheme",
+      "Slide Design",
+      "Animation object",
+      "Slide Transition"
+    ],
+    "correct_answer": "Animation Scheme"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which one consists of instructions that control the computer",
+    "options": ["Programs", "List", "Keyboard", "File"],
+    "correct_answer": "Programs"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Presentation designs regulate the formatting and layout for the slide and are commonly called",
+    "options": [
+      "Design templates",
+      "Blueprints",
+      "Placeholders",
+      "Templates"
+    ],
+    "correct_answer": "Templates"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Dos and some versions of Unix are examples of",
+    "options": [
+      "Old Fashion",
+      "Graphical User Interface",
+      "Command-line Interface",
+      "Parallel Interface"
+    ],
+    "correct_answer": "Command-line Interface"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following is not a term of MS Excel",
+    "options": ["Cell", "Documents", "Rows", "Columns"],
+    "correct_answer": "Documents"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which is the shortcut key to highlight the entire column",
+    "options": ["Ctrl+ C", "Ctrl+ Enter", "Ctrl+ Page Up", "Ctrl+ Space Bar"],
+    "correct_answer": "Ctrl+ Space Bar"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What is a cookie?",
+    "options": [
+      "A file created by the browser each time its user accesses a website",
+      "A virus placed on a computer by spyware to delete directories",
+      "An image file that expands to fill a browser’s cache",
+      "A text file placed on a client by a web server to track user performances"
+    ],
+    "correct_answer": "A text file placed on a client by a web server to track user performances"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which is an example of a formula",
+    "options": ["=a1+a2", "=add(a1:a2)", "A1+A2", "Sum(a1:a2)"],
+    "correct_answer": "=a1+a2"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which one of the following memories is used to store data permanently?",
+    "options": [
+      "Secondary memory",
+      "Primary memory",
+      "Cache memory",
+      "Register"
+    ],
+    "correct_answer": "Secondary memory"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which tab in MS Word can be used to change character size and typeface?",
+    "options": ["View", "Home", "Page Layout", "Insert"],
+    "correct_answer": "Home"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Older printers were typically connected to computers through a",
+    "options": ["NIC Card", "Serial Port", "Jack", "Parallel Port"],
+    "correct_answer": "Parallel Port"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What port is a fast connection that is more flexible than traditional serial and parallel ports?",
+    "options": ["Serial", "Parallel", "USB", "Ethernet"],
+    "correct_answer": "USB"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following will you use to find the highest number in a series of numbers",
+    "options": [
+      "Maximum (b1:B3)",
+      "Max(B1:b3)",
+      "High(b1:b3)",
+      "Highest(b1:b3)"
+    ],
+    "correct_answer": "Max(B1:b3)"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Modem speed is measured in",
+    "options": [
+      "Bits per second",
+      "Bytes per second",
+      "Bits per second",
+      "Bytes per minute"
+    ],
+    "correct_answer": "Bits per second"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which command will you use in PowerPoint if you need to change the color of different objects without changing content?",
+    "options": [
+      "Color scheme",
+      "Design Template",
+      "Font Color",
+      "Object color"
+    ],
+    "correct_answer": "Color scheme"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What is Wi-Max",
+    "options": [
+      "Super Computer",
+      "Client PC",
+      "PDA",
+      "Wireless Internet Technology"
+    ],
+    "correct_answer": "Wireless Internet Technology"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Thesaurus tool in MS Word is used for",
+    "options": [
+      "Synonyms and Antonyms",
+      "Spelling suggestions",
+      "Translate",
+      "None of These"
+    ],
+    "correct_answer": "Synonyms and Antonyms"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What is another name for a program?",
+    "options": ["Procedure", "Software", "Topology", "Utilities"],
+    "correct_answer": "Software"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which is an example of a function",
+    "options": ["=add(A3:A4)", "=deduct(A3:A4)", "=(A3:A4)", "=Sum(A3:A4)"],
+    "correct_answer": "=Sum(A3:A4)"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "To use a microphone for input on your computer, you must install a",
+    "options": ["Aural Card", "Acoustic Card", "Sound Card", "NIC Card"],
+    "correct_answer": "Sound Card"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "The term dots per inch (dpi) refers to a printer's",
+    "options": ["Resolution", "Speed", "Output", "Colors"],
+    "correct_answer": "Resolution"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "The key F7 opens a",
+    "options": [
+      "Spelling and grammar check box",
+      "Save dialog box",
+      "Open dialog box",
+      "Close dialog box"
+    ],
+    "correct_answer": "Spelling and grammar check box"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "The most commonly magnetic device is",
+    "options": ["Hard disk", "RAM", "DVD", "ROM"],
+    "correct_answer": "Hard disk"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which is the built-in defragment utility in Windows?",
+    "options": ["File defragment", "Disk defragment", "Folder", "Windows"],
+    "correct_answer": "Disk defragment"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "WWW stands for?",
+    "options": [
+      "World Whole Wed",
+      "World Wide Web",
+      "Web World Wide",
+      "Wide World Web"
+    ],
+    "correct_answer": "World Wide Web"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which of the following are components of Central Processing Unit (CPU)?",
+    "options": [
+      "Arithmetic logic unit, Control unit",
+      "Arithmetic logic unit, Mouse",
+      "Arithmetic logic unit, Integrated Circuits",
+      "Control unit, Monitor"
+    ],
+    "correct_answer": "Arithmetic logic unit, Control unit"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Full form of URL is",
+    "options": [
+      "Uniform Registered Link",
+      "Uniform Recourse Link",
+      "Uniform Recourse Locator",
+      "Unified Recourse Link"
+    ],
+    "correct_answer": "Uniform Recourse Locator"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "For what location are the 1st Computer instruction available on boot up",
+    "options": ["CONFIG.SYS", "CPU", "boot.ini", "ROM BIOS"],
+    "correct_answer": "ROM BIOS"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "What could cause a fixed disk error?",
+    "options": [
+      "No-CD installed",
+      "Bad RAM",
+      "Incorrect CMOS setting",
+      "Slow Processor"
+    ],
+    "correct_answer": "Incorrect CMOS setting"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which with respect to a network interface card, the term 10/100 refers to",
+    "options": [
+      "Protocol speed",
+      "Megabyte per second",
+      "A fiber speed",
+      "Minimum and maximum server speed"
+    ],
+    "correct_answer": "Megabyte per second"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which motherboard form factor uses one 20 pin connector?",
+    "options": ["AT", "ATX", "BABY AT", "All of the above"],
+    "correct_answer": "ATX"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "A hard disk is divided into tracks which are further subdivided into",
+    "options": ["Clusters", "Vectors", "Sectors", "Heads"],
+    "correct_answer": "Sectors"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Which standard governs parallel communication?",
+    "options": ["RS232", "RS-232a", "IEEE 1284", "CAT 5"],
+    "correct_answer": "IEEE 1284"
+  },
+  {
+    "question_set": "Set 4",
+    "question": "Voltage is measured",
+    "options": [
+      "In parallel",
+      "In series",
+      "After breaking the circuit",
+      "After checking resistance"
+    ],
+    "correct_answer": "In parallel"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which of the following is not a valid version of MS Office?",
+    "options": ["Office XP", "Office Vista", "Office 2007", "None of Above"],
+    "correct_answer": "None of Above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "What is the shortcut key to exit from any application program?",
+    "options": ["F12", "Shift + F12", "Alt + F12", "Alt + F4"],
+    "correct_answer": "Alt + F4"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which file starts MS Word?",
+    "options": ["WinworD.exe", "WorD.exe", "MsworD.exe", "Word2003.exe"],
+    "correct_answer": "WinworD.exe"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "What is the default left margin in Word 2003 document?",
+    "options": ["1\"", "1.25\"", "1.5\"", "2\""],
+    "correct_answer": "1.25\""
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Portrait and Landscape are",
+    "options": ["Page Orientation", "Paper Size", "Paper Layout", "All of above"],
+    "correct_answer": "Page Orientation"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which of the following is not a font style?",
+    "options": ["Bold", "Italics", "Regular", "Superscript"],
+    "correct_answer": "Superscript"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "What is the smallest and largest font size available in Font Size tool on the formatting toolbar?",
+    "options": ["8 and 72", "8 and 68", "6 and 72", "6 and 68"],
+    "correct_answer": "8 and 72"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Selecting text means, selecting?",
+    "options": ["A word", "An entire sentence", "Whole document", "Any of the above"],
+    "correct_answer": "Any of the above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which operation will you perform if you need to move a block of text?",
+    "options": ["Copy and Paste", "Paste and Cut", "Cut and Paste", "Paste and Delete"],
+    "correct_answer": "Cut and Paste"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "What are the extension names of Word files supported?",
+    "options": ["DOC", "DOCX", "RTF", "All of above"],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "How many files are needed to Mail merge?",
+    "options": ["3", "2", "4", "1"],
+    "correct_answer": "2"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "How do you change column width to fit the contents in MS Excel?",
+    "options": [
+      "Single-click the boundary to the left to the column heading",
+      "Double click the boundary to the right of the column heading",
+      "Press Alt and single click anywhere in the column",
+      "All of above"
+    ],
+    "correct_answer": "Double click the boundary to the right of the column heading"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "You can use the horizontal and vertical scroll bars to",
+    "options": [
+      "Split a worksheet into two panes",
+      "View different rows and columns",
+      "Edit the contents of a cell",
+      "View different worksheets"
+    ],
+    "correct_answer": "View different rows and columns"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "You can open the Sort dialog box by choosing Sort from the _____menu",
+    "options": ["View", "Format", "Tools", "Data"],
+    "correct_answer": "Data"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Except for the _______ function, a formula with a logical function shows the word 'TRUE' or 'FALSE' as a result",
+    "options": ["IF", "AND", "OR", "NOT"],
+    "correct_answer": "IF"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which shortcut key allows you to edit any cell in MS Excel?",
+    "options": ["F2", "F4", "F1", "F5"],
+    "correct_answer": "F2"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Each Excel file is called a workbook because",
+    "options": [
+      "It can contain text and data",
+      "It can be modified",
+      "It can contain many sheets including worksheet and chart sheets",
+      "You have to work hard to create it"
+    ],
+    "correct_answer": "It can contain many sheets including worksheet and chart sheets"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which types of charts can Excel produce?",
+    "options": ["Line graphs", "Pie chart", "Bar chart", "All of the above"],
+    "correct_answer": "All of the above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "For calculating Average you should use –",
+    "options": ["Average (cell range)", "Max (cell range)", "Min (cell range)", "Average"],
+    "correct_answer": "Average"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which of the following describes how to select all the cells in a single column?",
+    "options": [
+      "Right click on column and select pick form list",
+      "Use data – text to columns menu item",
+      "Left click on the grey column title button",
+      "Pressing Ctrl + A on the keyboard"
+    ],
+    "correct_answer": "Left click on the grey column title button"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "In Microsoft Excel, the maximum column width is –",
+    "options": ["230 characters", "255 characters", "250 characters", "None of above"],
+    "correct_answer": "255 characters"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "You can add SmartArt by using which tab?",
+    "options": ["Home tab", "Slideshow tab", "Design tab", "Insert tab"],
+    "correct_answer": "Insert tab"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "How to add a new slide in your presentation?",
+    "options": ["Home tab > New Slide", "Formatting", "Design", "Insert > New Slide"],
+    "correct_answer": "Home tab > New Slide"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "To start Microsoft PowerPoint application?",
+    "options": [
+      "Click on Start >> Programs >> All Programs >> Microsoft PowerPoint",
+      "Hit Ctrl + R then type ppoint. Excel and enter",
+      "Click Start >> Run then type power point then press Enter",
+      "All of above"
+    ],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "PowerPoint presentations are widely used as",
+    "options": [
+      "Note outlines for teachers",
+      "Project presentation by students",
+      "Communication of planning",
+      "All of above"
+    ],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which menu provides you options like Animation, Scheme, Custom Animation, Slide Transition?",
+    "options": ["Insert tab", "Design tab", "Animation tab", "Slide Show tab"],
+    "correct_answer": "Animation tab"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "To insert slide numbers",
+    "options": [
+      "Insert a text box and select Insert >> Page Number",
+      "Insert a text box and select Insert >> Number >> Page Number",
+      "Choose Insert >> Slide Number",
+      "Insert a new text box and select Insert >> Slide Number"
+    ],
+    "correct_answer": "Choose Insert >> Slide Number"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which of the following font effects is not available in PowerPoint font dialog box?",
+    "options": ["Underline", "Shadow", "Emboss", "Strikethrough"],
+    "correct_answer": "Emboss"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "To start the slide show of a presentation",
+    "options": ["Hit F5 key", "From Slide Show menu, choose View Show option", "From Slide Show menu, choose Rehearse Timing", "Both a & b"],
+    "correct_answer": "Both a & b"
+  },
+  {
+    "question_set": "Set 5",
+    "question": "Which of the following is the default page setup orientation of slides in PowerPoint?",
+    "options": ["Vertical", "Landscape", "Portrait", "None of above"],
+    "correct_answer": "Landscape"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "The process of removing an unwanted part of an image is called?",
+    "options": ["Hiding", "Bordering", "Cropping", "Cutting"],
+    "correct_answer": "Cropping"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Ctrl + G is used to",
+    "options": [
+      "Open Paragraph Dialog box activating Tab",
+      "Open page Setup Dialog box activating Go to Tab",
+      "Open Find and Replace Dialog box with activating Go to Tab",
+      "Open Go to Dialog box."
+    ],
+    "correct_answer": "Open Find and Replace Dialog box with activating Go to Tab"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which operation will you perform if you need to copy a block of text to another place?",
+    "options": [
+      "Copy and Paste",
+      "Cut and Paste",
+      "Paste and Delete",
+      "Paste and Cut"
+    ],
+    "correct_answer": "Copy and Paste"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "In Excel, cells are labeled as",
+    "options": [
+      "A, B, C, etc",
+      "1, 2, 3, etc",
+      "A1, A2, etc",
+      "$A$1, $A$2, etc"
+    ],
+    "correct_answer": "A1, A2, etc"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which of these is a search engine?",
+    "options": ["FTP", "ARPANET", "Archie", "Google"],
+    "correct_answer": "Google"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which one is not presentation software?",
+    "options": [
+      "Power Point Presentation",
+      "Prezi",
+      "Google Slides",
+      "Microsoft Word"
+    ],
+    "correct_answer": "Microsoft Word"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which one is not possible using Google Classroom?",
+    "options": [
+      "Assignment submission",
+      "Give Certificate",
+      "Give a grade",
+      "Written test"
+    ],
+    "correct_answer": "Give Certificate"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Why are headers and footers used in MS-Word?",
+    "options": [
+      "To enhance the overall appearance of the document",
+      "To mark the starting of the page",
+      "To make large documents more readable",
+      "To make page headers and footers appear on the document when it is printed"
+    ],
+    "correct_answer": "To make page headers and footers appear on the document when it is printed"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "If you want to keep track of different editions of a document, which feature will you use?",
+    "options": ["Editions", "Versions", "Track Changes", "All of above"],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "The greater than sign (>) is an example of _____ operator.",
+    "options": ["Arithmetic", "Logical", "Conditional", "Great"],
+    "correct_answer": "Conditional"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "In Excel, which one denotes a range from B1 through E5?",
+    "options": ["B1-E5", "B1:E5", "B1 to E5", "B1$E5"],
+    "correct_answer": "B1:E5"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "______ is the best alternative to MS Excel offered by Google Inc.",
+    "options": [
+      "Google Slides",
+      "Google Sheet",
+      "Google Files",
+      "Google Keep"
+    ],
+    "correct_answer": "Google Sheet"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which of the following is not available on the Ruler of MS Word Screen?",
+    "options": [
+      "Tab Stop Box",
+      "Center Indent",
+      "Left Indent",
+      "Right Indent"
+    ],
+    "correct_answer": "Center Indent"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Times New Roman, Cambria, Arial are examples of ______.",
+    "options": ["Font face", "Clipart", "Smart Art", "Themes"],
+    "correct_answer": "Font face"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which term is not related to the font?",
+    "options": ["Font Grammar", "Font Color", "Font Size", "Font Face"],
+    "correct_answer": "Font Grammar"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "The _______ button reduces the window to an icon, but the word still remains active.",
+    "options": ["Maximize", "Minimize", "Close", "Restore"],
+    "correct_answer": "Minimize"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Press _____ to start a presentation from the beginning.",
+    "options": ["F5", "F6", "F7", "F8"],
+    "correct_answer": "F5"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which term is related to increasing or decreasing the space between characters?",
+    "options": ["Page Number", "Spacing", "Header", "Footer"],
+    "correct_answer": "Spacing"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "The ability to combine names and addresses with a standard document is called",
+    "options": [
+      "Document formatting",
+      "Database Management",
+      "Mail merge",
+      "Form letter"
+    ],
+    "correct_answer": "Mail merge"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "How to use Format Painter Multiple Times?",
+    "options": [
+      "By Clicking on Lock Format Painter Icon",
+      "Format Painter Cannot Be Used Multiple Times",
+      "By Double Clicking on the Format Painter Icon",
+      "None of Above"
+    ],
+    "correct_answer": "By Double Clicking on the Format Painter Icon"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "We can change the thickness of a line from-",
+    "options": ["Line Thick", "Line Height", "Line Width", "Line Style"],
+    "correct_answer": "Line Style"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "In MS-Word, for what does the ruler help?",
+    "options": [
+      "To set indents",
+      "To change page margins",
+      "To set tabs",
+      "All of above"
+    ],
+    "correct_answer": "All of above"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "In Microsoft Word, the shortcut key CTRL + W is used for",
+    "options": [
+      "Update the current web page",
+      "Close the current window",
+      "Open the print dialog box",
+      "None of These"
+    ],
+    "correct_answer": "Close the current window"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "Which one is not online storage?",
+    "options": ["Dropbox", "One Drive", "Google Drive", "Zoom"],
+    "correct_answer": "Zoom"
+  },
+  {
+    "question_set": "Set 6",
+    "question": "What is the English typing speed in WPM?",
+    "options": [
+      "Word per minutes",
+      "Words per minutes",
+      "Words per minute",
+      "Word per minute"
+    ],
+    "correct_answer": "Words per minute"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Search Engine এঁর কাজ কি?",
+    "options": [
+      "রিসোর্সসমূহ ব্যবহারকারীর কাছে উপস্থাপন করা",
+      "ফাইল ডাউনলোড করা",
+      "তথ্য কপি করা",
+      "কোনটিই নয়"
+    ],
+    "correct_answer": "রিসোর্সসমূহ ব্যবহারকারীর কাছে উপস্থাপন করা"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি social media?",
+    "options": [
+      "Google Meet",
+      "Zoom",
+      "Microsoft Team",
+      "Tweeter"
+    ],
+    "correct_answer": "Tweeter"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Online Storage?",
+    "options": [
+      "Zoom",
+      "OneDrive",
+      "Meet",
+      "Google Classroom"
+    ],
+    "correct_answer": "OneDrive"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি সঠিক Email ID ফরম্যাট নয়?",
+    "options": [
+      "btebcbt@gov.bd",
+      "@btebcbt.com",
+      "122bteb@gmail.com",
+      "bteb@ymail.com"
+    ],
+    "correct_answer": "@btebcbt.com"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি input device?",
+    "options": [
+      "Scanner",
+      "Avro",
+      "Speaker",
+      "Printer"
+    ],
+    "correct_answer": "Scanner"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি বাংলা Typing Software?",
+    "options": [
+      "SutonnyMJ",
+      "Avro",
+      "Kalpurush",
+      "Nikosh"
+    ],
+    "correct_answer": "Avro"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Numeric Character?",
+    "options": [
+      "H",
+      "K",
+      "&",
+      "7"
+    ],
+    "correct_answer": "7"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি AntiVirus নয়?",
+    "options": [
+      "Linux",
+      "Norton",
+      "Avast",
+      "Nood32"
+    ],
+    "correct_answer": "Linux"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি স্থায়ী Storage device?",
+    "options": [
+      "RAM",
+      "Cash Memory",
+      "SSD",
+      "CPU Register"
+    ],
+    "correct_answer": "SSD"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি System Unit এর অংশ নয়?",
+    "options": [
+      "Processor",
+      "RAM",
+      "Hard Disk Drive",
+      "Flash Drive"
+    ],
+    "correct_answer": "Flash Drive"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Projector Enable করার Keyboard Command কী?",
+    "options": [
+      "Windows Key + P",
+      "Windows Key + V",
+      "Windows Key + C",
+      "Window Key + R"
+    ],
+    "correct_answer": "Windows Key + P"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "A4 size  এর কাগজ কোনটি?",
+    "options": [
+      "8.5” X 11”",
+      "8.27” X 11.69”",
+      "8.5” X 14”"
+    ],
+    "correct_answer": "8.27” X 11.69”"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Document Copy করার Keyboard Command?",
+    "options": [
+      "Ctrl + P",
+      "Ctrl + C",
+      "Ctrl + V",
+      "Ctrl + X"
+    ],
+    "correct_answer": "Ctrl + C"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Page Break এর Keyboard Command?",
+    "options": [
+      "Ctrl + Break",
+      "Ctrl + End",
+      "Ctrl + Enter",
+      "Ctrl + Space"
+    ],
+    "correct_answer": "Ctrl + Enter"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Ms-Word এর Extention?",
+    "options": [
+      ".docx",
+      ".doc",
+      ".exe",
+      ".xlsx"
+    ],
+    "correct_answer": ".docx"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "একই Formatting একাধিক Text এঁর উপর Apply করতে নিচের কোন অপশনটি ব্যবহার করতে হয়?",
+    "options": [
+      "Copy and Paste old Text",
+      "Copy and Paste",
+      "Use Format Painter",
+      "Use Clipboard"
+    ],
+    "correct_answer": "Use Format Painter"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোন Line Spacing টি অগ্রহণযোগ্য?",
+    "options": [
+      "Multiple",
+      "Double",
+      "Triple",
+      "None of the above"
+    ],
+    "correct_answer": "Multiple"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি Excel এর Valid Data টাইপ নয় কোনটি?",
+    "options": [
+      "Date/Time",
+      "Label",
+      "Character",
+      "Charter"
+    ],
+    "correct_answer": "Charter"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Excel window এর কোন area তে value ও formula লেখা যায়?",
+    "options": [
+      "Formula Bar",
+      "Menu Bar",
+      "Title Bar",
+      "Side Bar"
+    ],
+    "correct_answer": "Formula Bar"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Row নং 5 ও 6 এর column C হতে E পর্যন্ত cell গুলোকে যোগ করার সময় নিচের কোনটি করতে হয়?",
+    "options": [
+      "=Sum(c5:e6)",
+      "=Total(c5:e5)",
+      "=Sum(c5:e5)",
+      "Sum(c5:e6)"
+    ],
+    "correct_answer": "=Sum(c5:e6)"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Current Date display করার জন্য কোন Function ব্যবহার করতে হয়?",
+    "options": [
+      "Date()",
+      "Now()",
+      "Today()",
+      "Current()"
+    ],
+    "correct_answer": "Now()"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোনটি formula এর উদাহরণ?",
+    "options": [
+      "=sum(A5:A7)",
+      "sum(A5:A7)",
+      "=A5+A6+A7",
+      "=sum(A5+A6+A7)"
+    ],
+    "correct_answer": "=sum(A5:A7)"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "কোন Function টি শর্ত সাপেক্ষে কাজ করে?",
+    "options": [
+      "Min()",
+      "Count()",
+      "Sumif()",
+      "Max()"
+    ],
+    "correct_answer": "Sumif()"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "পূর্বে তৈরী করা কোনো Presentation শুরু করার শর্টকাট হলো?",
+    "options": [
+      "Ctrl+O",
+      "Ctrl+M",
+      "Ctrl+N",
+      "Ctrl+G"
+    ],
+    "correct_answer": "Ctrl+N"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Power Point এ নতুন প্রেজেন্টেশন তৈরির শর্টকাট হল",
+    "options": [
+      "Ctrl+N",
+      "Ctrl+M",
+      "Shift+N",
+      "Shift+G"
+    ],
+    "correct_answer": "Ctrl+N"
+  },
+  {
+    "question_set": "Set 7",
+    "question": "Upper case character সমূহ টাইপ করার জন্য কোন key ব্যবহার করা হয়?",
+    "options": [
+      "Alt",
+      "Ctrl",
+      "Esc",
+      "CapsLock"
+    ],
+    "correct_answer": "CapsLock"
+  }
+]
