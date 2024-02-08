@@ -17,29 +17,29 @@ const QuizCards = ({ question, id, getAnswers }) => {
 
   return (
     <div className="bg-gray-700 rounded-lg m-3 p-3">
-  <h3 className="text-lg w-full border bg-teal-500 border-none p-2 rounded-lg text-white">
-    <span className="font-bold">Question({id})-{question.question_set}:</span>{" "}
-    <span className="text-white">{question.question}</span>
-  </h3>
-  <div className="w-full mt-4">
-    {question.options.map((option, index) => (
-      <div key={index}>
-        <div className="flex items-center border shadow-lg p-3 my-3 w-5/6 rounded-lg placeholder border-none bg-blue-500 text-white">
-          <input
-            type="radio"
-            name={`question_${id + 1}`}
-            id={`option_${id}_${index}`}
-            onChange={() => handleOptionChange(option)}
-            className="mr-4"
-          />
-          <label htmlFor={`option_${id}_${index}`} className="text-xl font-semibold cursor-pointer">
-            {option}
-          </label>
-        </div>
+      <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
+        Question {id + 1}: {question.question}
+      </h3>
+      <div className="grid grid-cols-1 gap-4">
+        {question.options.map((option, index) => (
+          <div key={index} className="flex items-center">
+            <input
+              type="radio"
+              name={`question_${id + 1}`}
+              id={`option_${id}_${index}`}
+              onChange={() => handleOptionChange(option)}
+              className="mr-4 appearance-none w-6 h-6 border border-gray-300 rounded-full checked:bg-blue-500 checked:border-none focus:outline-none"
+            />
+            <label
+              htmlFor={`option_${id}_${index}`}
+              className="text-base text-white cursor-pointer"
+            >
+              {option}
+            </label>
+          </div>
+        ))}
       </div>
-    ))}
-  </div>
-</div>
+    </div>
   );
 };
 

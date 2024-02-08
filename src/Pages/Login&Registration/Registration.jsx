@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../0.providers/AuthProvider";
 import swal from "sweetalert";
-import SocialLogin from "./SocialLogin/SocialLogin";
 
 const Registration = () => {
   const {
@@ -44,15 +43,17 @@ const Registration = () => {
             .then((res) => res.json())
             .then((data) => {
               if (data.insertedId) {
-                reset();
                 swal({
                   title: "Welcome",
                   text: "Registerd in Successfully",
                   icon: "success",
                   button: "Procced",
+                }).then(() => {
+                  // Assuming navigate is a function for navigation
+                  navigate("/");
                 });
-                navigate("/");
               }
+              reset();
             });
         })
         .catch((error) => console.log(error)); //can add more

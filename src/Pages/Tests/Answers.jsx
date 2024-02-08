@@ -38,53 +38,53 @@ const Answers = () => {
 
   return (
     <div
-      className="bg-cover bg-center p-3"
+      className="bg-cover bg-center p-3 min-h-screen"
       style={{
         backgroundImage:
-          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg',
+          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
       }}
     >
-  <div className="flex flex-col md:flex-row justify-center gap-3 p-3">
-    {questionSets.map((button, index) => (
-      <button
-        key={index}
-        className="btn w-full btn-primary sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
-        onClick={() => getSelection(button?.set)}
-      >
-        {button?.set}
-      </button>
-    ))}
-    <Link to="/tests">
-      <button className="btn w-[100px] m-2 bg-red-700 border-none text-white transition duration-300 ease-in-out transform hover:scale-105">
-        Back to Tests
-      </button>
-    </Link>
-  </div>
-  <section>
-    <div className="bg-teal-600 p-2 m-2 rounded-md">
-      <h2 className="text-center text-white font-bold text-3xl m-auto">
-        Answers (<span className="">{testSet}</span>)
-      </h2>
-    </div>
-    <div className="flex flex-col gap-3">
-      {filteredMCQs.map((answers, index) => (
-        <div key={index} className="bg-slate-300 rounded-lg p-3 w-1/2 m-auto shadow-md">
-          <h3 className="text-lg w-full border bg-teal-100 border-none p-2 rounded-lg mb-4">
-            <span className="font-bold">
-              Question {index + 1} - {answers.question_set}:
-            </span>
-            <span className="ml-2">{answers.question}</span>
-          </h3>
-          <div className="w-full">
-            <p className="ms-5 text-xl font-semibold p-2 bg-green-200 rounded-lg">
-              Correct Answer: {answers.correct_answer}
-            </p>
-          </div>
+      <div className="flex flex-col md:flex-row justify-center gap-3 p-3">
+        {questionSets.map((button, index) => (
+          <button
+            key={index}
+            className="btn btn-primary w-full sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
+            onClick={() => getSelection(button?.set)}
+          >
+            {button?.set}
+          </button>
+        ))}
+        <Link to="/tests">
+          <button className="btn w-[100px] m-2 bg-red-700 border-none text-white transition duration-300 ease-in-out transform hover:scale-105">
+            Back to Tests
+          </button>
+        </Link>
+      </div>
+      <section className="flex flex-col items-center justify-center">
+        <div className="bg-teal-600 p-2 m-2 rounded-md">
+          <h2 className="text-center text-white font-bold text-3xl">
+            Answers ({testSet})
+          </h2>
         </div>
-      ))}
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {filteredMCQs.map((answers, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg p-6 shadow-md w-full"
+            >
+              <h3 className="text-lg font-bold mb-4">
+                Question {index + 1} - {answers.question_set}:
+              </h3>
+              <p className="text-lg mb-4">{answers.question}</p>
+              <p className="text-lg font-semibold">
+                <span className="font-bold">Answer:</span>{" "}
+                {answers.correct_answer}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
-  </section>
-</div>
   );
 };
 

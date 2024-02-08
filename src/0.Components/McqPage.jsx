@@ -4,7 +4,6 @@ import QuizCards from "./QuizCards";
 
 const McqPage = ({ questions, mainUser, testSet }) => {
   const [answers, setAnswers] = useState([]);
-  const { user } = useContext(AuthContext);
   const currentDate = new Date();
 
   useEffect(() => {}, []);
@@ -57,7 +56,6 @@ const McqPage = ({ questions, mainUser, testSet }) => {
         },
       };
 
-      console.log(resultHistory);
       fetch("https://gazipur-tvet-server.vercel.app/result", {
         method: "POST",
         headers: {
@@ -84,9 +82,9 @@ const McqPage = ({ questions, mainUser, testSet }) => {
     }
   };
   return (
-    <div className="flex flex-col md:w-full m-auto">
-      <div className="m-auto w-full md:w-1/2">
-        <h2 className="text-center font-bold p-3 bg-red-500 text-white w-1/2 m-auto rounded-xl text-2xl">
+    <div className="flex flex-col items-center md:w-full mx-auto overflow-x-auto">
+      <div className="w-full md:w-2/3 mx-auto">
+        <h2 className="text-center font-bold py-3 bg-red-500 text-white rounded-xl text-2xl mb-6">
           {questions.length} Questions
         </h2>
         {questions.map((question, index) => (
@@ -95,17 +93,18 @@ const McqPage = ({ questions, mainUser, testSet }) => {
             question={question}
             id={`${index + 1}`}
             getAnswers={getAnswers}
-          ></QuizCards>
+          />
         ))}
+        {questions.length > 0 && (
+          <button
+            className="btn btn-primary w-full md:w-2/3 mx-auto my-6 py-3 rounded-lg text-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-105"
+            type="submit"
+            onClick={answerSubmit}
+          >
+            Submit Answers
+          </button>
+        )}
       </div>
-      { questions.length>0 && 
-        <button
-        className="btn btn-primary w-1/2 m-auto my-3"
-        type="submit"
-        onClick={answerSubmit}
-      >
-        Submit Answers
-      </button>}
     </div>
   );
 };
