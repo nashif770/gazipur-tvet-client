@@ -26,13 +26,13 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-neutral text-neutral-content">
-      <div className="navbar-start">
-        <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+<div className="navbar bg-neutral text-neutral-content shadow-lg">
+      <div className="navbar-start flex items-center">
+        <div className="dropdown mr-4">
+          <button className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -44,31 +44,33 @@ const Navbar = () => {
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
-          </div>
-          <ul
-            tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black rounded-box w-52"
-          >
+          </button>
+          <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-lg bg-white rounded-lg w-52">
             {navOptions}
           </ul>
         </div>
-        <Link to={"/"} className="btn btn-ghost text-xl">
+        <Link to={"/"} className="btn btn-ghost text-xl font-bold">
           UGTI
         </Link>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex flex-grow">
         <ul className="menu menu-horizontal px-1">{navOptions}</ul>
       </div>
-      <div className="navbar-end">
-        <div className="mx-6">
-          <h1>{user?.displayName}</h1>
-        </div>
+      <div className="navbar-end flex items-center">
         {user ? (
-          <button onClick={handleLogOut} className="btn" to="login">
+          <div className="mr-6">
+            <h1 className="text-lg font-semibold">{user.displayName}</h1>
+          </div>
+        ) : null}
+        {user ? (
+          <button
+            onClick={handleLogOut}
+            className="btn btn-primary hover:bg-red-600"
+          >
             Logout
           </button>
         ) : (
-          <Link className="btn" to={"/login"}>
+          <Link to={"/login"} className="btn btn-primary">
             Login
           </Link>
         )}

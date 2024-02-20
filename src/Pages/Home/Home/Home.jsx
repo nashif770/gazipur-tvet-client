@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import DownloadButton from "../../Shared/DownloadButton";
 
 const Home = () => {
   return (
@@ -21,6 +22,11 @@ const Home = () => {
             Start Now
           </button>
         </Link>
+        <div className="flex flex-wrap justify-center">
+        <DownloadButton buttonName={"MCQ Level 3"} download={'copMcqL3.pdf'} ></DownloadButton>
+        <DownloadButton buttonName={"Practical L1"} download={'copL1.pdf'} ></DownloadButton>
+        <DownloadButton buttonName={"Practical 3"} download={'copPracL3.pdf'} ></DownloadButton>
+        </div>
       </div>
     </div>
   );
