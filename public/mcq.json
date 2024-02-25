@@ -1698,5 +1698,185 @@
       "CapsLock"
     ],
     "correct_answer": "CapsLock"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Home key use to moves the cursor beginning of the",
+    "options": ["document", "paragraph", "screen", "line"],
+    "correct_answer": "document"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "A character that is raised and smaller above the baseline is known as",
+    "options": ["Subscript", "Superscript", "Strikethrough", "Raised"],
+    "correct_answer": "Superscript"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "What is the default number of lines to drop for drop cap?",
+    "options": ["2", "3", "4", "5"],
+    "correct_answer": "3"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which of the following option is not available in Paste Special dialog box?",
+    "options": ["Add", "Subtract", "Divide", "Sqn"],
+    "correct_answer": "Sqn"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Within a cell long text can be broken into many lines. We can do this in excel through",
+    "options": ["Ctrl + Enter", "Alt + Enter", "Shift + Enter", "Alt + Enter"],
+    "correct_answer": "Alt + Enter"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "The result is a _____ value either TRUE or FALSE",
+    "options": ["Logical", "Arithmetic", "Algorithm", "Logarithm"],
+    "correct_answer": "Logical"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "What type of chart will you use to compare performance of sales of two products?",
+    "options": ["Pie chart", "Column chart", "Line chart", "Bar chart"],
+    "correct_answer": "Column chart"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which command brings you to the first slide in your presentation?",
+    "options": ["Next slide button", "Page up", "Ctrl + Home", "Ctrl + Enter"],
+    "correct_answer": "Ctrl + Home"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "The arrangement of elements such as title and subtitle text, pictures, tables, etc., is called",
+    "options": ["Layout", "Presentation", "Design", "Screen"],
+    "correct_answer": "Layout"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which view helps to rearrange the slides easily and quickly?",
+    "options": ["Notes page", "Slide master", "Slide sort", "Normal"],
+    "correct_answer": "Slide sort"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "The main memory is also known as ______ memory.",
+    "options": ["Auxiliary", "Permanent", "Secondary", "Primary"],
+    "correct_answer": "Primary"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Computer mouse event is",
+    "options": ["left click", "right click", "double click", "all of these"],
+    "correct_answer": "all of these"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "A BIT represents a",
+    "options": ["Hexadecimal digit", "Octal digit", "Decimal digit", "Binary digit"],
+    "correct_answer": "Binary digit"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which of the following is not a storage media?",
+    "options": ["Email", "USB pen drive", "Portable hard Drive", "Optical Drive"],
+    "correct_answer": "Email"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Auto correct was originally designed to replace _______ words as you type",
+    "options": ["Short, repetitive", "Grammatically incorrect", "Misspelled", "None of the above"],
+    "correct_answer": "Misspelled"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "How do you rearrange the data in ascending or descending order?",
+    "options": ["Data > Sort", "Data > Form", "Data > Table", "Data > Subtotals"],
+    "correct_answer": "Data > Sort"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which tabs on the Ribbon are used to find in the document?",
+    "options": ["Home tab", "Insert tab", "View tab", "Review tab"],
+    "correct_answer": "Review tab"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Tasneem insert an arrow to point out information in a newsletter, which object did she use?",
+    "options": ["WordArt", "Shape", "SmartArt", "Chart"],
+    "correct_answer": "Shape"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "What is the shortcut key for manual line break?",
+    "options": ["Ctrl + Enter", "Alt + Enter", "Shift + Enter", "Space + Enter"],
+    "correct_answer": "Shift + Enter"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Mr. X inserted a rectangular shape into her Word document. She wanted the shape to transition from one color to another. Which Shape Fill option should she use?",
+    "options": ["Gradient", "Picture", "Solid color", "Texture"],
+    "correct_answer": "Gradient"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "The greater than sign (>) is an example of ____________ operator?",
+    "options": ["Arithmetic", "Logical", "Relational", "External"],
+    "correct_answer": "Relational"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which function from below returns the number by reducing the factorial part?",
+    "options": ["INT", "INTR", "INTF", "INTA"],
+    "correct_answer": "INTR"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "When you enter text in a cell in Excel, it also appears in the",
+    "options": ["Status bar", "Formula bar", "Row heading", "Name box"],
+    "correct_answer": "Formula bar"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which is not a presentation program?",
+    "options": ["MS PowerPoint", "Prezi", "Google Slide", "Side Panel"],
+    "correct_answer": "Side Panel"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "PowerPoint view that displays only text (title and bullets) is",
+    "options": ["Slide sorter", "Notes page view", "Outline view", "Slide show"],
+    "correct_answer": "Outline view"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which type of view is not present in MS PowerPoint?",
+    "options": ["Normal", "Slide show", "Slide sorter", "Extreme animation"],
+    "correct_answer": "Extreme animation"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which of the following is not a binary number?",
+    "options": ["001", "101", "110", "202"],
+    "correct_answer": "202"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "The system unit of a personal computer typically contains all of the following except",
+    "options": ["Monitor", "RAM", "Modem", "Microprocessor"],
+    "correct_answer": "Modem"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Element used to manage computer files and folders is",
+    "options": ["Control panel", "Windows accessories", "Windows explorer", "Internet explorer"],
+    "correct_answer": "Windows explorer"
+  },
+  {
+    "question_set": "Set 8",
+    "question": "Which option can be used to split windows into two?",
+    "options": ["Review > window", "View > Window > Split", "Window > Split", "View > Split"],
+    "correct_answer": "View > Window > Split"
   }
 ]

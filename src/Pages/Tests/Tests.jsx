@@ -14,6 +14,7 @@ const questionSets = [
   { set: "Set 5" },
   { set: "Set 6" },
   { set: "Set 7" },
+  { set: "Set 8" },
 ];
 
 const Tests = () => {
@@ -55,6 +56,7 @@ const Tests = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {questionSets.map((button, index) => (
+           <>
             <button
               key={index}
               className="btn btn-secondary w-full md:w-auto"
@@ -62,6 +64,8 @@ const Tests = () => {
             >
               {button?.set}
             </button>
+           </>
+
           ))}
         </div>
         <div className="bg-teal-600 text-white text-center font-bold text-3xl p-4 mt-8">
