@@ -12,6 +12,7 @@ const questionSets = [
   { set: "Set 5" },
   { set: "Set 6" },
   { set: "Set 7" },
+  { set: "Set 8" },
 ];
 
 const Answers = () => {
@@ -44,7 +45,7 @@ const Answers = () => {
           'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
       }}
     >
-      <div className="flex flex-col md:flex-row justify-center gap-3 p-3">
+      <div className="flex flex-wrap justify-center gap-3 p-3">
         {questionSets.map((button, index) => (
           <button
             key={index}

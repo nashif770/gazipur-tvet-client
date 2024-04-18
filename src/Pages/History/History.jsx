@@ -14,7 +14,7 @@ const questionSets = [
 
 const History = () => {
   const [allResult, setAllResult] = useState([]);
-  const [filteredResult, setFilteredResult] = useState([])
+  const [filteredResult, setFilteredResult] = useState([]);
   const { user } = useContext(AuthContext);
 
   useEffect(() => {
@@ -34,29 +34,31 @@ const History = () => {
   }, []);
 
   const getSelection = (sets) => {
-    const filteredSet = allResult?.filter((mcqSet) => mcqSet.resultHistory.set == sets);
-    setFilteredResult(filteredSet)
+    const filteredSet = allResult?.filter(
+      (mcqSet) => mcqSet.resultHistory.set === sets
+    );
+    const sortedFilteredSet = filteredSet.sort((a, b) => {
+      const dateA = new Date(b.resultHistory.createdAt.date);
+      const dateB = new Date(a.resultHistory.createdAt.date);
+      return dateA - dateB;
+    });
+    setFilteredResult(sortedFilteredSet);
   };
 
-  console.log("All Result", allResult);
-
   return (
-    <div
-      className="bg-cover bg-center min-h-screen flex flex-col justify-center"
-      style={{
-        backgroundImage:
-          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
-      }}
-    >
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-3 w-1/2 mt-3 mx-auto">
+    <div>
+      <h1 className="text-4xl lg:text-4xl font-bold m-8 text-white text-center">
+        Check Out Your Result
+      </h1>
+      <div className="flex m-auto flex-wrap justify-center">
         {questionSets.map((button, index) => (
-            <button
-              key={index}
-              className="btn bg-green-500 w-full m-auto"
-              onClick={() => getSelection(button?.set)}
-            >
-              {button?.set}
-            </button>
+          <button
+            key={index}
+            className="btn btn-primary w-full sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
+            onClick={() => getSelection(button?.set)}
+          >
+            {button?.set}
+          </button>
         ))}
       </div>
       <div className="w-full max-w-4xl mx-auto px-4">
@@ -81,7 +83,11 @@ const History = () => {
                 <td className="py-3 text-start ps-3">
                   {history?.resultHistory.userName}
                 </td>
-                <td className="py-3">{history.resultHistory?.result}</td>
+                {history.resultHistory?.result < 24 ? (
+                  <td className="py-3  text-red-400">{history.resultHistory?.result}</td>
+                ) : (
+                  <td className="py-3 ">{history.resultHistory?.result}</td>
+                )}
                 <td className="py-3">{history.resultHistory?.set}</td>
                 <td className="py-3">
                   {history.resultHistory?.createdAt.time}

@@ -152,7 +152,7 @@ const Registration = () => {
               </label>
               <input
                 type="password"
-                placeholder="password"
+                placeholder="password (Don't use personal Password)"
                 className="input input-bordered"
                 {...register("password", {
                   required: true,

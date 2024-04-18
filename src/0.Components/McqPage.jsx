@@ -4,7 +4,21 @@ import QuizCards from "./QuizCards";
 
 const McqPage = ({ questions, mainUser, testSet }) => {
   const [answers, setAnswers] = useState([]);
-  const currentDate = new Date();
+  const [currentDate, setCurrentDate] = useState(null); // State to store the current date
+
+  useEffect(() => {
+    const fetchCurrentDate = async () => {
+      try {
+        const response = await fetch("http://worldclockapi.com/api/json/utc/now");
+        const data = await response.json();
+        setCurrentDate(new Date(data.currentDateTime));
+      } catch (error) {
+        console.error("Error fetching current date:", error);
+      }
+    };
+
+    fetchCurrentDate();
+  }, []);
 
   useEffect(() => {}, []);
 
@@ -42,13 +56,13 @@ const McqPage = ({ questions, mainUser, testSet }) => {
         userEmail: mainUser?.email,
         set: testSet,
         createdAt: {
-          date: currentDate.toLocaleDateString("en-US", {
+          date: currentDate?.toLocaleDateString("en-US", {
             weekday: "long",
             year: "numeric",
             month: "long",
             day: "numeric",
           }),
-          time: currentDate.toLocaleTimeString(undefined, {
+          time: currentDate?.toLocaleTimeString(undefined, {
             hour: "numeric",
             minute: "numeric",
             second: "numeric",

@@ -39,10 +39,10 @@ const Tests = () => {
   //   console.log("filtered",filteredMCQs)
 
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center">
+    <div className="min-h-screen flex flex-col justify-center items-center">
       <div className="max-w-4xl w-full mx-auto px-6">
         <div className="text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-8">
+          <h1 className="text-4xl lg:text-6xl font-bold mb-8 text-white">
             Choose Your Test
           </h1>
           <div className="flex justify-center space-x-4 mb-8">
@@ -54,12 +54,12 @@ const Tests = () => {
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="flex m-auto flex-wrap justify-center">
           {questionSets.map((button, index) => (
            <>
             <button
               key={index}
-              className="btn btn-secondary w-full md:w-auto"
+              className="btn btn-primary w-full sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
               onClick={() => getSelection(button?.set)}
             >
               {button?.set}
