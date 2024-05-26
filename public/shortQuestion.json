@@ -1,0 +1,220 @@
+{
+  "questions": [
+    {
+      "question": "What is Indention?",
+      "answer": "The space between the margin and the start of a paragraph is called Indention."
+    },
+    {
+      "question": "Write down four-word processing application software?",
+      "answer": "MS Word, WordPad, Libre Office, WordPerfect, WPS Office, Google Docs"
+    },
+    {
+      "question": "What do you mean by Filtering?",
+      "answer": "Filtering refers to displaying only the rows that meet certain conditions and the remaining rows are hidden."
+    },
+    {
+      "question": "What happens when dollar sings ($) are entered in a cell address?",
+      "answer": "An absolute cell address is created."
+    },
+    {
+      "question": "Why we use Line Chart in excel?",
+      "answer": "Line chart is useful for showing trends or changes over time."
+    },
+    {
+      "question": "What does the IF function in Excel?",
+      "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different."
+    },
+    {
+      "question": "What is a transition in a PowerPoint?",
+      "answer": "Slide transition are the animation like effects that happen when you move from one slide to the next during a presentation."
+    },
+    {
+      "question": "What do you understand by placeholder?",
+      "answer": "The areas enclosed by the dotted borders on the slides are called placeholders. Simply, you can say that placeholder is the enclosed areas on the slide."
+    },
+    {
+      "question": "What is a subfolder in computer?",
+      "answer": "Subfolder is an organizational folder on a computer that is located within another folder."
+    },
+    {
+      "question": "What are the main causes of OS failures?",
+      "answer": "An operating system failure can be caused by a hardware malfunction or a software crash, and it usually results in the inability of the operating system to boot."
+    },
+    {
+      "question": "What is the diagnostic in computer education?",
+      "answer": "A hardware diagnostic is a method of finding problems with a computer’s hardware system."
+    },
+    {
+      "question": "Write down four common printer error?",
+      "answer": " Prints too Slowly,Bad Print Quality,Printer won’t print, Printer unresponsive, Paper Jams, Printing is too expensive"
+    },
+    {
+      "question": "What does COUNTA() function do?",
+      "options": "Counts cells having alphabets, Counts empty cells, Count cells having number, Count non-empty cells",
+      "answer": "D. Count non-empty cells"
+    },
+    {
+      "question": "What are charts in MS Excel?",
+      "answer": "Chats are used to enable graphical representation of the data in MS Excel. A user can use any chart type, including Column, Bar, Line, Pie, etc by selecting an option from Insert Tab."
+    },
+    {
+      "question": "What is animation pane in PowerPoint?",
+      "answer": "The Animation Pane is a tool that displays the list of animated objects on your slide. It allows you to look at and manage all the effects that are on the present slide."
+    },
+    {
+      "question": "When should I replace toner?",
+      "answer": "we should start paying close attention to our printer once its toner lebels reach about 10%. This means looking for those too-light print jobs or low toner alerts while regularly checking printer status pages.\nFaded Printouts: If your printouts appear faded or lighter than usual, it's often a sign that the toner cartridge is running low or needs replacement.\nVisible Toner Level: Some toner cartridges have transparent or translucent panels that allow you to visually inspect the toner level. If you can see that the toner is low or depleted, it's time to replace the cartridge.",
+      "notes": " we should start paying close attention to our printer once its toner levels reach about 10%. This means looking for those too-light print jobs or low toner alerts while regularly checking printer status pages.\nFaded Printouts: If your printouts appear faded or lighter than usual, it's often a sign that the toner cartridge is running low or needs replacement.\nVisible Toner Level: Some toner cartridges have transparent or translucent panels that allow you to visually inspect the toner level. If you can see that the toner is low or depleted, it's time to replace the cartridge."
+    },
+    {
+      "question": "What causes print failure?",
+      "answer": "Common factors include Driver Problems, Software Issues, Hardware Failures and Overuse"
+    },
+    {
+      "question": "How do we identify our network switch is bad?",
+      "answer": "To verify that your switch is properly working, check the LED lights located at the back panel of the device. They should be lit up to confirm that it is working. By performing a loopback test, you can also confirm that the switch is working."
+    },
+    {
+      "question": "Write down the types of page orientation?",
+      "answer": "Landscape & Portrait."
+    },
+    {
+      "question": "What is the short cut key to insert a page break?",
+      "answer": "Ctrl+Enter"
+    },
+    {
+      "question": "What are cells?",
+      "answer": "The area where data is stored in known as Cell."
+    },
+    {
+      "question": "Why COUNT function use in excel?",
+      "answer": "COUNT is used to count cells containing numbers, dates, etc. any value stored as number excluding blanks."
+    },
+    {
+      "question": "What are the advantages of using formula in Excel sheet?",
+      "answer": "Formula makes it easy to calculate the numbers in Excel sheet. It also calculates automatically the number replaced by another number or digit. It is used to make complex calculations easy."
+    },
+    {
+      "question": "What do you understand by motion path in PowerPoint?",
+      "answer": "A motion path is a method of moving objects on a slide. PowerPoint allows its users to add motion to an object in the slide. We can add motion to an object from the animation tab by selecting an object."
+    },
+    {
+      "question": "What do you understand by trigger in context of animation?",
+      "answer": "Trigger is an action or cell it as an event that performs on the slides when clicked. It comes under the advanced animation category."
+    },
+    {
+      "question": "What is entrance effect in MS PowerPoint?",
+      "answer": "Entrance effects control the way objects appear on your slide."
+    },
+    {
+      "question": "In computer, GUI stands for",
+      "answer": "Graphical User Interface."
+    },
+    {
+      "question": "What is a folder in computer?",
+      "answer": "In computers, a folder is the virtual location for applications, documents, data or other sub-folders."
+    },
+    {
+      "question": "What is an Icon?",
+      "answer": "An icon is a small graphical representation of a program, feature, or file."
+    },
+    {
+      "question": "What causes boot failure on device?",
+      "answer": "The reason of boot failure our machine can’t find the operating system and therefore, is unable to boot."
+    },
+    {
+      "question": "What is device driver?",
+      "answer": "A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer’s operating system."
+    },
+    {
+      "question": "How do we test our Ethernet connection?",
+      "answer": "Control Panel>Network and Internet>Network Connections."
+    },
+    {
+      "question": "__________software packages allow the user to manipulate numbers.",
+      "answer": "Spreadsheet"
+    },
+    {
+      "question": "How would you format a cell?",
+      "answer": "A cell can be formatted by using the format cells options."
+    },
+    {
+      "question": "Write down four words processing application Software?",
+      "answer": "i. MS Word ii. Notepad iii. Google Docs iv. Libre Office"
+    },
+    {
+      "question": "What does the IF function in excel?",
+      "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different.",
+      "notes": "IF function checks conditions in Excel and gives results based on whether the condition is true or false."
+    },
+    {
+      "question": "What is “Exit” effect in MS Power Point?",
+      "answer": "Exit animation effects determine how animated slide objects exits from the slide area."
+    },
+    {
+      "question": "What is diagnostic in computer?",
+      "answer": "A Hardware diagnostic is a method of finding problems with a computer’s hardware systems."
+    },
+    {
+      "question": "How do we identify our network switch is bad?",
+      "answer": "To verify that your switch is properly working, check the LED lights located at the back panel of the device. They should be lit up to confirm that it is working. By performing a loopback test, you can also confirm that the switch is working."
+    },
+    {
+      "question": "How do we test our Ethernet Connection?",
+      "answer": "i. Physical Check: Ensure the Ethernet cable is properly connected and LED lights on the device are functional.\nii. Ping Test: Use the 'ping' command in the command prompt or terminal.\niii. Network Configuration Testing."
+    },
+    {
+      "question": "What is Presentation Animation?",
+      "answer": "Presentation animation is used to make our presentations engaging and visually compelling. Animation is employed to highlight, emphasize, and illustrate important information."
+    },
+    {
+      "question": "What is Ribbon?",
+      "answer": "Ribbon is a graphical user interface (GUI) present in Microsoft Office programs. It is located at the top of the program's window and provides various tabs and tools for access and functionality."
+    },
+    {
+      "question": "What is Paper Jam?",
+      "answer": "Paper jam refers to the situation where paper in a printer or copier gets stuck, obstructing the normal flow of paper. It usually occurs when paper is improperly aligned or there are other issues with the paper feed mechanism."
+    },
+    {
+      "question": "What are main causes of OS failure?",
+      "answer": "Hardware Issues: Common causes of operating system failure include hardware failures, such as faulty hard drives, memory, etc.\nSoftware Issues: Operating system problems may arise due to issues with software, such as corrupted files, incomplete installations, etc."
+    },
+    {
+      "question": "What are the main differences between RAM and ROM?",
+      "answer": "RAM is volatile whereas ROM is non-volatile."
+    },
+    {
+      "question": "What is the difference between Save and Save As?",
+      "answer": "Save and Save As differ in how they handle content. Save updates the existing content, while Save As allows saving the content with a new name or format."
+    },
+    {
+      "question": "What distinguishes a Workbook from a Worksheet?",
+      "answer": "Workbook has an extension, whereas Worksheet does not."
+    },
+    {
+      "question": "Name three software used for internet browsing.",
+      "answer": "Google Chrome, Firefox, Safari, Operamini"
+    },
+    {
+      "question": "List three examples each of Word Processing, Spreadsheet, and Presentation software.",
+      "answer":
+        "Word_Processing: MS Word, Libre Office, Google Docs, Spreadsheet: MS Excel, Libre Office for Excel, Google Sheet, Presentation: MS PowerPoint, Libre Office Impress, Google Slides"
+    },
+    {
+      "question": "What is Mail Merge?",
+      "answer": "Mail Merge is a feature used to send personalized bulk emails. It involves merging the same content with multiple recipients, reducing manual effort."
+    },
+    {
+      "question": "What is the purpose of Auto Fill Function?",
+      "answer": "Auto Fill Function in MS Excel automatically fills data based on patterns, making data entry and formatting easier and quicker."
+    },
+    {
+      "question": "What does Format Painter do?",
+      "answer": "Format Painter applies the same formatting from one piece of text to another."
+    },
+    {
+      "question": "What is the function of BIOS?",
+      "answer": "BIOS stands for Basic Input Output System. It handles basic functions during computer startup, such as checking hardware and initiating the boot process."
+    }
+  ]
+}

@@ -10,6 +10,11 @@ const questionSets = [
   { set: "Set 6" },
   { set: "Set 7" },
   { set: "Set 8" },
+  { set: "Set 9" },
+  { set: "Set 10" },
+  { set: "Set 11" },
+  { set: "Set 12" },
+  { set: "Set 13" },
 ];
 
 const History = () => {

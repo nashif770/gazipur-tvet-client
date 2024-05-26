@@ -17,13 +17,15 @@ const Home = () => {
             Start Now
           </button>
         </Link>
-        <p className="text-lg md:text-xl lg:text-2xl text-white m-10">
-          Download PDF
-        </p>
-        <div className="flex flex-wrap justify-center">
-          <DownloadButton buttonName="MCQ Level 3" download="copMcqL3.pdf" />
-          <DownloadButton buttonName="Practical L1" download="copL1.pdf" />
-          <DownloadButton buttonName="Practical 3" download="copPracL3.pdf" />
+        <div className=" ">
+          <p className="text-lg md:text-xl lg:text-2xl text-white m-2">
+            Download PDF
+          </p>
+          <div className="flex flex-wrap justify-center">
+            <DownloadButton buttonName="MCQ Level 3" download="copMcqL3.pdf" />
+            <DownloadButton buttonName="Practical L1" download="copL1.pdf" />
+            <DownloadButton buttonName="Practical 3" download="copPracL3.pdf" />
+          </div>
         </div>
       </div>
     </div>

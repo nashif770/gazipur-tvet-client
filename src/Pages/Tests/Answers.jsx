@@ -13,6 +13,11 @@ const questionSets = [
   { set: "Set 6" },
   { set: "Set 7" },
   { set: "Set 8" },
+  { set: "Set 9" },
+  { set: "Set 10" },
+  { set: "Set 11" },
+  { set: "Set 12" },
+  { set: "Set 13" },
 ];
 
 const Answers = () => {
@@ -67,14 +72,14 @@ const Answers = () => {
             Answers ({testSet})
           </h2>
         </div>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6">
           {filteredMCQs.map((answers, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg p-6 shadow-md w-full"
+              className="bg-white rounded-lg p-6 shadow-md w-1/2 m-auto"
             >
               <h3 className="text-lg font-bold mb-4">
-                Question {index + 1} - {answers.question_set}:
+              {answers.question_set}: Question {index + 1}
               </h3>
               <p className="text-lg mb-4">{answers.question}</p>
               <p className="text-lg font-semibold">

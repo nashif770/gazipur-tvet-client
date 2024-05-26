@@ -8,6 +8,7 @@ import Tests from "../Pages/Tests/Tests";
 import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
 import History from "../Pages/History/History";
+import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
 
 export const router = createBrowserRouter([
   {
@@ -43,6 +44,14 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: "shortQuestions",
+        element: (
+          <PrivateRoute>
+            <ShortQuestion></ShortQuestion>
+          </PrivateRoute>
+        ),
+      },
+      {
         path: "history",
         element: (
           <PrivateRoute>
@@ -54,7 +63,6 @@ export const router = createBrowserRouter([
         path: "login",
         element: <Login></Login>,
       },
-
       {
         path: "registration",
         element: <Registration></Registration>,
