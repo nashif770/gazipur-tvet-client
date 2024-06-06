@@ -11,15 +11,27 @@ const RandomizedTest = () => {
   const { user } = useContext(AuthContext);
   const [storedUsers] = useUser();
 
+  const validSets = new Set([
+    "Set 8",
+    "Set 9",
+    "Set 10",
+    "Set 11",
+    "Set 12",
+    "Set 13",
+    "Set 14",
+  ]);
   //   console.log("Stored users", storedUsers, user)
+  const filteredMCQs = mcq?.filter((question) => {
+    return validSets.has(question.question_set);
+  });
 
   const mainUser = storedUsers?.find(
     (loggedUser) => loggedUser.email === user.email
   );
 
   const randomizeQuestions = () => {
-    const shuffledMCQs = mcq?.sort(() => Math.random() - 0.5);
-    const selectedMCQs = shuffledMCQs?.slice(0, 30);
+    const shuffledMCQs = filteredMCQs?.sort(() => Math.random() - 0.5);
+    const selectedMCQs = shuffledMCQs?.slice(0, 20);
     setRandomMCQs(selectedMCQs);
   };
 

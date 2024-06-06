@@ -121,6 +121,7 @@ const Registration = () => {
                 <option value="">Select a Batch</option>
                 <option value="Batch 1">Batch 1 (Morning)</option>
                 <option value="Batch 2">Batch 2 (Day)</option>
+                <option value="Batch 2">RPL</option>
                 {/* Add more options as needed */}
               </select>
               {errors.batch && (

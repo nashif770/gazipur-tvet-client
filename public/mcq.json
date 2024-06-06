@@ -1725,7 +1725,7 @@
     "question_set": "Set 8",
     "question": "Which tabs on the Ribbon are used to find in the document?",
     "options": ["Home tab", "Insert tab", "View tab", "Review tab"],
-    "correct_answer": "Review tab"
+    "correct_answer": "Home tab"
   },
   {
     "question_set": "Set 8",
@@ -1754,13 +1754,13 @@
     "question_set": "Set 8",
     "question": "The greater than sign (>) is an example of ____________ operator?",
     "options": ["Arithmetic", "Logical", "Relational", "External"],
-    "correct_answer": "Relational"
+    "correct_answer": "Logical"
   },
   {
     "question_set": "Set 8",
     "question": "Which function from below returns the number by reducing the factorial part?",
     "options": ["INT", "INTR", "INTF", "INTA"],
-    "correct_answer": "INTR"
+    "correct_answer": "INT"
   },
   {
     "question_set": "Set 8",
@@ -1968,7 +1968,7 @@
     ],
     "correct_answer": "From Edit menu choose clear>Format"
   },
-    {
+  {
     "question_set": "Set 10",
     "question": "Which tabs on the Ribbon is used to find in the document?",
     "options": ["Home Tab", "Insert Tab", "Review Tab", "References"],
@@ -1996,7 +1996,7 @@
     "question_set": "Set 10",
     "question": "The Greater Than sign (>) is an example of______Operator.",
     "options": ["Arithmetical", "Logical", "Relational", "External"],
-    "correct_answer": "Relational"
+    "correct_answer": "Logical"
   },
   {
     "question_set": "Set 10",
@@ -2019,7 +2019,12 @@
   {
     "question_set": "Set 10",
     "question": "The PowerPoint view that displays only text (title and bullets) is",
-    "options": ["Slide Sorter", "Notes page view", "Outline view", "Slide show"],
+    "options": [
+      "Slide Sorter",
+      "Notes page view",
+      "Outline view",
+      "Slide show"
+    ],
     "correct_answer": "Outline view"
   },
   {
@@ -2043,10 +2048,15 @@
   {
     "question_set": "Set 10",
     "question": "Element used to manage computer files & folders is",
-    "options": ["Control panel", "Window accessories", "Windows explorer", "Internet explorer"],
+    "options": [
+      "Control panel",
+      "Window accessories",
+      "Windows explorer",
+      "Internet explorer"
+    ],
     "correct_answer": "Windows explorer"
   },
-   {
+  {
     "question_set": "Set 11",
     "question": "What is the standard unit of Font size?",
     "options": ["Centimeters", "Bytes", "Points", "Inches"],
@@ -2091,13 +2101,23 @@
   {
     "question_set": "Set 11",
     "question": "Which of the following can you use to add time to the slides in a presentation?",
-    "options": ["Slice Show Menu", "Rehearse timing button", "Slide transition button", "Custom Slide Show"],
+    "options": [
+      "Slice Show Menu",
+      "Rehearse timing button",
+      "Slide transition button",
+      "Custom Slide Show"
+    ],
     "correct_answer": "Rehearse timing button"
   },
   {
     "question_set": "Set 11",
     "question": "Objects on the slide that hold text are called",
-    "options": ["Placeholders", "Object holders", "Auto layouts", "Text holders"],
+    "options": [
+      "Placeholders",
+      "Object holders",
+      "Auto layouts",
+      "Text holders"
+    ],
     "correct_answer": "Placeholders"
   },
   {
@@ -2106,7 +2126,7 @@
     "options": ["OMR", "Touch screen", "OCR", "MICR"],
     "correct_answer": "MICR"
   },
-   {
+  {
     "question_set": "Set 12",
     "question": "Which feature usually used to create a document like newspaper?",
     "options": ["Tab stops", "Tables", "Columns", "Bullets & Numbering"],
@@ -2120,7 +2140,7 @@
   },
   {
     "question_set": "Set 12",
-    "question": "What is the Function of the key?",
+    "question": "What is the Function of the key ctrl + Z?",
     "options": ["Paste", "Copy", "Undo", "Repeat"],
     "correct_answer": "Repeat"
   },
@@ -2193,181 +2213,430 @@
   {
     "question_set": "Set 12",
     "question": "Scanner is an example of",
-    "options": ["Music Device", "Output Device", "Input Device", "None of these"],
+    "options": [
+      "Music Device",
+      "Output Device",
+      "Input Device",
+      "None of these"
+    ],
     "correct_answer": "Input Device"
   },
   {
     "question_set": "Set 12",
     "question": "Which option can be used to split windows into two?",
-    "options": ["Review>Window", "View>Window>Split", "Window>Split", "View>Split"],
+    "options": [
+      "Review>Window",
+      "View>Window>Split",
+      "Window>Split",
+      "View>Split"
+    ],
     "correct_answer": "View>Window>Split"
   },
   {
     "question_set": "Set 12",
     "question": "To view “Header & Footer”, user must switch to",
-    "options": ["Normal View", "Print Layout View", "Print preview mode", "Both B & C"],
+    "options": [
+      "Normal View",
+      "Print Layout View",
+      "Print preview mode",
+      "Both B & C"
+    ],
     "correct_answer": "Both B & C"
   },
   {
     "question_set": "Set 12",
     "question": "How we can put a Chart in the presentation using Power Point?",
-    "options": ["Insert>Pictures>Chart", "Edit>Chart", "Insert>Chart", "View>Chart"],
+    "options": [
+      "Insert>Pictures>Chart",
+      "Edit>Chart",
+      "Insert>Chart",
+      "View>Chart"
+    ],
     "correct_answer": "Insert>Chart"
   },
   {
     "question_set": "Set 12",
     "question": "The word indicates the spelling error’s with",
-    "options": ["Blue Underline", "Green Underline", "Red Underline", "Black Underline"],
+    "options": [
+      "Blue Underline",
+      "Green Underline",
+      "Red Underline",
+      "Black Underline"
+    ],
     "correct_answer": "Red Underline"
   },
   {
     "question_set": "Set 12",
     "question": "How do you wrap the text in a cell?",
-    "options": ["Format>Cell>Font", "Format>Cell>Protection", "Format>Cell>Number", "Format>Cell>Alignment"],
+    "options": [
+      "Format>Cell>Font",
+      "Format>Cell>Protection",
+      "Format>Cell>Number",
+      "Format>Cell>Alignment"
+    ],
     "correct_answer": "Format>Cell>Alignment"
   },
   {
     "question_set": "Set 12",
     "question": "A6:A8 indicates:",
-    "options": ["Cells A6 and Cell A8", "Cells A16 through A8", "Cells A7 only", "All Cells except A6:A8"],
-    "correct_answer": "Cells A6 and Cell A8"
+    "options": [
+      "Cells A6 and Cell A8",
+      "Cells A16 through A8",
+      "Cells A7 only",
+      "All Cells except A6:A8"
+    ],
+    "correct_answer": "Cells A16 through A8"
   },
   {
     "question_set": "Set 12",
     "question": "You can auto fit the width of column by",
-    "options": ["Double clicking on the column name on column header", "Double click on the cell pointer in worksheet", "Double clicking on column right border on column header", "Double clicking on the column left border on column header"],
+    "options": [
+      "Double clicking on the column name on column header",
+      "Double click on the cell pointer in worksheet",
+      "Double clicking on column right border on column header",
+      "Double clicking on the column left border on column header"
+    ],
     "correct_answer": "Double clicking on column right border on column header"
   },
   {
     "question_set": "Set 12",
     "question": "If we want to repeat a row to the next page when printing in excel, we have to click----",
-    "options": ["Insert>Print Titles>Rows to repeat at top", "Page Layout>Print Titles> Rows to repeat at top", "View>Page Layout>Print Titles>Rows to repeat at top", "View>Rows to repeat at top"],
+    "options": [
+      "Insert>Print Titles>Rows to repeat at top",
+      "Page Layout>Print Titles> Rows to repeat at top",
+      "View>Page Layout>Print Titles>Rows to repeat at top",
+      "View>Rows to repeat at top"
+    ],
     "correct_answer": "Page Layout>Print Titles> Rows to repeat at top"
   },
   {
     "question_set": "Set 12",
     "question": "What are presentations?",
-    "options": ["A sequence of slides that usually incorporate text, sound, graphics, and animation.", "A speech", "Information presented using more text than graphics and animation", "A television interview or news"],
+    "options": [
+      "A sequence of slides that usually incorporate text, sound, graphics, and animation.",
+      "A speech",
+      "Information presented using more text than graphics and animation",
+      "A television interview or news"
+    ],
     "correct_answer": "A sequence of slides that usually incorporate text, sound, graphics, and animation."
   },
   {
-      "question_set": "Set 13",
-      "question": "Which is not a File Extension of MS Word?",
-      "options": ["rtdocx", ".doc", ".pdf", ".docx"],
-      "correct_answer": "rtdocx"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "To avoid mistakes when typing in MS Word, which feature helps you more?",
-      "options": ["Auto-Fill", "Auto Generate", "Chat GPT", "Auto Correct"],
-      "correct_answer": "Auto Correct"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which of the following is not a word processing software?",
-      "options": ["MySQL", "MS Word", "WPS Word", "Word Graph"],
-      "correct_answer": "MySQL"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which is the Valid Formula of MS Excel?",
-      "options": ["=ADD(A3:A4)", "=A3+A4", "=SUM(A3:A4)", "A1+A2"],
-      "correct_answer": "=SUM(A3:A4)"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "An Excel workbook is a compilation of",
-      "options": ["Workbook", "Function", "Spreadsheet", "Worksheet"],
-      "correct_answer": "Worksheet"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which of the following keyboard shortcuts is used for closing a window or program?",
-      "options": ["F2", "End", "ESC", "Delete"],
-      "correct_answer": "ESC"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which Feature in Excel lets you arrange data in ascending or descending order?",
-      "options": ["Filtering", "Sorting", "Find", "Formatting"],
-      "correct_answer": "Sorting"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which terms will be used for clear cells in MS Excel?",
-      "options": ["Delete content", "Clear Content", "Delete", "Format Cell"],
-      "correct_answer": "Clear Content"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "To hold row and column titles in place so that they do not scroll when you scroll a worksheet, click the---",
-      "options": ["Freeze Panes", "Absolute Cell", "Relative", "Arrange"],
-      "correct_answer": "Freeze Panes"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "What type of chart will you use to compare performance more effectively of two product prices?",
-      "options": ["Pie Chart", "Line Chart", "Column Chart", "Bar Chart"],
-      "correct_answer": "Column Chart"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "How do you customize the slide background in PowerPoint?",
-      "options": ["Layout", "Slide", "Theme", "Effect"],
-      "correct_answer": "Theme"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Process of touching an object with computer mouse pointer is called",
-      "options": ["Pausing", "Dropping", "Pointing", "Hovering"],
-      "correct_answer": "Pointing"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which is not a presentation program?",
-      "options": ["MS PowerPoint", "Prezi", "Google Slide", "Slide Panel"],
-      "correct_answer": "Slide Panel"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which is a valid file format in PowerPoint?",
-      "options": ["pptx", "pdf", "Power PT", "docx"],
-      "correct_answer": "pptx"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Which is the right item of presentation page?",
-      "options": ["Chart", "Slide", "Clipart", "Image"],
-      "correct_answer": "Slide"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "To insert a new slide, go to----",
-      "options": ["Animation", "View", "Home", "Slide Show"],
-      "correct_answer": "Home"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Program or a set of electronic instructions that tell a computer what is called----",
-      "options": ["Software", "Hardware", "Menu", "Monitor"],
-      "correct_answer": "Software"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "The ALU performs___________Operation.",
-      "options": ["Logarithm", "Algorithm", "Arithmetic", "ASCII"],
-      "correct_answer": "Arithmetic"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "The command we will choose to convert a column of data into row is----",
-      "options": ["Cut and Paste", "Paste Special-Transpose", "Formatting", "Value"],
-      "correct_answer": "Paste Special-Transpose"
-    },
-    {
-      "question_set": "Set 13",
-      "question": "Shortcut ‘Ctrl+P’ is used for----",
-      "options": ["Open paragraph dialog box", "Open page format dialog box", "Open save dialog box", "Open print dialog box"],
-      "correct_answer": "Open print dialog box"
-    }
+    "question_set": "Set 13",
+    "question": "Which is not a File Extension of MS Word?",
+    "options": ["rtdocx", ".doc", ".pdf", ".docx"],
+    "correct_answer": "rtdocx"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "To avoid mistakes when typing in MS Word, which feature helps you more?",
+    "options": ["Auto-Fill", "Auto Generate", "Chat GPT", "Auto Correct"],
+    "correct_answer": "Auto Correct"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which of the following is not a word processing software?",
+    "options": ["MySQL", "MS Word", "WPS Word", "Word Graph"],
+    "correct_answer": "MySQL"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which is the Valid Formula of MS Excel?",
+    "options": ["=ADD(A3:A4)", "=A3+A4", "=SUM(A3:A4)", "A1+A2"],
+    "correct_answer": "=A3+A4"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "An Excel workbook is a compilation of",
+    "options": ["Workbook", "Function", "Spreadsheet", "Worksheet"],
+    "correct_answer": "Worksheet"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which of the following keyboard shortcuts is used for closing a window or program?",
+    "options": ["F2", "End", "ESC", "Delete"],
+    "correct_answer": "ESC"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which Feature in Excel lets you arrange data in ascending or descending order?",
+    "options": ["Filtering", "Sorting", "Find", "Formatting"],
+    "correct_answer": "Sorting"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which terms will be used for clear cells in MS Excel?",
+    "options": ["Delete content", "Clear Content", "Delete", "Format Cell"],
+    "correct_answer": "Clear Content"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "To hold row and column titles in place so that they do not scroll when you scroll a worksheet, click the---",
+    "options": ["Freeze Panes", "Absolute Cell", "Relative", "Arrange"],
+    "correct_answer": "Freeze Panes"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "What type of chart will you use to compare performance more effectively of two product prices?",
+    "options": ["Pie Chart", "Line Chart", "Column Chart", "Bar Chart"],
+    "correct_answer": "Column Chart"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "How do you customize the slide background in PowerPoint?",
+    "options": ["Layout", "Slide", "Theme", "Effect"],
+    "correct_answer": "Theme"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Process of touching an object with computer mouse pointer is called",
+    "options": ["Pausing", "Dropping", "Pointing", "Hovering"],
+    "correct_answer": "Pointing"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which is not a presentation program?",
+    "options": ["MS PowerPoint", "Prezi", "Google Slide", "Slide Panel"],
+    "correct_answer": "Slide Panel"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which is a valid file format in PowerPoint?",
+    "options": ["pptx", "pdf", "Power PT", "docx"],
+    "correct_answer": "pptx"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Which is the right item of presentation page?",
+    "options": ["Chart", "Slide", "Clipart", "Image"],
+    "correct_answer": "Slide"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "To insert a new slide, go to----",
+    "options": ["Animation", "View", "Home", "Slide Show"],
+    "correct_answer": "Home"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Program or a set of electronic instructions that tell a computer what is called----",
+    "options": ["Software", "Hardware", "Menu", "Monitor"],
+    "correct_answer": "Software"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "The ALU performs___________Operation.",
+    "options": ["Logarithm", "Algorithm", "Arithmetic", "ASCII"],
+    "correct_answer": "Arithmetic"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "The command we will choose to convert a column of data into row is----",
+    "options": [
+      "Cut and Paste",
+      "Paste Special-Transpose",
+      "Formatting",
+      "Value"
+    ],
+    "correct_answer": "Paste Special-Transpose"
+  },
+  {
+    "question_set": "Set 13",
+    "question": "Shortcut ‘Ctrl+P’ is used for----",
+    "options": [
+      "Open paragraph dialog box",
+      "Open page format dialog box",
+      "Open save dialog box",
+      "Open print dialog box"
+    ],
+    "correct_answer": "Open print dialog box"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Write down the short Command of center Alignment?",
+    "options": ["Ctrl E", "Ctrl S", "Ctrl X", "Ctrl V"],
+    "correct_answer": "Ctrl E"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Which of the following is not a type of page margin?",
+    "options": ["Normal", "Narrow", "Moderate", "Middle"],
+    "correct_answer": "Middle"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Superscript, Subscript, Outline, emboss are known as?",
+    "options": ["Font style", "Font effects", "Word art", "Text effects"],
+    "correct_answer": "Font effects"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "What is the command on the Insert ribbon used to capture and insert a picture of any open program window?",
+    "options": ["Picture", "Screenshot", "Shape", "Chart"],
+    "correct_answer": "Screenshot"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "What is the pictorial representation of data?",
+    "options": ["Chart", "Clipart", "Word art", "All of above"],
+    "correct_answer": "Chart"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "----- Cells involve creating a single cell by combining two or more select cells?",
+    "options": ["Formatting", "Merging", "Embedding", "Spelling"],
+    "correct_answer": "Merging"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "What do you call the chart that shows the proportions of how one or more data elements relate to another data element?",
+    "options": ["XY Chart", "Line Chart", "Pie Chart", "Column Chart"],
+    "correct_answer": "Pie Chart"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "The ____ Feature in MS Excel that enables you to quickly write text and have it auto-filled is called:",
+    "options": [
+      "Auto Feature",
+      "Auto Fill",
+      "Quick Text",
+      "Text Auto Complete"
+    ],
+    "correct_answer": "Auto Fill"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Special effects used to introduce slides in a presentation?",
+    "options": ["Effects", "Custom animations", "Transitions", "Chart"],
+    "correct_answer": "Transitions"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "-----are already created presentation on different topics?",
+    "options": ["Templates", "Images", "Videos", "Design"],
+    "correct_answer": "Templates"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "----- Allow communication between the user and the device?",
+    "options": ["CPU", "Input devices", "Memory", "None"],
+    "correct_answer": "CPU"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "What should be done before printing the document in MS Word?",
+    "options": [
+      "Set the Paper to the print",
+      "Set the paper print preview",
+      "Add images",
+      "Both A and B"
+    ],
+    "correct_answer": "Both A and B"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "The maximum zoom percentage in Microsoft PowerPoint is?",
+    "options": ["100%", "200%", "300%", "400%"],
+    "correct_answer": "400%"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Formulas in Excel are made of?",
+    "options": [
+      "Only arithmetic operators",
+      "Arithmetical operators and functions",
+      "Only symbols",
+      "Only sectors"
+    ],
+    "correct_answer": "Arithmetical operators and functions"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "What do you wrap the text in a cell?",
+    "options": [
+      "Format> Cell> Font",
+      "Format> Cell> Percentage",
+      "Format > Cell> Number",
+      "Format> Cell> Alignment"
+    ],
+    "correct_answer": "Format> Cell> Alignment"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "How can we put a chart in the presentation using PowerPoint?",
+    "options": [
+      "Insert> Picture> Chart",
+      "Edit> Chart",
+      "Insert> Chart",
+      "View > Chart"
+    ],
+    "correct_answer": "Insert> Chart"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Three main components of a computer are?",
+    "options": [
+      "CPU, Memory, Tape",
+      "CPU, I/O, Memory",
+      "Tape, I/O, SSD",
+      "I/O, Mouse, Printer"
+    ],
+    "correct_answer": "CPU, I/O, Memory"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "Interface used by Windows is called?",
+    "options": [
+      "Menu driven interface",
+      "Command line interface",
+      "Graphical user interface",
+      "Print interface"
+    ],
+    "correct_answer": "Graphical user interface"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "In the context of animations, what is a trigger?",
+    "options": [
+      "An Action button that advances to next slide",
+      "An item on the slide that performs action when clicked.",
+      "The name of a motion path",
+      "All of Above"
+    ],
+    "correct_answer": "All of Above"
+  },
+  {
+    "question_set": "Set 14",
+    "question": "How can you apply exactly the same formatting to another text in MS Word?",
+    "options": [
+      "Copy the text and paste in new location. Then type the new text again.",
+      "Copy the text and click on Paste Special tool on new place.",
+      "Select the text then click on Format Painter and select the new text.",
+      "All of above."
+    ],
+    "correct_answer": "Select the text then click on Format Painter and select the new text."
+  },
+  {
+    "question": "What does the IF function in Excel?",
+    "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different."
+  },
+  {
+    "question": "What is handout in PowerPoint?",
+    "answer": "A handout page in PowerPoint contains slide thumbnails on the left and notes on the right."
+  },
+  {
+    "question": "What are Freeze panes in MS-Excel?",
+    "answer": "Freeze panes in Excel keeps a part of the worksheet visible while you scroll through the rest."
+  },
+  {
+    "question": "What is Printer toner?",
+    "answer": "Printer toner is a fine powder made of plastic particles, carbon, and coloring agents used in laser printers."
+  },
+  {
+    "question": "How do you free a paper jam?",
+    "answer": "1. Remove all printer paper and reload it.\n2. If paper is stuck, gently pull it out from the middle."
+  },
+  {
+    "question": "What is network switch?",
+    "answer": "A network switch is a device that connects multiple IT devices, such as computers, within a network."
+  }
 ]

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DownloadButton from "../../Shared/DownloadButton";
 
 const Home = () => {
   return (
@@ -19,12 +18,10 @@ const Home = () => {
         </Link>
         <div className=" ">
           <p className="text-lg md:text-xl lg:text-2xl text-white m-2">
-            Download PDF
+            Click the link below
           </p>
-          <div className="flex flex-wrap justify-center">
-            <DownloadButton buttonName="MCQ Level 3" download="copMcqL3.pdf" />
-            <DownloadButton buttonName="Practical L1" download="copL1.pdf" />
-            <DownloadButton buttonName="Practical 3" download="copPracL3.pdf" />
+          <div className="flex flex-wrap justify-center bg-white rounded-md">
+           <a href="https://drive.google.com/drive/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA?usp=sharing" target="blank" className="w-full">Google Drive</a>
           </div>
         </div>
       </div>

@@ -197,8 +197,7 @@
     },
     {
       "question": "List three examples each of Word Processing, Spreadsheet, and Presentation software.",
-      "answer":
-        "Word_Processing: MS Word, Libre Office, Google Docs, Spreadsheet: MS Excel, Libre Office for Excel, Google Sheet, Presentation: MS PowerPoint, Libre Office Impress, Google Slides"
+      "answer": "Word_Processing: MS Word, Libre Office, Google Docs, Spreadsheet: MS Excel, Libre Office for Excel, Google Sheet, Presentation: MS PowerPoint, Libre Office Impress, Google Slides"
     },
     {
       "question": "What is Mail Merge?",
@@ -215,6 +214,26 @@
     {
       "question": "What is the function of BIOS?",
       "answer": "BIOS stands for Basic Input Output System. It handles basic functions during computer startup, such as checking hardware and initiating the boot process."
+    },
+    {
+      "question": "What is handout in PowerPoint?",
+      "answer": "A handout page in PowerPoint contains slide thumbnails on the left and notes on the right."
+    },
+    {
+      "question": "What are Freeze panes in MS-Excel?",
+      "answer": "Freeze panes in Excel keeps a part of the worksheet visible while you scroll through the rest."
+    },
+    {
+      "question": "What is Printer toner?",
+      "answer": "Printer toner is a fine powder made of plastic particles, carbon, and coloring agents used in laser printers."
+    },
+    {
+      "question": "How do you free a paper jam?",
+      "answer": "1. Remove all printer paper and reload it.\n2. If paper is stuck, gently pull it out from the middle."
+    },
+    {
+      "question": "What is network switch?",
+      "answer": "A network switch is a device that connects multiple IT devices, such as computers, within a network."
     }
   ]
 }
