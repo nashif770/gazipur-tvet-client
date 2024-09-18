@@ -2,238 +2,614 @@
   "questions": [
     {
       "question": "What is Indention?",
-      "answer": "The space between the margin and the start of a paragraph is called Indention."
+      "answer": "The space between the margin and the start of a paragraph is called Indention.",
+      "id": "1"
     },
     {
       "question": "Write down four-word processing application software?",
-      "answer": "MS Word, WordPad, Libre Office, WordPerfect, WPS Office, Google Docs"
+      "answer": "MS Word, WordPad, Libre Office, WordPerfect, WPS Office, Google Docs",
+      "id": "2"
     },
     {
       "question": "What do you mean by Filtering?",
-      "answer": "Filtering refers to displaying only the rows that meet certain conditions and the remaining rows are hidden."
+      "answer": "Filtering refers to displaying only the rows that meet certain conditions and the remaining rows are hidden.",
+      "id": "3"
     },
     {
       "question": "What happens when dollar sings ($) are entered in a cell address?",
-      "answer": "An absolute cell address is created."
+      "answer": "An absolute cell address is created.",
+      "id": "4"
     },
     {
       "question": "Why we use Line Chart in excel?",
-      "answer": "Line chart is useful for showing trends or changes over time."
+      "answer": "Line chart is useful for showing trends or changes over time.",
+      "id": "5"
     },
     {
       "question": "What does the IF function in Excel?",
-      "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different."
+      "answer": "The IF function in Excel checks whether a condition is true or false. If the condition is true, it returns one result; if false, it returns another.",
+      "id": "6"
     },
     {
       "question": "What is a transition in a PowerPoint?",
-      "answer": "Slide transition are the animation like effects that happen when you move from one slide to the next during a presentation."
+      "answer": "Slide transition are the animation like effects that happen when you move from one slide to the next during a presentation.",
+      "id": "7"
     },
     {
       "question": "What do you understand by placeholder?",
-      "answer": "The areas enclosed by the dotted borders on the slides are called placeholders. Simply, you can say that placeholder is the enclosed areas on the slide."
+      "answer": "The areas enclosed by the dotted borders on the slides are called placeholders. Simply, you can say that placeholder is the enclosed areas on the slide.",
+      "id": "8"
     },
     {
       "question": "What is a subfolder in computer?",
-      "answer": "Subfolder is an organizational folder on a computer that is located within another folder."
+      "answer": "Subfolder is an organizational folder on a computer that is located within another folder.",
+      "id": "9"
     },
     {
       "question": "What are the main causes of OS failures?",
-      "answer": "An operating system failure can be caused by a hardware malfunction or a software crash, and it usually results in the inability of the operating system to boot."
+      "answer": "An operating system failure can be caused by a hardware malfunction or a software crash, and it usually results in the inability of the operating system to boot.",
+      "id": "10"
     },
     {
       "question": "What is the diagnostic in computer education?",
-      "answer": "A hardware diagnostic is a method of finding problems with a computer’s hardware system."
+      "answer": "A hardware diagnostic is a method of finding problems with a computer’s hardware system.",
+      "id": "11"
     },
     {
       "question": "Write down four common printer error?",
-      "answer": " Prints too Slowly,Bad Print Quality,Printer won’t print, Printer unresponsive, Paper Jams, Printing is too expensive"
+      "answer": " Prints too Slowly,Bad Print Quality,Printer won’t print, Printer unresponsive, Paper Jams, Printing is too expensive",
+      "id": "12"
     },
     {
       "question": "What does COUNTA() function do?",
       "options": "Counts cells having alphabets, Counts empty cells, Count cells having number, Count non-empty cells",
-      "answer": "D. Count non-empty cells"
+      "answer": "D. Count non-empty cells",
+      "id": "13"
     },
     {
       "question": "What are charts in MS Excel?",
-      "answer": "Chats are used to enable graphical representation of the data in MS Excel. A user can use any chart type, including Column, Bar, Line, Pie, etc by selecting an option from Insert Tab."
+      "answer": "Chats are used to enable graphical representation of the data in MS Excel. A user can use any chart type, including Column, Bar, Line, Pie, etc by selecting an option from Insert Tab.",
+      "id": "14"
     },
     {
       "question": "What is animation pane in PowerPoint?",
-      "answer": "The Animation Pane is a tool that displays the list of animated objects on your slide. It allows you to look at and manage all the effects that are on the present slide."
+      "answer": "The Animation Pane is a tool that displays the list of animated objects on your slide. It allows you to look at and manage all the effects that are on the present slide.",
+      "id": "15"
     },
     {
       "question": "When should I replace toner?",
-      "answer": "we should start paying close attention to our printer once its toner lebels reach about 10%. This means looking for those too-light print jobs or low toner alerts while regularly checking printer status pages.\nFaded Printouts: If your printouts appear faded or lighter than usual, it's often a sign that the toner cartridge is running low or needs replacement.\nVisible Toner Level: Some toner cartridges have transparent or translucent panels that allow you to visually inspect the toner level. If you can see that the toner is low or depleted, it's time to replace the cartridge.",
-      "notes": " we should start paying close attention to our printer once its toner levels reach about 10%. This means looking for those too-light print jobs or low toner alerts while regularly checking printer status pages.\nFaded Printouts: If your printouts appear faded or lighter than usual, it's often a sign that the toner cartridge is running low or needs replacement.\nVisible Toner Level: Some toner cartridges have transparent or translucent panels that allow you to visually inspect the toner level. If you can see that the toner is low or depleted, it's time to replace the cartridge."
+      "answer": "Pay attention when toner levels hit 10%. Look out for faded printouts or low toner alerts. If your prints are too light, the toner might need replacing. Some cartridges let you check toner levels visually; if it's low, it's time to replace it",
+      "id": "16"
     },
     {
       "question": "What causes print failure?",
-      "answer": "Common factors include Driver Problems, Software Issues, Hardware Failures and Overuse"
+      "answer": "Common factors include Driver Problems, Software Issues, Hardware Failures and Overuse",
+      "id": "17"
     },
     {
       "question": "How do we identify our network switch is bad?",
-      "answer": "To verify that your switch is properly working, check the LED lights located at the back panel of the device. They should be lit up to confirm that it is working. By performing a loopback test, you can also confirm that the switch is working."
+      "answer": "To verify your switch is working, check the LED lights on the back panel; they should be lit. You can also confirm functionality with a loopback test",
+      "id": "18"
     },
     {
       "question": "Write down the types of page orientation?",
-      "answer": "Landscape & Portrait."
+      "answer": "Landscape & Portrait.",
+      "id": "19"
     },
     {
       "question": "What is the short cut key to insert a page break?",
-      "answer": "Ctrl+Enter"
+      "answer": "Ctrl+Enter",
+      "id": "20"
     },
     {
       "question": "What are cells?",
-      "answer": "The area where data is stored in known as Cell."
+      "answer": "The area where data is stored in known as Cell.",
+      "id": "21"
     },
     {
       "question": "Why COUNT function use in excel?",
-      "answer": "COUNT is used to count cells containing numbers, dates, etc. any value stored as number excluding blanks."
+      "answer": "COUNT is used to count cells containing numbers, dates, etc. any value stored as number excluding blanks.",
+      "id": "22"
     },
     {
       "question": "What are the advantages of using formula in Excel sheet?",
-      "answer": "Formula makes it easy to calculate the numbers in Excel sheet. It also calculates automatically the number replaced by another number or digit. It is used to make complex calculations easy."
+      "answer": "Formula makes it easy to calculate the numbers in Excel sheet. It also calculates automatically the number replaced by another number or digit. It is used to make complex calculations easy.",
+      "id": "23"
     },
     {
       "question": "What do you understand by motion path in PowerPoint?",
-      "answer": "A motion path is a method of moving objects on a slide. PowerPoint allows its users to add motion to an object in the slide. We can add motion to an object from the animation tab by selecting an object."
+      "answer": "A motion path in PowerPoint is a way to move objects on a slide. You can add motion to an object by selecting it and using the animation tab to choose a path.",
+      "id": "24"
     },
     {
       "question": "What do you understand by trigger in context of animation?",
-      "answer": "Trigger is an action or cell it as an event that performs on the slides when clicked. It comes under the advanced animation category."
+      "answer": "Trigger is an action or cell it as an event that performs on the slides when clicked. It comes under the advanced animation category.",
+      "id": "25"
     },
     {
       "question": "What is entrance effect in MS PowerPoint?",
-      "answer": "Entrance effects control the way objects appear on your slide."
+      "answer": "Entrance effects control the way objects appear on your slide.",
+      "id": "26"
     },
     {
       "question": "In computer, GUI stands for",
-      "answer": "Graphical User Interface."
+      "answer": "Graphical User Interface.",
+      "id": "27"
     },
     {
       "question": "What is a folder in computer?",
-      "answer": "In computers, a folder is the virtual location for applications, documents, data or other sub-folders."
+      "answer": "In computers, a folder is the virtual location for applications, documents, data or other sub-folders.",
+      "id": "28"
     },
     {
       "question": "What is an Icon?",
-      "answer": "An icon is a small graphical representation of a program, feature, or file."
+      "answer": "An icon is a small graphical representation of a program, feature, or file.",
+      "id": "29"
     },
     {
       "question": "What causes boot failure on device?",
-      "answer": "The reason of boot failure our machine can’t find the operating system and therefore, is unable to boot."
+      "answer": "The reason of boot failure our machine can’t find the operating system and therefore, is unable to boot.",
+      "id": "30"
     },
     {
       "question": "What is device driver?",
-      "answer": "A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer’s operating system."
+      "answer": "A driver, or device driver, is a set of files that tells a piece of hardware how to function by communicating with a computer’s operating system.",
+      "id": "31"
     },
     {
       "question": "How do we test our Ethernet connection?",
-      "answer": "Control Panel>Network and Internet>Network Connections."
+      "answer": "Control Panel>Network and Internet>Network Connections.",
+      "id": "32"
     },
     {
       "question": "__________software packages allow the user to manipulate numbers.",
-      "answer": "Spreadsheet"
+      "answer": "Spreadsheet",
+      "id": "33"
     },
     {
       "question": "How would you format a cell?",
-      "answer": "A cell can be formatted by using the format cells options."
+      "answer": "A cell can be formatted by using the format cells options.",
+      "id": "34"
     },
     {
       "question": "Write down four words processing application Software?",
-      "answer": "i. MS Word ii. Notepad iii. Google Docs iv. Libre Office"
+      "answer": "i. MS Word ii. Notepad iii. Google Docs iv. Libre Office",
+      "id": "35"
     },
     {
-      "question": "What does the IF function in excel?",
-      "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different.",
-      "notes": "IF function checks conditions in Excel and gives results based on whether the condition is true or false."
+      "question": "What does the IF function do in excel?",
+      "answer": "The IF function in Excel checks if a condition is true or false and returns different results based on the outcome.",
+      "id": "36"
     },
     {
       "question": "What is “Exit” effect in MS Power Point?",
-      "answer": "Exit animation effects determine how animated slide objects exits from the slide area."
+      "answer": "Exit animation effects determine how animated slide objects exits from the slide area.",
+      "id": "37"
     },
     {
       "question": "What is diagnostic in computer?",
-      "answer": "A Hardware diagnostic is a method of finding problems with a computer’s hardware systems."
+      "answer": "A Hardware diagnostic is a method of finding problems with a computer’s hardware systems.",
+      "id": "38"
     },
     {
       "question": "How do we identify our network switch is bad?",
-      "answer": "To verify that your switch is properly working, check the LED lights located at the back panel of the device. They should be lit up to confirm that it is working. By performing a loopback test, you can also confirm that the switch is working."
+      "answer": "To verify that your switch is working, check the LED lights on the back panel—they should be lit. You can also perform a loopback test to confirm the switch's functionality.",
+      "id": "39"
     },
     {
       "question": "How do we test our Ethernet Connection?",
-      "answer": "i. Physical Check: Ensure the Ethernet cable is properly connected and LED lights on the device are functional.\nii. Ping Test: Use the 'ping' command in the command prompt or terminal.\niii. Network Configuration Testing."
+      "answer": "i. Physical Check: Ensure the Ethernet cable is properly connected and LED lights on the device are functional.\nii. Ping Test: Use the 'ping' command in the command prompt or terminal.\niii. Network Configuration Testing.",
+      "id": "40"
     },
     {
       "question": "What is Presentation Animation?",
-      "answer": "Presentation animation is used to make our presentations engaging and visually compelling. Animation is employed to highlight, emphasize, and illustrate important information."
+      "answer": "Presentation animation is used to make our presentations engaging and visually compelling. Animation is employed to highlight, emphasize, and illustrate important information.",
+      "id": "41"
     },
     {
       "question": "What is Ribbon?",
-      "answer": "Ribbon is a graphical user interface (GUI) present in Microsoft Office programs. It is located at the top of the program's window and provides various tabs and tools for access and functionality."
+      "answer": "Ribbon is a graphical user interface (GUI) present in Microsoft Office programs. It is located at the top of the program's window and provides various tabs and tools for access and functionality.",
+      "id": "42"
     },
     {
       "question": "What is Paper Jam?",
-      "answer": "Paper jam refers to the situation where paper in a printer or copier gets stuck, obstructing the normal flow of paper. It usually occurs when paper is improperly aligned or there are other issues with the paper feed mechanism."
+      "answer": "Paper jam refers to the situation where paper in a printer or copier gets stuck, obstructing the normal flow of paper. It usually occurs when paper is improperly aligned or there are other issues with the paper feed mechanism.",
+      "id": "43"
     },
     {
       "question": "What are main causes of OS failure?",
-      "answer": "Hardware Issues: Common causes of operating system failure include hardware failures, such as faulty hard drives, memory, etc.\nSoftware Issues: Operating system problems may arise due to issues with software, such as corrupted files, incomplete installations, etc."
+      "answer": "Hardware Issues: Common causes of operating system failure include hardware failures, such as faulty hard drives, memory, etc.\nSoftware Issues: Operating system problems may arise due to issues with software, such as corrupted files, incomplete installations, etc.",
+      "id": "44"
     },
     {
       "question": "What are the main differences between RAM and ROM?",
-      "answer": "RAM is volatile whereas ROM is non-volatile."
+      "answer": "RAM is volatile whereas ROM is non-volatile.",
+      "id": "45"
     },
     {
       "question": "What is the difference between Save and Save As?",
-      "answer": "Save and Save As differ in how they handle content. Save updates the existing content, while Save As allows saving the content with a new name or format."
+      "answer": "Save and Save As differ in how they handle content. Save updates the existing content, while Save As allows saving the content with a new name or format.",
+      "id": "46"
     },
     {
       "question": "What distinguishes a Workbook from a Worksheet?",
-      "answer": "Workbook has an extension, whereas Worksheet does not."
+      "answer": "Workbook has an extension, whereas Worksheet does not.",
+      "id": "47"
     },
     {
       "question": "Name three software used for internet browsing.",
-      "answer": "Google Chrome, Firefox, Safari, Operamini"
+      "answer": "Google Chrome, Firefox, Safari, Operamini",
+      "id": "48"
     },
     {
       "question": "List three examples each of Word Processing, Spreadsheet, and Presentation software.",
-      "answer": "Word_Processing: MS Word, Libre Office, Google Docs, Spreadsheet: MS Excel, Libre Office for Excel, Google Sheet, Presentation: MS PowerPoint, Libre Office Impress, Google Slides"
+      "answer": "Word_Processing: MS Word, Libre Office, Google Docs, Spreadsheet: MS Excel, Libre Office for Excel, Google Sheet, Presentation: MS PowerPoint, Libre Office Impress, Google Slides",
+      "id": "49"
     },
     {
       "question": "What is Mail Merge?",
-      "answer": "Mail Merge is a feature used to send personalized bulk emails. It involves merging the same content with multiple recipients, reducing manual effort."
+      "answer": "Mail Merge is a feature used to send personalized bulk emails. It involves merging the same content with multiple recipients, reducing manual effort.",
+      "id": "50"
     },
     {
       "question": "What is the purpose of Auto Fill Function?",
-      "answer": "Auto Fill Function in MS Excel automatically fills data based on patterns, making data entry and formatting easier and quicker."
+      "answer": "Auto Fill Function in MS Excel automatically fills data based on patterns, making data entry and formatting easier and quicker.",
+      "id": "51"
     },
     {
       "question": "What does Format Painter do?",
-      "answer": "Format Painter applies the same formatting from one piece of text to another."
+      "answer": "Format Painter applies the same formatting from one piece of text to another.",
+      "id": "52"
     },
     {
       "question": "What is the function of BIOS?",
-      "answer": "BIOS stands for Basic Input Output System. It handles basic functions during computer startup, such as checking hardware and initiating the boot process."
+      "answer": "BIOS stands for Basic Input Output System. It handles basic functions during computer startup, such as checking hardware and initiating the boot process.",
+      "id": "53"
     },
     {
       "question": "What is handout in PowerPoint?",
-      "answer": "A handout page in PowerPoint contains slide thumbnails on the left and notes on the right."
+      "answer": "A handout page in PowerPoint contains slide thumbnails on the left and notes on the right.",
+      "id": "54"
     },
     {
       "question": "What are Freeze panes in MS-Excel?",
-      "answer": "Freeze panes in Excel keeps a part of the worksheet visible while you scroll through the rest."
+      "answer": "Freeze panes in Excel keeps a part of the worksheet visible while you scroll through the rest.",
+      "id": "55"
     },
     {
       "question": "What is Printer toner?",
-      "answer": "Printer toner is a fine powder made of plastic particles, carbon, and coloring agents used in laser printers."
+      "answer": "Printer toner is a fine powder made of plastic particles, carbon, and coloring agents used in laser printers.",
+      "id": "56"
     },
     {
       "question": "How do you free a paper jam?",
-      "answer": "1. Remove all printer paper and reload it.\n2. If paper is stuck, gently pull it out from the middle."
+      "answer": "1. Remove all printer paper and reload it.\n2. If paper is stuck, gently pull it out from the middle.",
+      "id": "57"
     },
     {
       "question": "What is network switch?",
-      "answer": "A network switch is a device that connects multiple IT devices, such as computers, within a network."
+      "answer": "A network switch is a device that connects multiple IT devices, such as computers, within a network.",
+      "id": "58"
+    },
+    {
+      "question": "What does the IF function in Excel?",
+      "answer": "IF function is used in Excel to check whether certain conditions are true or false. If the condition is true then it will give the result accordingly and if the condition is false the result or output will be different.",
+      "id": "59"
+    },
+    {
+      "question": "What is handout in PowerPoint?",
+      "answer": "A handout page in PowerPoint contains slide thumbnails on the left and notes on the right.",
+      "id": "60"
+    },
+    {
+      "question": "What are Freeze panes in MS-Excel?",
+      "answer": "Freeze panes in Excel keeps a part of the worksheet visible while you scroll through the rest.",
+      "id": "61"
+    },
+    {
+      "question": "What is Printer toner?",
+      "answer": "Printer toner is a fine powder made of plastic particles, carbon, and coloring agents used in laser printers.",
+      "id": "62"
+    },
+    {
+      "question": "How do you free a paper jam?",
+      "answer": "1. Remove all printer paper and reload it.\n2. If paper is stuck, gently pull it out from the middle.",
+      "id": "63"
+    },
+    {
+      "question": "What is network switch?",
+      "answer": "A network switch is a device that connects multiple IT devices, such as computers, within a network.",
+      "id": "64"
+    },
+    {
+      "question": "What are the 3 virtual Video conferencing Platforms?",
+      "answer": "Zoom, Google Meet, Skype, Google Hangouts",
+      "id": "65"
+    },
+    {
+      "question": "Write down the Top 5 cloud data storage services?",
+      "answer": "Google Drive, OneDrive, Dropbox, Mega, pCloud, Google Cloud Storage, Amazon Cloud Drive",
+      "id": "66"
+    },
+    {
+      "question": "Write down 10 (Ten) Cloud Storage Services Name?",
+      "answer": "Sync.com, pCloud, Icedrive, MEGA, IDrive, OneDrive, Google Drive, Koofr, Dropbox, Box",
+      "id": "67"
+    },
+    {
+      "question": "Top 5 Most Common Computer Peripherals.",
+      "answer": "Mouse, Keyboard, Monitor, Speaker, Printer",
+      "id": "68"
+    },
+    {
+      "question": "Write down the 3 printing errors in your printer?",
+      "answer": "Paper Jam, Ink Problem, Connection Problem, Driver Problem, Connecting Cable Problem",
+      "id": "69"
+    },
+    {
+      "question": "What is Antivirus?",
+      "answer": "A computer antivirus is a software program designed to detect, prevent, and remove malicious software like malware from a computer system.",
+      "id": "70"
+    },
+    {
+      "question": "What is CC and BCC in Email?",
+      "answer": "CC stands for 'Carbon Copy' and BCC stands for 'Blind Carbon Copy'.",
+      "id": "71"
+    },
+    {
+      "question": "What is the name of 3 Network Devices?",
+      "answer": "Switch, Router, Microtick, Wireless Access Point, HUB",
+      "id": "72"
+    },
+    {
+      "question": "Name 3 Best Email Provider Names:",
+      "answer": "Gmail, Yahoo, Hotmail, Outlook",
+      "id": "73"
+    },
+    {
+      "question": "What are the 3 Examples of presentation software?",
+      "answer": "Microsoft PowerPoint, Google Slides, Prezi, Canva, Visme",
+      "id": "74"
+    },
+    {
+      "question": "What are 5 font names?",
+      "answer": "Aril, Calibri, Times New Roman, Kuro, Verdana, Vrinda, Tahoma",
+      "id": "75"
+    },
+    {
+      "question": "Name 2 Typing Application Software in Bangla.",
+      "answer": "Bijoy, Avro",
+      "id": "76"
+    },
+    {
+      "question": "What is Driver Software?",
+      "answer": "A driver provides a software interface to hardware devices, enabling operating systems to access hardware functions.",
+      "id": "77"
+    },
+    {
+      "question": "What is the use of Ethernet Port?",
+      "answer": "Ethernet ports are used to connect two or more computers for networking or to access the Internet.",
+      "id": "78"
+    },
+    {
+      "question": "Write down the 3 Antivirus names.",
+      "answer": "Avast, Avira, ESET, Kaspersky",
+      "id": "79"
+    },
+    {
+      "question": "Write down the names of 3 viruses.",
+      "answer": "Trojan, Ransomware, I Love You, Creeper, Morris Worm, Shlayer, Welchia, WannaCry, Melissa, Code Red, Conficker",
+      "id": "80"
+    },
+    {
+      "question": "What is the purpose of Antivirus?",
+      "answer": "An antivirus detects and removes viruses and other malicious software from your computer or laptop.",
+      "id": "81"
+    },
+    {
+      "question": "What are the 5 Input Devices?",
+      "answer": "Mouse, Keyboard, Microphone, Scanner, Joystick",
+      "id": "82"
+    },
+    {
+      "question": "What is CPU?",
+      "answer": "A central processing unit (CPU) is the most important processor in a computer that executes instructions of a computer program.",
+      "id": "83"
+    },
+    {
+      "question": "What is the shortcut for Replace command?",
+      "answer": "Ctrl + H",
+      "id": "84"
+    },
+    {
+      "question": "Give an example of volatile memory.",
+      "answer": "RAM",
+      "id": "85"
+    },
+    {
+      "question": "What is the difference between function and formula in Excel?",
+      "answer": "A formula is an expression that performs calculations. A function is a predefined operation that simplifies complex calculations.",
+      "id": "86"
+    },
+    {
+      "question": "Write down 'ঞ্জ' in Bijoy Unicode.",
+      "answer": "ঞ্জ = (ঞ+জ)",
+      "id": "87"
+    },
+    {
+      "question": "How do I fix printer printing error?",
+      "answer": "Unplug and restart the printer, check cables or wireless connection, reinstall the printer, install the latest drivers, clear/reset printer spooler.",
+      "id": "88"
+    },
+    {
+      "question": "What do you mean by Unicode?",
+      "answer": "Unicode is an international character encoding standard that provides a unique number for every character across languages and scripts.",
+      "id": "89"
+    },
+    {
+      "question": "What is Firmware?",
+      "answer": "Firmware is permanent software stored in ROM that ensures all hardware devices are working properly when the computer starts.",
+      "id": "90"
+    },
+    {
+      "question": "How can you remove a manual page break in Microsoft Word?",
+      "answer": "Place the cursor before the manual page break and press the Backspace or Delete key.",
+      "id": "91"
+    },
+    {
+      "question": "What does the 'Collate' option in printing settings do?",
+      "answer": "It arranges printed copies in sequential order when printing multiple copies of a document.",
+      "id": "92"
+    },
+    {
+      "question": "What is the shortcut key for creating a hyperlink?",
+      "answer": "Ctrl + K",
+      "id": "93"
+    },
+    {
+      "question": "What does GUI stand for?",
+      "answer": "Graphical User Interface",
+      "id": "94"
+    },
+    {
+      "question": "In the fourth generation of computers, which technology was used?",
+      "answer": "Very Large-Scale Integration (VLSI) circuits",
+      "id": "95"
+    },
+    {
+      "question": "What is system software?",
+      "answer": "System software manages and controls hardware, providing a platform for running application software. It includes operating systems, device drivers, and utilities for hardware interaction.",
+      "id": "96"
+    },
+    {
+      "question": "Name five video conferencing platforms.",
+      "answer": "1. Zoom\n2. Microsoft Teams\n3. Google Meet\n4. Cisco Webex\n5. Skype",
+      "id": "97"
+    },
+    {
+      "question": "Name five popular antivirus software programs.",
+      "answer": "1. Norton Antivirus\n2. McAfee Total Protection\n3. Kaspersky Anti-Virus\n4. Bitdefender Antivirus\n5. Sophos Home",
+      "id": "98"
+    },
+    {
+      "question": "What is the shortcut for making text bold in Microsoft Word?",
+      "answer": "Ctrl + B",
+      "id": "99"
+    },
+    {
+      "question": "What is the shortcut for italicizing text in Microsoft Word?",
+      "answer": "Ctrl + I",
+      "id": "100"
+    },
+    {
+      "question": "What is the shortcut for underlining text in Microsoft Word?",
+      "answer": "Ctrl + U",
+      "id": "101"
+    },
+    {
+      "question": "What is the shortcut for saving a document in Microsoft Word?",
+      "answer": "Ctrl + S",
+      "id": "102"
+    },
+    {
+      "question": "What is the shortcut for left-aligning text in Microsoft Word?",
+      "answer": "Ctrl + L",
+      "id": "103"
+    },
+    {
+      "question": "What is the shortcut for right-aligning text in Microsoft Word?",
+      "answer": "Ctrl + R",
+      "id": "104"
+    },
+    {
+      "question": "What is the shortcut for increasing the font size in Microsoft Word?",
+      "answer": "Ctrl + Shift + >",
+      "id": "105"
+    },
+    {
+      "question": "What is the shortcut for decreasing the font size in Microsoft Word?",
+      "answer": "Ctrl + Shift + <",
+      "id": "106"
+    },
+    {
+      "question": "What is the shortcut for inserting today's date in Microsoft Word?",
+      "answer": "Ctrl + ;",
+      "id": "107"
+    },
+    {
+      "question": "What is the shortcut for locking a cell in Microsoft Excel?",
+      "answer": "F4",
+      "id": "108"
+    },
+    {
+      "question": "What is the shortcut for inserting the current time in Microsoft Word?",
+      "answer": "Ctrl + Shift + ;",
+      "id": "109"
+    },
+    {
+      "question": "What is the shortcut for increasing font size by one point in Microsoft Word?",
+      "answer": "Ctrl + }",
+      "id": "110"
+    },
+    {
+      "question": "What is the shortcut for decreasing font size by one point in Microsoft Word?",
+      "answer": "Ctrl + {",
+      "id": "111"
+    },
+    {
+      "question": "What is the purpose of the =rand(para[num],line[num]) command in Microsoft Word?",
+      "answer": "It generates a random line of text.",
+      "id": "112"
+    },
+    {
+      "question": "What does F7 do in Microsoft Word?",
+      "answer": "It performs a grammar and spelling check.",
+      "id": "113"
+    },
+    {
+      "question": "What is the shortcut for centering text in Microsoft Word?",
+      "answer": "Ctrl + E",
+      "id": "114"
+    },
+    {
+      "question": "What is a cell in the context of Microsoft Excel?",
+      "answer": "A cell is a single unit in a spreadsheet where you can enter data.",
+      "id": "115"
+    },
+    {
+      "question": "What is Google Meet?",
+      "answer": "Google Meet is a video conferencing service developed by Google.",
+      "id": "116"
+    },
+    {
+      "question": "What is Google?",
+      "answer": "Google is a multinational technology company known for its search engine, among other services.",
+      "id": "117"
+    },
+    {
+      "question": "What is the difference between a function and a formula in Excel?",
+      "answer": "A formula is an expression that performs calculations, while a function is a predefined formula that performs specific calculations.",
+      "id": "118"
+    },
+    {
+      "question": "How are columns represented in Microsoft Excel?",
+      "answer": "Columns are represented by letters (A, B, C, ...).",
+      "id": "119"
+    },
+    {
+      "question": "How are rows represented in Microsoft Excel?",
+      "answer": "Rows are represented by numbers (1, 2, 3, ...).",
+      "id": "120"
+    },
+    {
+      "question": "What is the difference between etiquette and manner?",
+      "answer": "Etiquette refers to the conventional requirements of social behavior, while manner refers to a person's way of behaving or conducting themselves.",
+      "id": "121"
+    },
+    {
+      "question": "What is the difference between verbal and nonverbal communication?",
+      "answer": "Verbal communication involves spoken or written words, while nonverbal communication includes body language, gestures, and facial expressions.",
+      "id": "122"
     }
   ]
 }

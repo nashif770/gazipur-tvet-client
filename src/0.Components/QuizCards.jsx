@@ -1,16 +1,15 @@
 import React, { useContext } from "react";
-import { AuthContext } from "../0.providers/AuthProvider";
 
 const QuizCards = ({ question, id, getAnswers }) => {
-  const { user } = useContext(AuthContext);
-
   const handleOptionChange = (option) => {
     const answeredQuestion = {
+      question_id: question.id,
       question_set: question.question_set,
-      user_name: user.displayName,
       question: question.question,
       answer: option,
     };
+
+    // console.log("quiz card 12", answeredQuestion);
 
     getAnswers(answeredQuestion);
   };
@@ -18,7 +17,8 @@ const QuizCards = ({ question, id, getAnswers }) => {
   return (
     <div className="bg-gray-700 rounded-lg m-3 p-3">
       <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
-        {question?.question_set} - Question {id} : {question.question}
+        {question?.question_set}/{question.id} - Question {id} :{" "}
+        {question.question}
       </h3>
       <div className="grid grid-cols-1 gap-4">
         {question.options.map((option, index) => (

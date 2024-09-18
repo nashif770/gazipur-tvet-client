@@ -7,8 +7,8 @@ import PrivateRoute from "./PrivateRoute";
 import Tests from "../Pages/Tests/Tests";
 import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
-import History from "../Pages/History/History";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
+import SessionPlanner from "../Pages/SessonPlanner/SessionPlanner";
 
 export const router = createBrowserRouter([
   {
@@ -21,43 +21,23 @@ export const router = createBrowserRouter([
       },
       {
         path: "tests",
-        element: (
-          <PrivateRoute>
-            <Tests></Tests>
-          </PrivateRoute>
-        ),
+        element: <Tests></Tests>,
       },
       {
         path: "randomized",
-        element: (
-          <PrivateRoute>
-            <RandomizedTest></RandomizedTest>
-          </PrivateRoute>
-        ),
+        element: <RandomizedTest></RandomizedTest>,
       },
       {
         path: "answers",
-        element: (
-          <PrivateRoute>
-            <Answers></Answers>
-          </PrivateRoute>
-        ),
+        element: <Answers></Answers>,
       },
       {
         path: "shortQuestions",
-        element: (
-          <PrivateRoute>
-            <ShortQuestion></ShortQuestion>
-          </PrivateRoute>
-        ),
+        element: <ShortQuestion></ShortQuestion>,
       },
       {
-        path: "history",
-        element: (
-          <PrivateRoute>
-            <History></History>
-          </PrivateRoute>
-        ),
+        path: "sessionPlanner",
+        element: <SessionPlanner></SessionPlanner>,
       },
       {
         path: "login",

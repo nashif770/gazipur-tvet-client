@@ -16,6 +16,7 @@ const questionSets = [
   { set: "Set 12" },
   { set: "Set 13" },
   { set: "Set 14" },
+  { set: "Set 15" },
 ];
 
 const History = () => {
@@ -90,7 +91,9 @@ const History = () => {
                   {history?.resultHistory.userName}
                 </td>
                 {history.resultHistory?.result < 24 ? (
-                  <td className="py-3  text-red-400">{history.resultHistory?.result}</td>
+                  <td className="py-3  text-red-400">
+                    {history.resultHistory?.result}
+                  </td>
                 ) : (
                   <td className="py-3 ">{history.resultHistory?.result}</td>
                 )}

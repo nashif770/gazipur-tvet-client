@@ -12,6 +12,13 @@ const RandomizedTest = () => {
   const [storedUsers] = useUser();
 
   const validSets = new Set([
+    "Set 1",
+    "Set 2",
+    "Set 3",
+    "Set 4",
+    "Set 5",
+    "Set 6",
+    "Set 7",
     "Set 8",
     "Set 9",
     "Set 10",
@@ -19,6 +26,11 @@ const RandomizedTest = () => {
     "Set 12",
     "Set 13",
     "Set 14",
+    "Set 15",
+    "Set 16",
+    "Set 17",
+    "Set 18",
+    "Set 19",
   ]);
   //   console.log("Stored users", storedUsers, user)
   const filteredMCQs = mcq?.filter((question) => {

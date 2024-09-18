@@ -9,12 +9,12 @@ const ShortQuestion = () => {
     <div className="container mx-auto py-8">
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-3">
         {shortQuestions.questions?.map((question, index) => (
-          <div key={index} className="rounded-lg shadow-md p-6 bg-white">
-            <p className="text-lg font-semibold mb-2">
+          <div key={index} className="rounded-lg shadow-md p-6 bg-gray-300">
+            <p className="text-lg font-semibold mb-2 text-gray-900 ">
               {" "}
               {index + 1}. {question.question}
             </p>
-            <p className="text-gray-600">{question.answer}</p>
+            <p className="text-black">{question.answer}</p>
           </div>
         ))}
       </section>

@@ -22,14 +22,16 @@ const Navbar = () => {
       <li>
         <Link to="/shortQuestions">Short Questions</Link>
       </li>
-      <li>
-        <Link to="/history">Result History</Link>
-      </li>
+      {user && (
+        <li>
+          <Link to="/sessionPlanner">Session Creation</Link>
+        </li>
+      )}
     </>
   );
 
   return (
-<div className="navbar bg-neutral text-neutral-content shadow-lg">
+    <div className="navbar bg-neutral text-neutral-content shadow-lg">
       <div className="navbar-start flex items-center">
         <div className="dropdown mr-4">
           <button className="btn btn-ghost lg:hidden">

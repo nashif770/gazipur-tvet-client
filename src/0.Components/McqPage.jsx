@@ -2,25 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../0.providers/AuthProvider";
 import QuizCards from "./QuizCards";
 
-const McqPage = ({ questions, mainUser, testSet }) => {
+const McqPage = ({ questions }) => {
   const [answers, setAnswers] = useState([]);
-  const [currentDate, setCurrentDate] = useState(null); // State to store the current date
-
-  useEffect(() => {
-    const fetchCurrentDate = async () => {
-      try {
-        const response = await fetch("http://worldclockapi.com/api/json/utc/now");
-        const data = await response.json();
-        setCurrentDate(new Date(data.currentDateTime));
-      } catch (error) {
-        console.error("Error fetching current date:", error);
-      }
-    };
-
-    fetchCurrentDate();
-  }, []);
-
-  useEffect(() => {}, []);
 
   const getAnswers = (data) => {
     const matchIndex = answers.findIndex(
@@ -42,41 +25,19 @@ const McqPage = ({ questions, mainUser, testSet }) => {
 
   const answerSubmit = () => {
     const userConfirmed = window.confirm("Are you Sure?");
-    const answerCollection = answers?.map((answer) => answer.answer);
-    console.log("answer collection", answerCollection);
+    const answerCollection = answers?.map((answer) => ({
+      answer: answer.answer,
+      id: answer.question_id,
+    }));
     if (userConfirmed && answerCollection.length > 0) {
-      console.log("User confirmed");
-      const result = questions?.filter((question) =>
-        answerCollection.includes(question.correct_answer)
-      );
-
-      const resultHistory = {
-        result: result.length,
-        userName: mainUser?.name,
-        userEmail: mainUser?.email,
-        set: testSet,
-        createdAt: {
-          date: currentDate?.toLocaleDateString("en-US", {
-            weekday: "long",
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          }),
-          time: currentDate?.toLocaleTimeString(undefined, {
-            hour: "numeric",
-            minute: "numeric",
-            second: "numeric",
-          }),
-        },
-      };
-
-      fetch("https://gazipur-tvet-server.vercel.app/result", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ resultHistory }),
+      const result = questions?.filter((question) => {
+        const userAnswer = answerCollection.find(
+          (answer) => answer.id === question.id
+        );
+        return userAnswer && userAnswer.answer === question.correct_answer;
       });
+
+      console.log("randomized", result);
       swal({
         title: "Congrats",
         text: `You Managed to get ( ${result.length} ) correct answers`,
@@ -84,7 +45,7 @@ const McqPage = ({ questions, mainUser, testSet }) => {
         button: "Procced",
       }).then(() => {
         // Reload the page
-        // window.location.reload();
+        window.location.href = "/";
       });
     } else {
       swal({
@@ -96,9 +57,9 @@ const McqPage = ({ questions, mainUser, testSet }) => {
     }
   };
   return (
-    <div className="flex flex-col items-center md:w-full mx-auto overflow-x-auto">
-      <div className="w-full md:w-2/3 mx-auto">
-        <h2 className="text-center font-bold py-3 bg-red-500 text-white rounded-xl text-2xl mb-6">
+    <div className="flex flex-col items-center w-full mx-auto px-4 min-h-screen">
+      <div className="w-full md:w-3/4 lg:w-1/2 flex-grow">
+        <h2 className="text-center font-semibold py-4 bg-gray-100 text-gray-800 rounded-lg text-xl mb-4 shadow-sm">
           {questions.length} Questions
         </h2>
         {questions.map((question, index) => (
@@ -109,16 +70,17 @@ const McqPage = ({ questions, mainUser, testSet }) => {
             getAnswers={getAnswers}
           />
         ))}
-        {questions.length > 0 && (
-          <button
-            className="btn btn-primary w-full md:w-2/3 mx-auto my-6 py-3 rounded-lg text-lg font-semibold shadow-md transition duration-300 ease-in-out transform hover:scale-105"
-            type="submit"
-            onClick={answerSubmit}
-          >
-            Submit Answers
-          </button>
-        )}
       </div>
+
+      {questions.length > 0 && (
+        <button
+          className="w-full bg-blue-500 text-white py-3 left-0 md:w-3/4 lg:w-1/2 mx-auto rounded-none text-lg font-medium shadow-md hover:bg-blue-600 transition"
+          type="submit"
+          onClick={answerSubmit}
+        >
+          Submit Answers
+        </button>
+      )}
     </div>
   );
 };
