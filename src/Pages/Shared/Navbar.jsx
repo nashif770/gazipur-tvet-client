@@ -22,10 +22,18 @@ const Navbar = () => {
       <li>
         <Link to="/shortQuestions">Short Questions</Link>
       </li>
+      <li>
+        <Link to="/writtenTest">Written Test</Link>
+      </li>
       {user && (
-        <li>
-          <Link to="/sessionPlanner">Session Creation</Link>
-        </li>
+        <>
+          <li>
+            <Link to="/questionCreator">Question Creator</Link>
+          </li>
+          <li>
+            <Link to="/sessionPlanner">Session Creation</Link>
+          </li>
+        </>
       )}
     </>
   );

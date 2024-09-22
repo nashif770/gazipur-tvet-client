@@ -3,12 +3,14 @@ import Main from "../0.Layout/Main";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login&Registration/Login";
 import Registration from "../Pages/Login&Registration/Registration";
-import PrivateRoute from "./PrivateRoute";
 import Tests from "../Pages/Tests/Tests";
 import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
 import SessionPlanner from "../Pages/SessonPlanner/SessionPlanner";
+import QuestionCreator from "../Pages/QuestionCreator/QuestionCreator";
+import WrittenTest from "../Pages/WrittenTest/writtenTest";
+import AnswerSheet from "../Pages/WrittenTest/AnswerSheet/AnswerSheet";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +36,18 @@ export const router = createBrowserRouter([
       {
         path: "shortQuestions",
         element: <ShortQuestion></ShortQuestion>,
+      },
+      {
+        path: "writtenTest",
+        element: <WrittenTest></WrittenTest>,
+      },
+      {
+        path: "answerSheet/:setTitle",
+        element: <AnswerSheet></AnswerSheet>,
+      },
+      {
+        path: "questionCreator",
+        element: <QuestionCreator></QuestionCreator>,
       },
       {
         path: "sessionPlanner",
