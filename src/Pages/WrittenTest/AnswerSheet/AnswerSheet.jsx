@@ -4,13 +4,15 @@ import { useParams } from "react-router-dom";
 const AnswerSheet = () => {
   const { setTitle } = useParams(); // Get the title from the URL
   const [questionSet, setQuestionSet] = useState(null);
-  const [answers, setAnswers] = useState({}); // State to hold answers
+  const [answers, setAnswers] = useState([]); // Change to array for paired answers
   const [username, setUsername] = useState(""); // State for username
 
   useEffect(() => {
     const fetchQuestionSet = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/questions`);
+        const response = await fetch(
+          `https://gazipur-tvet-server.vercel.app/questions`
+        );
         const data = await response.json();
         const selectedSet = data.find((set) => set.title === setTitle);
         setQuestionSet(selectedSet);
@@ -23,26 +25,41 @@ const AnswerSheet = () => {
   }, [setTitle]);
 
   const handleAnswerChange = (index, value) => {
-    setAnswers({ ...answers, [index]: value }); // Update answers state
+    const newAnswers = [...answers];
+    newAnswers[index] = value; // Update the answer for the specific question
+    setAnswers(newAnswers);
   };
 
   const handleSubmitAnswers = async () => {
+    // Prepare answers as pairs of question and answer
+    const pairedAnswers = questionSet.selectedQuestions.map(
+      (question, index) => ({
+        question,
+        answer: answers[index] || "", // Use empty string if no answer provided
+      })
+    );
+
+    console.log("Answer Submission", pairedAnswers);
+
     // Submit answers to the backend
     try {
-      const response = await fetch(`http://localhost:5000/submitAnswers`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          title: setTitle,
-          answers,
-          username, // Include the username in the submission
-          date: new Date().toLocaleDateString(),
-          time: new Date().toLocaleTimeString(),
-          day: new Date().toLocaleString("en-US", { weekday: "long" }),
-        }),
-      });
+      const response = await fetch(
+        `https://gazipur-tvet-server.vercel.app/submitAnswers`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            title: setTitle,
+            answers: pairedAnswers, // Send paired answers
+            username, // Include the username in the submission
+            date: new Date().toLocaleDateString(),
+            time: new Date().toLocaleTimeString(),
+            day: new Date().toLocaleString("en-US", { weekday: "long" }),
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to submit answers");

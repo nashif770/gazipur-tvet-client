@@ -9,7 +9,9 @@ const WrittenTest = () => {
   useEffect(() => {
     const fetchQuestionSets = async () => {
       try {
-        const response = await fetch("http://localhost:5000/questions");
+        const response = await fetch(
+          "https://gazipur-tvet-server.vercel.app/questions"
+        );
         const data = await response.json();
         setQuestionSets(data);
       } catch (error) {

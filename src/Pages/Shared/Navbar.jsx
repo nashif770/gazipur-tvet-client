@@ -25,10 +25,16 @@ const Navbar = () => {
       <li>
         <Link to="/writtenTest">Written Test</Link>
       </li>
+      <li>
+        <Link to="/answerSets">Check Tests</Link>
+      </li>
       {user && (
         <>
           <li>
             <Link to="/questionCreator">Question Creator</Link>
+          </li>
+          <li>
+            <Link to="/answerSets">Evaluate</Link>
           </li>
           <li>
             <Link to="/sessionPlanner">Session Creation</Link>

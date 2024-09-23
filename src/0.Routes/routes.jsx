@@ -11,6 +11,8 @@ import SessionPlanner from "../Pages/SessonPlanner/SessionPlanner";
 import QuestionCreator from "../Pages/QuestionCreator/QuestionCreator";
 import WrittenTest from "../Pages/WrittenTest/writtenTest";
 import AnswerSheet from "../Pages/WrittenTest/AnswerSheet/AnswerSheet";
+import EvaluationSheet from "../Pages/WrittenTest/AnswerSets/EvaluationSheet/EvaluationSheet";
+import AnswerSets from "../Pages/WrittenTest/AnswerSets/AnswerSets";
 
 export const router = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ export const router = createBrowserRouter([
       {
         path: "answerSheet/:setTitle",
         element: <AnswerSheet></AnswerSheet>,
+      },
+      {
+        path: "answerSets",
+        element: <AnswerSets></AnswerSets>,
+      },
+      {
+        path: "evaluationSheet/:username",
+        element: <EvaluationSheet></EvaluationSheet>,
       },
       {
         path: "questionCreator",

@@ -29,7 +29,7 @@ const QuestionCreator = () => {
         const questionsOnly = selectedQuestions.map((q) => q.question);
 
         // Make an API call to send data to the backend
-        await fetch("http://localhost:5000/questions", {
+        await fetch("https://gazipur-tvet-server.vercel.app/questions", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

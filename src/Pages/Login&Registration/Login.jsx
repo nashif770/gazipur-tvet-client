@@ -41,7 +41,7 @@ const Login = () => {
         button: "Procced",
       });
     });
-    navigate(from, {replace: true})
+    navigate(from, { replace: true });
   };
 
   // const handleValidateCaptcha = (event) => {
@@ -124,7 +124,7 @@ const Login = () => {
               Create a new Account
             </Link>
           </p>
-          {/* <SocialLogin></SocialLogin> */}
+          <SocialLogin></SocialLogin>
         </div>
       </div>
     </div>
