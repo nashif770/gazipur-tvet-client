@@ -21,6 +21,33 @@ const QuestionCreator = () => {
     }
   };
 
+  // Function to randomly select remaining questions (up to 10)
+  const handleRandomSelection = () => {
+    const remainingSlots = 10 - selectedQuestions.length;
+    if (remainingSlots === 0) {
+      alert("You have already selected 10 questions.");
+      return;
+    }
+
+    const availableQuestions = shortQuestions.questions.filter(
+      (q) => !selectedQuestions.includes(q)
+    );
+
+    const shuffledQuestions = availableQuestions.sort(
+      () => 0.5 - Math.random()
+    );
+    const randomQuestions = shuffledQuestions.slice(0, remainingSlots);
+
+    setSelectedQuestions([...selectedQuestions, ...randomQuestions]);
+  };
+
+  // Auto-generate a title based on the current date
+  const autoGenerateTitle = () => {
+    const currentDate = new Date().toLocaleDateString(); // Format: MM/DD/YYYY
+    const generatedTitle = `Question Set - ${currentDate}`;
+    setTitle(generatedTitle); // Set the auto-generated title
+  };
+
   // Submit selected questions and title to the backend
   const handleSubmit = async () => {
     if (selectedQuestions.length > 0 && title.trim() !== "") {
@@ -29,7 +56,7 @@ const QuestionCreator = () => {
         const questionsOnly = selectedQuestions.map((q) => q.question);
 
         // Make an API call to send data to the backend
-        await fetch("https://gazipur-tvet-server.vercel.app/questions", {
+        await fetch("https://gazipur-tvet-server-1.onrender.com/questions", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -53,18 +80,36 @@ const QuestionCreator = () => {
       <h2 className="text-xl font-bold mb-4">Select Questions (Max 10)</h2>
 
       {/* Input field for the title of the question set */}
-      <input
-        type="text"
-        placeholder="Enter question set title (Add date)"
-        value={title}
-        onChange={(e) => setTitle(e.target.value)}
-        className="mb-4 p-2 border border-gray-400 rounded w-full"
-      />
+      <div className="flex gap-2 mb-4">
+        <input
+          type="text"
+          placeholder="Enter question set title (Add date)"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          className="p-2 border border-gray-400 rounded w-full"
+        />
+        {/* Button to auto-generate the title */}
+        <button
+          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+          onClick={autoGenerateTitle}
+        >
+          Auto-Generate Title
+        </button>
+      </div>
 
       {/* Display the number of selected questions */}
       <p className="mb-4 text-white">
         Selected Questions: {selectedQuestions.length} / 10
       </p>
+
+      {/* Button for random selection */}
+      <button
+        className="mb-4 bg-yellow-500 hover:bg-yellow-600 text-white py-2 px-4 rounded"
+        onClick={handleRandomSelection}
+        disabled={selectedQuestions.length === 10}
+      >
+        Randomly Select Remaining Questions
+      </button>
 
       <div className="grid grid-cols-1 gap-4 max-w-[600px] m-auto">
         {shortQuestions.questions?.map((question, index) => (

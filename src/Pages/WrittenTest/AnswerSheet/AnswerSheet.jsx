@@ -11,7 +11,7 @@ const AnswerSheet = () => {
     const fetchQuestionSet = async () => {
       try {
         const response = await fetch(
-          `https://gazipur-tvet-server.vercel.app/questions`
+          `https://gazipur-tvet-server-1.onrender.com/questions`
         );
         const data = await response.json();
         const selectedSet = data.find((set) => set.title === setTitle);
@@ -44,7 +44,7 @@ const AnswerSheet = () => {
     // Submit answers to the backend
     try {
       const response = await fetch(
-        `https://gazipur-tvet-server.vercel.app/submitAnswers`,
+        `https://gazipur-tvet-server-1.onrender.com/submitAnswers`,
         {
           method: "POST",
           headers: {

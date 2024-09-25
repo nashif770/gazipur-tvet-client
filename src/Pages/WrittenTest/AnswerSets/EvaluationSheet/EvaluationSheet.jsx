@@ -21,7 +21,7 @@ const EvaluationSheet = () => {
   const handleAllRatingsSubmit = async () => {
     try {
       const response = await fetch(
-        "https://gazipur-tvet-server.vercel.app/submitRatings",
+        "https://gazipur-tvet-server-1.onrender.com/submitRatings",
         {
           method: "POST",
           headers: {

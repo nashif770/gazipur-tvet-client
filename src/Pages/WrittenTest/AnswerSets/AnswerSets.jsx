@@ -17,7 +17,7 @@ const AnswerSets = () => {
     const fetchQuestionSets = async () => {
       try {
         const response = await fetch(
-          "https://gazipur-tvet-server.vercel.app/questions"
+          "https://gazipur-tvet-server-1.onrender.com/questions"
         );
         const data = await response.json();
         setQuestionSets(data);
@@ -33,7 +33,7 @@ const AnswerSets = () => {
   const fetchSubmittedAnswers = async (title) => {
     try {
       const response = await fetch(
-        "https://gazipur-tvet-server.vercel.app/submittedAnswers"
+        "https://gazipur-tvet-server-1.onrender.com/submittedAnswers"
       );
       const allAnswers = await response.json();
       // Filter answers for the selected question set title

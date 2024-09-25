@@ -28,7 +28,7 @@ const History = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://gazipur-tvet-server.vercel.app/result`
+          `https://gazipur-tvet-server-1.onrender.com/result`
         );
         const data = await response.json();
         setAllResult(data);
