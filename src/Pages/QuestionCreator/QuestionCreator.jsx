@@ -41,10 +41,16 @@ const QuestionCreator = () => {
     setSelectedQuestions([...selectedQuestions, ...randomQuestions]);
   };
 
-  // Auto-generate a title based on the current date
+  // Auto-generate a title based on the current date and time
   const autoGenerateTitle = () => {
-    const currentDate = new Date().toLocaleDateString(); // Format: MM/DD/YYYY
-    const generatedTitle = `Question Set - ${currentDate}`;
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleDateString(); // Format: MM/DD/YYYY
+    const formattedTime = currentDate.toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+    }); // Format: HH:MM AM/PM
+
+    const generatedTitle = `Question Set - ${formattedDate} ${formattedTime}`;
     setTitle(generatedTitle); // Set the auto-generated title
   };
 

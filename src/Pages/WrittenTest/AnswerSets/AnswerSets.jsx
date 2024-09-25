@@ -8,8 +8,6 @@ const AnswerSets = () => {
   const [submittedAnswers, setSubmittedAnswers] = useState([]); // List of submitted answers for the selected question set
   const { user, loading } = useContext(AuthContext);
 
-  console.log("Submitted Answers", submittedAnswers);
-
   const navigate = useNavigate(); // useNavigate hook for navigation
 
   // Fetch all question sets on component mount
@@ -20,7 +18,13 @@ const AnswerSets = () => {
           "https://gazipur-tvet-server-1.onrender.com/questions"
         );
         const data = await response.json();
-        setQuestionSets(data);
+
+        // Sort question sets by date in descending order (newest first)
+        const sortedData = data.sort(
+          (a, b) => new Date(b.createdAt) - new Date(a.createdAt)
+        );
+
+        setQuestionSets(sortedData);
       } catch (error) {
         console.error("Error fetching question sets:", error);
       }
@@ -60,23 +64,27 @@ const AnswerSets = () => {
   };
 
   return (
-    <div className="p-4 text-white max-w-4xl mx-auto">
-      <h2 className="text-3xl font-bold mb-6 text-center">Evaluation Sheet</h2>
+    <div className="p-6 text-white max-w-5xl mx-auto">
+      <h2 className="text-4xl font-bold mb-8 text-center text-gray-100">
+        Evaluation Sheet
+      </h2>
 
       {/* Step 1: Select Question Set */}
-      <h3 className="text-xl font-semibold mb-4">Select a Question Set:</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <h3 className="text-2xl font-semibold mb-6 text-gray-200">
+        Select a Question Set:
+      </h3>
+      <div className="grid grid-cols-1 gap-6 mb-10">
         {questionSets.map((set, index) => (
           <button
             key={index}
             onClick={() => handleQuestionSetSelect(set)}
-            className={`transition-all duration-300 transform mb-2 p-4 rounded-lg text-left w-full shadow-md ${
+            className={`transition-all duration-300 transform p-4 rounded-lg text-left w-full shadow-md text-gray-100 font-medium hover:scale-105 focus:scale-105 focus:outline-none focus:ring-4 ${
               selectedQuestionSet === set
-                ? "bg-blue-600 text-white scale-105"
-                : "bg-gray-800 hover:bg-gray-700 text-white"
+                ? "bg-blue-600 ring-2 ring-blue-300"
+                : "bg-gray-800 hover:bg-gray-700"
             }`}
           >
-            <h4 className="text-lg font-medium">{set.title}</h4>
+            <h4 className="text-xl">{set.title}</h4>
           </button>
         ))}
       </div>
@@ -84,7 +92,7 @@ const AnswerSets = () => {
       {/* Step 2: Display all submitted answers */}
       {selectedQuestionSet && (
         <>
-          <h3 className="text-xl font-semibold mb-4 mt-8 text-center">
+          <h3 className="text-2xl font-semibold mb-6 mt-12 text-center text-gray-100">
             Submitted Answers for {selectedQuestionSet.title}:
           </h3>
 
@@ -93,14 +101,14 @@ const AnswerSets = () => {
               No answers have been submitted yet for this question set.
             </p>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {submittedAnswers.map((answerSheet, index) => (
                 <div
                   key={index}
-                  className="bg-gray-700 rounded-lg p-4 shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
+                  className="bg-gray-800 rounded-lg p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer"
                   onClick={() => handleViewAnswers(answerSheet)} // Handle click to view answers
                 >
-                  <h4 className="text-lg font-semibold mb-2">
+                  <h4 className="text-xl font-semibold mb-2 text-gray-100">
                     Answer Set {index + 1}
                   </h4>
                   <p className="text-gray-300">

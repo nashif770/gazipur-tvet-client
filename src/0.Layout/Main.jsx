@@ -13,15 +13,30 @@ const Main = () => {
 
   return (
     <div
-      className="object-cover w-full h-full bg-cover bg-center"
+      className="min-h-screen flex flex-col"
       style={{
         backgroundImage:
           'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
-      <Navbar></Navbar>
-      <Outlet></Outlet>
-      {noHeaderFooter || <Footer></Footer>}
+      {/* Navbar will stick to the top */}
+      <header className="sticky top-0 z-50">
+        <Navbar />
+      </header>
+
+      {/* The content will stretch and take up remaining space between Navbar and Footer */}
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+
+      {/* Footer will stick to the bottom unless noHeaderFooter is true */}
+      {!noHeaderFooter && (
+        <footer className="mt-auto">
+          <Footer />
+        </footer>
+      )}
     </div>
   );
 };
