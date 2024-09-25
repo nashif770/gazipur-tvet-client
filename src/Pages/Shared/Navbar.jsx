@@ -86,7 +86,6 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navOptions}</ul>
       </div>
 
-      {/* User info and authentication options */}
       <div className="navbar-end">
         {user ? (
           <>
