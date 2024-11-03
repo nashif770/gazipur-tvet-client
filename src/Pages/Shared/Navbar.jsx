@@ -50,8 +50,8 @@ const Navbar = () => {
     <div className="navbar bg-neutral text-neutral-content shadow-lg">
       <div className="navbar-start">
         {/* Dropdown for mobile view */}
-        <div className="dropdown">
-          <button tabIndex={0} className="btn btn-ghost lg:hidden">
+        <div className="dropdown bg-white">
+          <button tabIndex={0} className="btn lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
@@ -69,7 +69,7 @@ const Navbar = () => {
           </button>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-50 p-2 shadow-lg bg-neutral-focus rounded-lg w-52"
+            className="menu menu-sm dropdown-content bg-slate-100 text-black mt-3 z-50 p-2 shadow-lg bg-base-500 rounded-lg w-52"
           >
             {navOptions}
           </ul>
@@ -77,7 +77,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <Link to="/" className="btn btn-ghost normal-case text-xl font-bold">
-          UGTI
+          TVET
         </Link>
       </div>
 

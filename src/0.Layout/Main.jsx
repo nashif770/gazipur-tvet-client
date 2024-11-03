@@ -12,15 +12,7 @@ const Main = () => {
     location.pathname.includes("registration");
 
   return (
-    <div
-      className="min-h-screen flex flex-col"
-      style={{
-        backgroundImage:
-          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
+    <div className="min-h-screen flex flex-col">
       {/* Navbar will stick to the top */}
       <header className="sticky top-0 z-50">
         <Navbar />

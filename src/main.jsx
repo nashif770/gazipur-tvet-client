@@ -15,10 +15,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <AuthProvider>
       <QueryClientProvider client={queryClient}>
         <div
-          className="mx-auto w-screen max-w-screen-xl bg-slate-400"
+          className="mx-auto w-screen max-w-screen-xl"
           style={{
-            backgroundImage:
-              'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
+            backgroundColor: "#9370DB", // Deeper lavender background color
           }}
         >
           <RouterProvider router={router} />

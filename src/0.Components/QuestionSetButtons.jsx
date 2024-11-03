@@ -30,11 +30,11 @@ const questionSets = [
 
 const QuestionSetButtons = ({ onSetSelect }) => {
   return (
-    <div className="flex m-auto flex-wrap justify-center">
+    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 p-6 max-w-6xl m-auto">
       {questionSets.map((button, index) => (
         <button
           key={index}
-          className="btn btn-primary w-full sm:w-[100px] m-2 transition duration-300 ease-in-out transform hover:scale-105"
+          className="w-full py-4 px-6 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600 transition-colors duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
           onClick={() => onSetSelect(button.set)}
         >
           {button.set}

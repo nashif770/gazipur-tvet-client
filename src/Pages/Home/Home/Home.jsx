@@ -3,13 +3,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div
-      className="relative overflow-auto h-screen bg-cover bg-center"
-      style={{
-        backgroundImage:
-          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
-      }}
-    >
+    <div className="relative overflow-auto h-screen bg-cover bg-center">
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-center p-6">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold text-white mb-6">
           Welcome to Your Test
