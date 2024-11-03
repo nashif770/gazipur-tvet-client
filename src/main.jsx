@@ -14,12 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <AuthProvider>
       <QueryClientProvider client={queryClient}>
-        <div
-          className="mx-auto w-screen max-w-screen-xl"
-          style={{
-            backgroundColor: "#9370DB", // Deeper lavender background color
-          }}
-        >
+        <div className="mx-auto w-screen max-w-screen-xl bg-slate-400">
           <RouterProvider router={router} />
         </div>
       </QueryClientProvider>

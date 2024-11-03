@@ -17,14 +17,8 @@ const Answers = () => {
   };
 
   return (
-    <div
-      className="bg-cover bg-center min-h-screen p-6 text-black"
-      style={{
-        backgroundImage:
-          'url("https://i.ibb.co/k8TMY8m/Whats-App-Image-2024-01-04-at-09-52-59-8c3b2ad2.jpg")',
-      }}
-    >
-      <div className="flex flex-wrap justify-center gap-4 mb-8">
+    <div className="bg-cover bg-center min-h-screen p-6 text-black">
+      <div className="gap-4 mb-8 flex items-center flex-col-reverse p-3">
         <QuestionSetButtons onSetSelect={getSelection} />
         <Link to="/tests">
           <button className="w-full sm:w-[150px] md:w-[200px] bg-red-600 text-white py-2 rounded-lg shadow-md hover:bg-red-700 transition">

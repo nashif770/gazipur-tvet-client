@@ -14,8 +14,6 @@ const useMCQ = () => {
     return response.json();
   });
 
-  console.log("finding dory in useMCQ Hook", mcq);
-
   return [mcq, refetch];
 };
 

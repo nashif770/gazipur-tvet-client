@@ -36,10 +36,7 @@ const Navbar = () => {
             <Link to="/questionCreator">Question Creator</Link>
           </li>
           <li>
-            <Link to="/answerSets">Evaluate</Link>
-          </li>
-          <li>
-            <Link to="/sessionPlanner">Session Creation</Link>
+            <Link to="/answerSets">Evaluation</Link>
           </li>
         </>
       )}

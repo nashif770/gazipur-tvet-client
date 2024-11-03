@@ -28,6 +28,10 @@ const WrittenTest = () => {
     fetchQuestionSets();
   }, []);
 
+  if (!questionSets) {
+    <div>Loading</div>;
+  }
+
   const handleSelectSet = (set) => {
     if (set && set.title) {
       setSelectedSet(set);
@@ -39,11 +43,14 @@ const WrittenTest = () => {
 
   return (
     <div className="p-4">
-      <h2 className="text-xl font-bold mb-4">Select a Question Set</h2>
-
+      <h2 className="text-xl font-bold mb-4 text-white text-center">
+        Select a Question Set
+      </h2>
       {/* Display a message if there are no question sets available */}
       {questionSets.length === 0 ? (
-        <p className="text-red-500">No question sets available.</p>
+        <p className="text-red-500 h-[100px] text-2xl text-center font-bold">
+          Loading...
+        </p>
       ) : (
         <div className="grid grid-cols-1 gap-4 max-w-[600px] m-auto">
           {questionSets.map((set, index) => (
