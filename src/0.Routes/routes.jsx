@@ -7,7 +7,6 @@ import Tests from "../Pages/Tests/Tests";
 import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
-import SessionPlanner from "../Pages/SessonPlanner/SessionPlanner";
 import QuestionCreator from "../Pages/QuestionCreator/QuestionCreator";
 import WrittenTest from "../Pages/WrittenTest/writtenTest";
 import AnswerSheet from "../Pages/WrittenTest/AnswerSheet/AnswerSheet";
@@ -58,10 +57,6 @@ export const router = createBrowserRouter([
       {
         path: "questionCreator",
         element: <QuestionCreator></QuestionCreator>,
-      },
-      {
-        path: "sessionPlanner",
-        element: <SessionPlanner></SessionPlanner>,
       },
       {
         path: "login",

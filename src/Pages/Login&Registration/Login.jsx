@@ -29,19 +29,18 @@ const Login = () => {
     const form = event.target;
     const email = form.email.value;
     const password = form.password.value;
-    console.log(email, password);
 
     signIn(email, password).then((result) => {
       const user = result.user;
-      console.log("sigining", user);
       swal({
         title: "Welcome",
         text: "Logged in Successfully",
         icon: "success",
         button: "Procced",
       });
+
+      navigate(from, { replace: true });
     });
-    navigate(from, { replace: true });
   };
 
   // const handleValidateCaptcha = (event) => {

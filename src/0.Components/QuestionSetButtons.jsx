@@ -4,8 +4,9 @@ import useMCQ from "../0.hooks/useMCQ";
 const QuestionSetButtons = ({ onSetSelect }) => {
   const [mcq] = useMCQ();
 
+  // Ensure mcq is an array and not undefined or null
   const uniqueQuestionSets = Array.from(
-    new Set(mcq.map((item) => item.question_set))
+    new Set((Array.isArray(mcq) ? mcq : [])?.map((item) => item.question_set))
   ).map((set) => ({ set }));
 
   return (
