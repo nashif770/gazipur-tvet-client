@@ -19,7 +19,7 @@ const Home = () => {
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-white mb-6">
           Click the links below
         </p>
-        <div className="grid grid-cols-1 gap-4 sm:gap-5 w-full max-w-md">
+        <div className="grid grid-cols-2 gap-4 sm:gap-5 w-full max-w-md">
           <div className="flex flex-col items-center bg-white rounded-md p-4">
             <a
               href="https://drive.google.com/drive/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA?usp=sharing"
@@ -28,6 +28,16 @@ const Home = () => {
               className="text-base sm:text-lg font-semibold text-blue-600 hover:underline"
             >
               Google Drive
+            </a>
+          </div>
+          <div className="flex flex-col items-center bg-white rounded-md p-4">
+            <a
+              href="https://forms.gle/5vo44MAanrWsTpXC8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-base sm:text-lg font-semibold text-blue-600 hover:underline"
+            >
+              Student Form
             </a>
           </div>
           <div className="flex flex-col items-center bg-white rounded-md p-4">
