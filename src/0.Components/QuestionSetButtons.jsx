@@ -10,11 +10,11 @@ const QuestionSetButtons = ({ onSetSelect }) => {
   ).map((set) => ({ set }));
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 p-6 max-w-6xl m-auto">
+    <div className="grid grid-cols-1 gap-6 m-auto">
       {uniqueQuestionSets.map((button, index) => (
         <button
           key={index}
-          className="w-full py-4 px-6 bg-white text-black hover:text-white font-bold rounded-lg hover:bg-cyan-600 transition-colors duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
+          className="bg-white text-black hover:text-white font-bold rounded-lg hover:bg-cyan-600 transition-colors duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
           onClick={() => onSetSelect(button.set)}
         >
           {button.set}
