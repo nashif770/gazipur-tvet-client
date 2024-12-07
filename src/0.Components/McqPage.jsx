@@ -95,7 +95,7 @@ const McqPage = ({ questions }) => {
     <div className="flex flex-col items-center w-full mx-auto px-4 min-h-screen relative">
       {/* Timer at the bottom-right, sticky */}
       <div
-        className="absolute bottom-4 right-4 bg-gray-800 text-white py-2 px-4 rounded-lg"
+        className="absolute bottom-4 right-4 bg-red-500 text-white py-2 px-4 rounded-lg"
         style={{
           position: "fixed", // Make the timer sticky
           bottom: "10px", // Pin to the bottom of the screen
