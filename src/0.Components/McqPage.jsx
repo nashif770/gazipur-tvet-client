@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { AuthContext } from "../0.providers/AuthProvider";
 import QuizCards from "./QuizCards";
+import swal from "sweetalert"; // Assuming you're using SweetAlert for alerts
 
 const McqPage = ({ questions }) => {
   const [answers, setAnswers] = useState([]);
@@ -47,18 +48,23 @@ const McqPage = ({ questions }) => {
       return () => clearInterval(interval); // Cleanup the interval on component unmount
     } else if (timer === 0) {
       // When timer reaches 0, automatically submit the form
-      answerSubmit();
+      answerSubmit(true); // Call answerSubmit with 'true' to trigger prompt
     }
   }, [timer, startTime]); // Run this effect when the timer or startTime changes
 
-  const answerSubmit = () => {
-    const userConfirmed = window.confirm("Are you sure you want to submit?");
+  const answerSubmit = (autoSubmit = false) => {
+    // If autoSubmit is true, we won't show the confirmation prompt, just submit the answers
+    if (!autoSubmit) {
+      const userConfirmed = window.confirm("Are you sure you want to submit?");
+      if (!userConfirmed) return; // If the user doesn't confirm, return early
+    }
+
     const answerCollection = answers?.map((answer) => ({
       answer: answer.answer,
       id: answer.question_id,
     }));
 
-    if (userConfirmed && answerCollection.length > 0) {
+    if (answerCollection.length > 0) {
       const result = questions?.filter((question) => {
         const userAnswer = answerCollection.find(
           (answer) => answer.id === question.id
@@ -72,7 +78,7 @@ const McqPage = ({ questions }) => {
         icon: "success",
         button: "Proceed",
       }).then(() => {
-        // Reload the page
+        // Reload the page or redirect
         window.location.href = "/";
       });
     } else {
@@ -119,7 +125,7 @@ const McqPage = ({ questions }) => {
         <button
           className="w-full bg-blue-500 text-white py-3 left-0 md:w-3/4 lg:w-1/2 mx-auto rounded-none text-lg font-medium shadow-md hover:bg-blue-600 transition"
           type="submit"
-          onClick={answerSubmit}
+          onClick={() => answerSubmit()} // Trigger confirmation prompt on button click
         >
           Submit Answers
         </button>
