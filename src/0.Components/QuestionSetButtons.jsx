@@ -10,7 +10,7 @@ const QuestionSetButtons = ({ onSetSelect }) => {
   ).map((set) => ({ set }));
 
   return (
-    <div className="grid grid-cols-1 gap-6 m-auto">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 m-auto h-48 overflow-y-auto">
       {uniqueQuestionSets.map((button, index) => (
         <button
           key={index}
