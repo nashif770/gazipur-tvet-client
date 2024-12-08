@@ -7,11 +7,7 @@ import Tests from "../Pages/Tests/Tests";
 import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
-import QuestionCreator from "../Pages/QuestionCreator/QuestionCreator";
-import WrittenTest from "../Pages/WrittenTest/writtenTest";
-import AnswerSheet from "../Pages/WrittenTest/AnswerSheet/AnswerSheet";
-import EvaluationSheet from "../Pages/WrittenTest/AnswerSets/EvaluationSheet/EvaluationSheet";
-import AnswerSets from "../Pages/WrittenTest/AnswerSets/AnswerSets";
+import Written from "../Pages/ShortQuestion/writtenAnswers/Written";
 
 export const router = createBrowserRouter([
   {
@@ -39,24 +35,8 @@ export const router = createBrowserRouter([
         element: <ShortQuestion></ShortQuestion>,
       },
       {
-        path: "writtenTest",
-        element: <WrittenTest></WrittenTest>,
-      },
-      {
-        path: "answerSheet/:setTitle",
-        element: <AnswerSheet></AnswerSheet>,
-      },
-      {
-        path: "answerSets",
-        element: <AnswerSets></AnswerSets>,
-      },
-      {
-        path: "evaluationSheet/:username",
-        element: <EvaluationSheet></EvaluationSheet>,
-      },
-      {
-        path: "questionCreator",
-        element: <QuestionCreator></QuestionCreator>,
+        path: "written",
+        element: <Written></Written>,
       },
       {
         path: "login",
