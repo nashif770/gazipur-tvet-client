@@ -47,7 +47,7 @@ const ShortQuestion = () => {
         {filteredQuestions?.map((question, index) => (
           <div key={index} className="rounded-lg shadow-md p-6 bg-gray-300">
             <p className="text-lg font-semibold mb-2 text-gray-900">
-              {index + 1}. {question.question}
+              {question.id}. {question.question}
             </p>
             <p className="text-black">{question.answer}</p>
           </div>

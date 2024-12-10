@@ -1,0 +1,1846 @@
+[
+  {
+    "question": "What is the difference between verbal and nonverbal communication?",
+    "answer": "Verbal communication involves spoken or written words, while nonverbal communication includes body language, gestures, and facial expressions.",
+    "id": "122",
+    "keywords": [
+      "verbal communication",
+      "nonverbal communication",
+      "spoken words",
+      "written words",
+      "body language",
+      "gestures",
+      "facial expressions"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the purpose of performing backups at regular intervals?",
+    "answer": "To prevent data loss in case of system failure or other issues.",
+    "id": "123",
+    "keywords": ["backups", "data loss", "system failure"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Why should all open applications be closed before shutting down the computer?",
+    "answer": "To ensure that no data is lost and the system shuts down properly.",
+    "id": "124",
+    "keywords": ["open applications", "data loss", "shut down"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the Standard Operating Procedure (SOP) for shutting down a personal computer?",
+    "answer": "Follow a proper shutdown procedure, including closing applications and turning off peripherals.",
+    "id": "125",
+    "keywords": [
+      "Standard Operating Procedure",
+      "shut down",
+      "applications",
+      "peripherals"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "List two ergonomic requirements for setting up a workstation.",
+    "answer": "Screen position and chair height adjustment.",
+    "id": "126",
+    "keywords": ["ergonomic", "workstation", "screen position", "chair height"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "How can you avoid radiation from computer screens?",
+    "answer": "By using anti-glare screens and maintaining a safe distance from the screen.",
+    "id": "127",
+    "keywords": ["radiation", "computer screens", "anti-glare", "distance"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the importance of maintaining proper chair height and seat adjustment?",
+    "answer": "To ensure good posture and reduce strain on the back and neck.",
+    "id": "128",
+    "keywords": [
+      "chair height",
+      "seat adjustment",
+      "good posture",
+      "back",
+      "neck"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be considered when adjusting workstation height and layout?",
+    "answer": "Ensure that the screen is at eye level, and the keyboard and mouse are within comfortable reach.",
+    "id": "129",
+    "keywords": [
+      "workstation height",
+      "layout",
+      "screen position",
+      "eye level",
+      "keyboard",
+      "mouse"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Why is it important to take exercise breaks during work?",
+    "answer": "To prevent fatigue, improve circulation, and reduce the risk of repetitive strain injuries.",
+    "id": "130",
+    "keywords": [
+      "exercise breaks",
+      "fatigue",
+      "circulation",
+      "repetitive strain injuries"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "How do rest periods help in maintaining productivity at work?",
+    "answer": "They reduce mental fatigue and prevent physical strain, helping maintain focus and efficiency.",
+    "id": "131",
+    "keywords": [
+      "rest periods",
+      "productivity",
+      "mental fatigue",
+      "physical strain",
+      "focus",
+      "efficiency"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the recommended practice for Visual Display Unit (VDU) eye testing?",
+    "answer": "Regular eye exams to detect any vision problems caused by prolonged screen use.",
+    "id": "132",
+    "keywords": ["VDU", "eye testing", "eye exams", "vision problems"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Name two common applications used in office environments.",
+    "answer": "WordPad and Media Player.",
+    "id": "133",
+    "keywords": [
+      "applications",
+      "office environment",
+      "WordPad",
+      "Media Player"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the difference between a local user account and a Microsoft account?",
+    "answer": "A local user account is specific to the computer, while a Microsoft account allows access to online services and synchronization across devices.",
+    "id": "134",
+    "keywords": [
+      "local user account",
+      "Microsoft account",
+      "online services",
+      "synchronization"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What are the file attributes that need to be managed?",
+    "answer": "File dates and size.",
+    "id": "135",
+    "keywords": ["file attributes", "file dates", "file size"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Name three types of appropriate media for file storage.",
+    "answer": "CDs/DVDs, external hard drives, and USB flash drives.",
+    "id": "136",
+    "keywords": [
+      "file storage",
+      "CDs",
+      "DVDs",
+      "external hard drives",
+      "USB flash drives"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Why is it important to follow Occupational Health & Safety (OSH) guidelines in the workplace?",
+    "answer": "To ensure the safety and well-being of employees and prevent workplace injuries.",
+    "id": "137",
+    "keywords": [
+      "OSH guidelines",
+      "workplace safety",
+      "employee well-being",
+      "workplace injuries"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What are the statutory requirements related to the use of computing equipment?",
+    "answer": "Compliance with safety standards and proper usage guidelines to prevent accidents.",
+    "id": "138",
+    "keywords": [
+      "statutory requirements",
+      "computing equipment",
+      "safety standards",
+      "usage guidelines"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the naming convention for files and folders, and why is it important?",
+    "answer": "Consistent and descriptive naming to help easily identify and organize files.",
+    "id": "139",
+    "keywords": [
+      "naming convention",
+      "files",
+      "folders",
+      "organization",
+      "identification"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "How should desktop items be organized to maintain an efficient workspace?",
+    "answer": "Group related items and minimize clutter to improve productivity and reduce distractions.",
+    "id": "140",
+    "keywords": [
+      "desktop organization",
+      "workspace",
+      "productivity",
+      "minimize clutter"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What are some common safety hazards in an IT workplace?",
+    "answer": "Electrical hazards, improper ergonomics, and tripping hazards from cables.",
+    "id": "141",
+    "keywords": [
+      "safety hazards",
+      "IT workplace",
+      "electrical hazards",
+      "ergonomics",
+      "tripping hazards"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Why is it essential to maintain a clean and orderly workplace and equipment?",
+    "answer": "To ensure safety, improve efficiency, and prolong the life of equipment.",
+    "id": "142",
+    "keywords": [
+      "clean workplace",
+      "orderly workplace",
+      "equipment",
+      "safety",
+      "efficiency"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the purpose of a footrest in an ergonomic workstation setup?",
+    "answer": "To support proper posture and reduce strain on the legs and lower back.",
+    "id": "143",
+    "keywords": [
+      "footrest",
+      "ergonomic workstation",
+      "posture",
+      "strain",
+      "legs",
+      "lower back"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Why is lighting important for an ergonomic workstation?",
+    "answer": "To reduce eye strain and improve visibility, ensuring a comfortable work environment.",
+    "id": "144",
+    "keywords": [
+      "lighting",
+      "ergonomic workstation",
+      "eye strain",
+      "visibility",
+      "work environment"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What are the benefits of minimizing noise in the workplace?",
+    "answer": "To reduce distractions and improve focus and productivity.",
+    "id": "145",
+    "keywords": [
+      "minimizing noise",
+      "workplace",
+      "distractions",
+      "focus",
+      "productivity"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be included in a workstation’s layout for better ergonomics?",
+    "answer": "Proper screen positioning, keyboard and mouse placement, and sufficient space for movement.",
+    "id": "146",
+    "keywords": [
+      "workstation layout",
+      "ergonomics",
+      "screen position",
+      "keyboard",
+      "mouse",
+      "space"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "How often should you take breaks during work?",
+    "answer": "Regular breaks should be taken every 30-60 minutes to avoid physical and mental fatigue.",
+    "id": "147",
+    "keywords": ["breaks", "work", "mental fatigue", "physical fatigue"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What type of PPE (Personal Protective Equipment) might be required in an IT workplace?",
+    "answer": "Wrist supports, anti-glare glasses, or ear protection if necessary.",
+    "id": "148",
+    "keywords": [
+      "PPE",
+      "IT workplace",
+      "wrist supports",
+      "anti-glare glasses",
+      "ear protection"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the purpose of organizing files and folders on a computer?",
+    "answer": "To improve accessibility, reduce time spent searching for files, and ensure efficient file management.",
+    "id": "149",
+    "keywords": ["organizing files", "folders", "accessibility", "efficiency"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Why is it important to use proper software for file backup?",
+    "answer": "To ensure data is securely backed up and can be easily restored in case of loss.",
+    "id": "150",
+    "keywords": [
+      "file backup",
+      "software",
+      "data security",
+      "data restoration"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is the benefit of using cloud storage for file backups?",
+    "answer": "It provides remote access, data security, and protection against hardware failure.",
+    "id": "151",
+    "keywords": [
+      "cloud storage",
+      "file backups",
+      "remote access",
+      "data security",
+      "hardware failure"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What should you do if you encounter a safety hazard at work?",
+    "answer": "Report it immediately to a supervisor and follow safety protocols to mitigate the risk.",
+    "id": "152",
+    "keywords": [
+      "safety hazard",
+      "workplace",
+      "report",
+      "supervisor",
+      "safety protocols"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What are safe work practices when preparing a document?",
+    "answer": "Following workplace safety guidelines, ensuring proper ergonomics, and using protective equipment.",
+    "id": "153",
+    "keywords": [
+      "safe work practices",
+      "document preparation",
+      "ergonomics",
+      "protective equipment"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Why is it important to check software before starting a document preparation job?",
+    "answer": "To ensure the required software is operational and compatible with the task at hand.",
+    "id": "154",
+    "keywords": [
+      "check software",
+      "document preparation",
+      "compatibility",
+      "operational"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What should be done to ensure the availability of Bangla and English fonts?",
+    "answer": "Verify that the necessary fonts are installed and properly configured for typing in both languages.",
+    "id": "155",
+    "keywords": [
+      "Bangla fonts",
+      "English fonts",
+      "availability",
+      "font installation"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you identify the type of document to prepare?",
+    "answer": "By understanding the job requirements and the document's purpose, such as a CV, report, or proposal.",
+    "id": "156",
+    "keywords": [
+      "identify document type",
+      "job requirements",
+      "CV",
+      "report",
+      "proposal"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are the steps to create a new document?",
+    "answer": "Open the word processing software, choose to create a new document from scratch or a template.",
+    "id": "157",
+    "keywords": [
+      "create new document",
+      "word processing software",
+      "template",
+      "scratch"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are the options available for setting up the Word ribbon display?",
+    "answer": "Adjust the ribbon display to show or hide certain tabs and features according to the requirements.",
+    "id": "158",
+    "keywords": ["Word ribbon", "display options", "adjust ribbon", "tabs"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Why is error-free typing important when creating a document?",
+    "answer": "To ensure professionalism, accuracy, and clarity in the document's content.",
+    "id": "159",
+    "keywords": ["error-free typing", "professionalism", "accuracy", "clarity"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are the key page layout settings in document creation?",
+    "answer": "Set page orientation, size, margins, and other layout elements according to the document's specifications.",
+    "id": "160",
+    "keywords": [
+      "page layout",
+      "document creation",
+      "orientation",
+      "size",
+      "margins"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you insert content into a document?",
+    "answer": "By typing, inserting tables, images, shapes, or other elements based on the job's requirements.",
+    "id": "161",
+    "keywords": ["insert content", "document", "tables", "images", "shapes"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What types of breaks can be applied in a document?",
+    "answer": "Page breaks, column breaks, and section breaks to control the flow of content.",
+    "id": "162",
+    "keywords": [
+      "document breaks",
+      "page breaks",
+      "column breaks",
+      "section breaks"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the purpose of performing a spell check in English?",
+    "answer": "To identify and correct spelling errors in the document.",
+    "id": "163",
+    "keywords": ["spell check", "English", "spelling errors", "correct"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you format a document as per instructions?",
+    "answer": "By adjusting the font, alignment, margins, and other elements based on the provided guidelines.",
+    "id": "164",
+    "keywords": [
+      "format document",
+      "instructions",
+      "font",
+      "alignment",
+      "margins"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are references in a document, and why are they important?",
+    "answer": "References such as footnotes, endnotes, and bibliographies provide citations for external sources used in the document.",
+    "id": "165",
+    "keywords": [
+      "references",
+      "document",
+      "footnotes",
+      "endnotes",
+      "bibliographies"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you save a document in a specific directory or destination?",
+    "answer": "Select 'Save As' and choose the appropriate folder and file format to save the document.",
+    "id": "166",
+    "keywords": ["save document", "directory", "destination", "Save As"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is track change mode, and how is it used?",
+    "answer": "Track change mode highlights changes made to a document, helping with document review and editing.",
+    "id": "167",
+    "keywords": [
+      "track change mode",
+      "document review",
+      "editing",
+      "highlight changes"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Why would you insert comments into a document?",
+    "answer": "To provide feedback, suggestions, or additional information during the review process.",
+    "id": "168",
+    "keywords": ["insert comments", "document", "feedback", "review process"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How is a document protected using a password?",
+    "answer": "By setting a password in the document's settings to prevent unauthorized access or editing.",
+    "id": "169",
+    "keywords": [
+      "document protection",
+      "password",
+      "unauthorized access",
+      "editing"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What should be done after finalizing a document?",
+    "answer": "Save the document, ensuring all changes are applied and properly stored.",
+    "id": "170",
+    "keywords": ["finalize document", "save document", "changes", "store"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the first step in printing a document?",
+    "answer": "Select the appropriate printer and confirm the print settings.",
+    "id": "171",
+    "keywords": ["print document", "select printer", "print settings"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Why is checking print preview important?",
+    "answer": "It helps ensure that the document will print as intended, with the correct layout and formatting.",
+    "id": "172",
+    "keywords": ["print preview", "document", "layout", "formatting"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you transfer a document using storage media?",
+    "answer": "Copy the document to a USB drive or other storage media for easy transfer.",
+    "id": "173",
+    "keywords": ["transfer document", "storage media", "USB drive", "copy"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the role of word processing software in document creation?",
+    "answer": "It allows users to create, format, and edit documents efficiently.",
+    "id": "174",
+    "keywords": [
+      "word processing software",
+      "document creation",
+      "format",
+      "edit"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is a CV, and how is it prepared using word processing software?",
+    "answer": "A CV (Curriculum Vitae) is a personal document listing skills, experience, and education. It is created using a word processor with a professional layout.",
+    "id": "175",
+    "keywords": [
+      "CV",
+      "word processing software",
+      "skills",
+      "experience",
+      "education"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are mail merge documents?",
+    "answer": "Documents that combine a template with data from a list, such as letters or emails sent to multiple recipients.",
+    "id": "176",
+    "keywords": [
+      "mail merge",
+      "documents",
+      "template",
+      "data",
+      "multiple recipients"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are some common page layout options in word processors?",
+    "answer": "Page orientation, page size, margins, headers/footers, and page numbers.",
+    "id": "177",
+    "keywords": [
+      "page layout",
+      "word processors",
+      "orientation",
+      "size",
+      "margins",
+      "headers",
+      "footers"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are table formatting options in a word processor?",
+    "answer": "Adjusting rows, columns, merging/splitting cells, aligning text, and repeating header rows.",
+    "id": "178",
+    "keywords": [
+      "table formatting",
+      "word processor",
+      "rows",
+      "columns",
+      "cells",
+      "align text"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Why are symbols and equations important in documents?",
+    "answer": "They provide additional clarity, especially in technical or scientific documents, by representing formulas, mathematical expressions, or other special characters.",
+    "id": "179",
+    "keywords": [
+      "symbols",
+      "equations",
+      "documents",
+      "technical",
+      "scientific",
+      "formulas"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What file formats are commonly used for saving documents?",
+    "answer": ".doc, .docx, .pdf, .rtf, .txt, .dot, and .dotx are some commonly used formats.",
+    "id": "180",
+    "keywords": ["file formats", "saving documents", ".doc", ".pdf", ".txt"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How do you select the correct paper size when printing a document?",
+    "answer": "Adjust the printer settings to match the required paper size, such as A4 or Letter.",
+    "id": "181",
+    "keywords": ["paper size", "printer settings", "A4", "Letter"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the significance of using storage media for document transfer?",
+    "answer": "It enables easy and portable transfer of documents between devices or locations.",
+    "id": "182",
+    "keywords": [
+      "storage media",
+      "document transfer",
+      "portable",
+      "devices",
+      "locations"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the purpose of consolidating data in a spreadsheet?",
+    "answer": "To combine data from multiple ranges or sheets into a single summary or report.",
+    "id": "183",
+    "keywords": [
+      "consolidating data",
+      "spreadsheet",
+      "combine",
+      "summary",
+      "report"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What does the 'Group' function do in spreadsheet software?",
+    "answer": "It allows you to combine rows or columns for easier manipulation and analysis.",
+    "id": "184",
+    "keywords": [
+      "Group function",
+      "spreadsheet",
+      "combine rows",
+      "combine columns",
+      "manipulation",
+      "analysis"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is the use of 'Ungroup' in spreadsheets?",
+    "answer": "To separate previously grouped rows or columns back into individual elements.",
+    "id": "185",
+    "keywords": [
+      "Ungroup",
+      "spreadsheet",
+      "separate",
+      "grouped rows",
+      "grouped columns"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How is a table used in spreadsheet software?",
+    "answer": "A table organizes data into rows and columns, making it easier to analyze and sort.",
+    "id": "186",
+    "keywords": [
+      "table",
+      "spreadsheet",
+      "organize data",
+      "rows",
+      "columns",
+      "analyze",
+      "sort"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is a Pivot Table, and why is it useful?",
+    "answer": "A Pivot Table summarizes and analyzes large datasets by rearranging and aggregating data.",
+    "id": "187",
+    "keywords": [
+      "Pivot Table",
+      "summarize data",
+      "analyze data",
+      "datasets",
+      "rearrange",
+      "aggregate"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How do you insert a hyperlink in a spreadsheet?",
+    "answer": "Use the 'Insert' menu to add a hyperlink that links to a website, file, or location within the document.",
+    "id": "188",
+    "keywords": [
+      "insert hyperlink",
+      "spreadsheet",
+      "website",
+      "file",
+      "location"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is a column chart, and when would you use it?",
+    "answer": "A column chart displays data using vertical bars, often used to compare quantities across categories.",
+    "id": "189",
+    "keywords": [
+      "column chart",
+      "spreadsheet",
+      "vertical bars",
+      "compare",
+      "quantities",
+      "categories"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How is a line chart different from a column chart?",
+    "answer": "A line chart displays data trends over time using a line, whereas a column chart uses bars for comparison.",
+    "id": "190",
+    "keywords": [
+      "line chart",
+      "column chart",
+      "data trends",
+      "over time",
+      "bars",
+      "comparison"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "When is a pie chart most useful in a spreadsheet?",
+    "answer": "A pie chart is useful for displaying proportions and percentages of a whole.",
+    "id": "191",
+    "keywords": [
+      "pie chart",
+      "spreadsheet",
+      "proportions",
+      "percentages",
+      "whole"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is a bar chart used for in data presentation?",
+    "answer": "A bar chart uses horizontal bars to compare quantities across different categories.",
+    "id": "192",
+    "keywords": [
+      "bar chart",
+      "data presentation",
+      "horizontal bars",
+      "compare",
+      "quantities",
+      "categories"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What does setting the print area in Excel do?",
+    "answer": "It defines the specific part of the worksheet to be printed.",
+    "id": "193",
+    "keywords": ["print area", "Excel", "worksheet", "define", "printed"],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is the purpose of 'Rows to repeat at Top' in print settings?",
+    "answer": "It ensures that the top row (usually headers) appears on every printed page.",
+    "id": "194",
+    "keywords": [
+      "Rows to repeat at Top",
+      "print settings",
+      "top row",
+      "headers",
+      "printed page"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How do you set 'Columns to repeat to Left' in Excel?",
+    "answer": "This ensures that specific columns (e.g., categories) are repeated on every page when printed.",
+    "id": "195",
+    "keywords": [
+      "Columns to repeat to Left",
+      "Excel",
+      "print settings",
+      "columns",
+      "repeated"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is Page Order in print settings?",
+    "answer": "Page Order determines the sequence in which pages are printed, either top-to-bottom or left-to-right.",
+    "id": "196",
+    "keywords": [
+      "Page Order",
+      "print settings",
+      "sequence",
+      "pages",
+      "top-to-bottom",
+      "left-to-right"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "Why is selecting the correct printer important in print settings?",
+    "answer": "To ensure the document is sent to the correct printer with the appropriate settings.",
+    "id": "197",
+    "keywords": [
+      "select printer",
+      "print settings",
+      "document",
+      "appropriate settings"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What are some options for configuring print layout?",
+    "answer": "You can set page orientation, margins, paper size, and print quality.",
+    "id": "198",
+    "keywords": [
+      "configuring print layout",
+      "page orientation",
+      "margins",
+      "paper size",
+      "print quality"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What does the 'Single/Both side Print' option mean?",
+    "answer": "It specifies whether the document will be printed on one side or both sides of the paper.",
+    "id": "199",
+    "keywords": [
+      "Single/Both side Print",
+      "document",
+      "printed sides",
+      "paper"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is the difference between 'Odd/Even Page Print' in printing?",
+    "answer": "Odd/Even Page Print refers to printing only odd-numbered or even-numbered pages in a document.",
+    "id": "200",
+    "keywords": [
+      "Odd/Even Page Print",
+      "printing",
+      "odd-numbered pages",
+      "even-numbered pages"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What does 'Collated' mean in printing?",
+    "answer": "Collated printing ensures that multiple copies of a document are ordered correctly, with all pages in sequence.",
+    "id": "201",
+    "keywords": [
+      "Collated",
+      "printing",
+      "multiple copies",
+      "order",
+      "sequence"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are some common page orientation options in Excel?",
+    "answer": "Portrait (vertical) and landscape (horizontal) orientations.",
+    "id": "202",
+    "keywords": ["page orientation", "Excel", "portrait", "landscape"],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How do you adjust the paper size for printing in Excel?",
+    "answer": "Select the paper size that matches your printing needs, such as A4, Letter, or custom sizes.",
+    "id": "203",
+    "keywords": [
+      "adjust paper size",
+      "printing",
+      "Excel",
+      "A4",
+      "Letter",
+      "custom sizes"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What are the different margin options in Excel print settings?",
+    "answer": "Top, bottom, left, and right margins can be adjusted to control the spacing around the document.",
+    "id": "204",
+    "keywords": [
+      "margin options",
+      "Excel",
+      "print settings",
+      "top margin",
+      "bottom margin",
+      "left margin",
+      "right margin"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What does 'Page Per Sheet' mean in printing settings?",
+    "answer": "This option allows you to print multiple pages on a single sheet of paper.",
+    "id": "205",
+    "keywords": [
+      "Page Per Sheet",
+      "printing",
+      "settings",
+      "multiple pages",
+      "single sheet"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What types of storage media are used to transfer documents?",
+    "answer": "USB pen drives, portable hard drives, and optical disks are commonly used for storing and transferring documents.",
+    "id": "206",
+    "keywords": [
+      "storage media",
+      "transfer documents",
+      "USB pen drives",
+      "portable hard drives",
+      "optical disks"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "How do you set page orientation in a document?",
+    "answer": "Choose between portrait (vertical) or landscape (horizontal) orientation under the page layout settings.",
+    "id": "207",
+    "keywords": [
+      "set page orientation",
+      "document",
+      "portrait",
+      "landscape",
+      "page layout"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What are the different paper size options available in Excel?",
+    "answer": "Common paper sizes include A4, Letter, Legal, and custom sizes.",
+    "id": "208",
+    "keywords": [
+      "paper size options",
+      "Excel",
+      "A4",
+      "Letter",
+      "Legal",
+      "custom sizes"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "How do you manage margins in Excel?",
+    "answer": "Adjust the top, bottom, left, and right margins in the Page Layout menu to control the spacing around the content.",
+    "id": "209",
+    "keywords": [
+      "manage margins",
+      "Excel",
+      "Page Layout",
+      "top margin",
+      "bottom margin",
+      "left margin",
+      "right margin"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "Why are header and footer settings important in document formatting?",
+    "answer": "Headers and footers provide consistency and can contain important information such as titles, page numbers, or document metadata.",
+    "id": "210",
+    "keywords": [
+      "header",
+      "footer",
+      "document formatting",
+      "consistency",
+      "titles",
+      "page numbers"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the role of page numbers in document formatting?",
+    "answer": "Page numbers help readers navigate through the document, particularly in longer files.",
+    "id": "211",
+    "keywords": [
+      "page numbers",
+      "document formatting",
+      "navigate",
+      "long documents"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How are columns managed in document layout?",
+    "answer": "Columns help organize text into distinct sections for easier reading, particularly in reports or newsletters.",
+    "id": "212",
+    "keywords": [
+      "columns",
+      "document layout",
+      "organize text",
+      "sections",
+      "reading",
+      "reports",
+      "newsletters"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What software is commonly used to create presentations?",
+    "answer": "Microsoft PowerPoint",
+    "id": "213",
+    "keywords": ["presentation software", "Microsoft PowerPoint"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the first step in creating a presentation?",
+    "answer": "Create a new presentation file",
+    "id": "214",
+    "keywords": ["first step", "create", "presentation file"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which layout option is used to add a title to a slide?",
+    "answer": "Title layout",
+    "id": "215",
+    "keywords": ["layout option", "add title", "slide"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What type of content can be inserted into a slide?",
+    "answer": "Text, images, charts, videos",
+    "id": "216",
+    "keywords": [
+      "content",
+      "insert",
+      "slide",
+      "text",
+      "images",
+      "charts",
+      "videos"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the purpose of slide transitions?",
+    "answer": "To apply effects between slides",
+    "id": "217",
+    "keywords": ["slide transitions", "apply effects", "slides"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What file format is used for saving presentations?",
+    "answer": ".pptx",
+    "id": "218",
+    "keywords": ["file format", "save", "presentations", ".pptx"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which of the following is a presentation software?",
+    "answer": "Microsoft PowerPoint",
+    "id": "219",
+    "keywords": ["presentation software", "Microsoft PowerPoint"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the function of slide master?",
+    "answer": "To set layout and design for all slides",
+    "id": "220",
+    "keywords": ["slide master", "function", "layout", "design"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is used to customize the background of a slide?",
+    "answer": "Background style",
+    "id": "221",
+    "keywords": ["customize", "background", "slide", "style"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the purpose of animations in a presentation?",
+    "answer": "To add movement effects to text and objects",
+    "id": "222",
+    "keywords": [
+      "animations",
+      "presentation",
+      "movement effects",
+      "text",
+      "objects"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which tool is used to insert a picture into a presentation?",
+    "answer": "Insert picture option",
+    "id": "223",
+    "keywords": ["tool", "insert picture", "presentation"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the default extension for a PowerPoint presentation?",
+    "answer": ".pptx",
+    "id": "224",
+    "keywords": ["default extension", "PowerPoint presentation", ".pptx"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which view allows you to see all slides in a presentation at once?",
+    "answer": "Slide sorter view",
+    "id": "225",
+    "keywords": ["view", "all slides", "presentation", "slide sorter"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the function of the Slide Master?",
+    "answer": "To customize the layout of all slides",
+    "id": "226",
+    "keywords": ["Slide Master", "customize", "layout", "all slides"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "How do you apply an effect between slides?",
+    "answer": "Use a slide transition",
+    "id": "227",
+    "keywords": ["apply effect", "between slides", "slide transition"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which is used to add a video to a slide?",
+    "answer": "Insert video option",
+    "id": "228",
+    "keywords": ["add video", "slide", "insert video"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the purpose of slide layouts?",
+    "answer": "To organize content and design on each slide",
+    "id": "229",
+    "keywords": ["slide layouts", "organize content", "design", "each slide"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What type of presentation is best for business meetings?",
+    "answer": "Business presentation",
+    "id": "230",
+    "keywords": ["business meetings", "presentation", "business presentation"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which file format is used to save a presentation as a PDF?",
+    "answer": ".pdf",
+    "id": "231",
+    "keywords": ["file format", "save", "presentation", "PDF", ".pdf"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which is NOT a transition type in PowerPoint?",
+    "answer": "Typing",
+    "id": "232",
+    "keywords": ["transition type", "PowerPoint", "Typing"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the function of the Slide Show view?",
+    "answer": "To present slides full-screen",
+    "id": "233",
+    "keywords": [
+      "Slide Show view",
+      "function",
+      "present",
+      "slides",
+      "full-screen"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the function of the Handout view?",
+    "answer": "To print multiple slides per page",
+    "id": "234",
+    "keywords": [
+      "Handout view",
+      "function",
+      "print",
+      "multiple slides",
+      "per page"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which of the following is NOT part of the PowerPoint interface?",
+    "answer": "Spreadsheet tab",
+    "id": "235",
+    "keywords": ["PowerPoint interface", "not part", "Spreadsheet tab"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is used to print slides in PowerPoint?",
+    "answer": "Printer settings",
+    "id": "236",
+    "keywords": ["print slides", "PowerPoint", "printer settings"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the purpose of a custom slide show?",
+    "answer": "To select specific slides for presentation",
+    "id": "237",
+    "keywords": ["custom slide show", "purpose", "select", "specific slides"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "How do you ensure the presentation looks the same on all slides?",
+    "answer": "Use Slide Master",
+    "id": "238",
+    "keywords": [
+      "ensure",
+      "presentation",
+      "same on all slides",
+      "Slide Master"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What type of media can be embedded in a slide?",
+    "answer": "Audio and video",
+    "id": "239",
+    "keywords": ["embedded media", "slide", "audio", "video"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which layout is best for creating a bulleted list?",
+    "answer": "Title and content layout",
+    "id": "240",
+    "keywords": ["layout", "bulleted list", "Title and content layout"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What option allows you to repeat slides in a presentation?",
+    "answer": "Slide sorter view",
+    "id": "241",
+    "keywords": ["repeat slides", "presentation", "Slide sorter view"],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "What is the purpose of the Action Button in PowerPoint?",
+    "answer": "To create interactive buttons for navigation",
+    "id": "242",
+    "keywords": [
+      "Action Button",
+      "PowerPoint",
+      "interactive",
+      "buttons",
+      "navigation"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "Which tool is used to scan documents for sharing?",
+    "answer": "Scanning software",
+    "id": "243",
+    "keywords": ["tool", "scan documents", "sharing", "scanning software"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which file format is commonly used for scanned documents?",
+    "answer": ".pdf",
+    "id": "244",
+    "keywords": ["file format", "scanned documents", ".pdf"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What tool is used for file compression and extraction?",
+    "answer": "WinZip",
+    "id": "245",
+    "keywords": ["tool", "file compression", "extraction", "WinZip"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the main purpose of using a file conversion tool?",
+    "answer": "To change a file from one format to another",
+    "id": "246",
+    "keywords": ["file conversion tool", "purpose", "change file format"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which browser is commonly used for internet access?",
+    "answer": "Google Chrome",
+    "id": "247",
+    "keywords": ["browser", "internet access", "Google Chrome"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which search engine is most widely used for accessing online resources?",
+    "answer": "Google",
+    "id": "248",
+    "keywords": ["search engine", "widely used", "online resources", "Google"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which tool is used to convert a .docx file to a .pdf file?",
+    "answer": "PDF converter",
+    "id": "249",
+    "keywords": [".docx", ".pdf", "file conversion", "PDF converter"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Which of the following is a common e-mail service provider?",
+    "answer": "Gmail",
+    "id": "250",
+    "keywords": ["email service provider", "Gmail"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the function of the 'CC' in an e-mail?",
+    "answer": "To send a copy of the e-mail to additional recipients",
+    "id": "251",
+    "keywords": ["CC", "function", "e-mail", "additional recipients"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What file compression tool can be used to extract files from a .zip folder?",
+    "answer": "WinRAR",
+    "id": "252",
+    "keywords": ["file compression", "extract", ".zip folder", "WinRAR"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the purpose of setting up an email signature?",
+    "answer": "To automatically include a personalized sign-off in emails",
+    "id": "253",
+    "keywords": ["email signature", "purpose", "personalized sign-off"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which virtual platform is used for online meetings and collaboration?",
+    "answer": "Zoom",
+    "id": "254",
+    "keywords": [
+      "virtual platform",
+      "online meetings",
+      "collaboration",
+      "Zoom"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is a common file format for images shared through the internet?",
+    "answer": ".jpeg",
+    "id": "255",
+    "keywords": ["file format", "images", "shared through internet", ".jpeg"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which tool allows for online storage and sharing of resources?",
+    "answer": "Google Drive",
+    "id": "256",
+    "keywords": ["online storage", "sharing resources", "Google Drive"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the purpose of using 'Incognito Mode' in a browser?",
+    "answer": "To browse the internet without saving history",
+    "id": "257",
+    "keywords": [
+      "Incognito Mode",
+      "browser",
+      "purpose",
+      "browse without history"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which of the following is a cloud storage provider?",
+    "answer": "OneDrive",
+    "id": "258",
+    "keywords": ["cloud storage", "provider", "OneDrive"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which search engine allows anonymous searching?",
+    "answer": "DuckDuckGo",
+    "id": "259",
+    "keywords": ["search engine", "anonymous searching", "DuckDuckGo"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the function of the 'BCC' in an email?",
+    "answer": "To send a blind copy of the email to recipients",
+    "id": "260",
+    "keywords": ["BCC", "function", "email", "blind copy"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which feature is used for printing an email message?",
+    "answer": "Print option in the email service",
+    "id": "261",
+    "keywords": ["printing", "email message", "print option"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the use of 'Synchronization' in a browser?",
+    "answer": "To sync browsing history and settings across devices",
+    "id": "262",
+    "keywords": [
+      "synchronization",
+      "browser",
+      "browsing history",
+      "settings",
+      "across devices"
+    ],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which of the following browsers is known for its privacy features?",
+    "answer": "Brave",
+    "id": "263",
+    "keywords": ["browser", "privacy features", "Brave"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the purpose of the 'Forward' option in email?",
+    "answer": "To send the received email to another person",
+    "id": "264",
+    "keywords": ["Forward", "email", "purpose", "send to another person"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Which is an online tool for creating forms to collect data?",
+    "answer": "Google Forms",
+    "id": "265",
+    "keywords": [
+      "online tool",
+      "creating forms",
+      "collect data",
+      "Google Forms"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "What is the common use of a virtual platform in a business context?",
+    "answer": "Hosting online meetings",
+    "id": "266",
+    "keywords": ["virtual platform", "business context", "online meetings"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "Which tool is used for file sharing during virtual meetings?",
+    "answer": "File sharing feature in Zoom",
+    "id": "267",
+    "keywords": ["file sharing", "virtual meetings", "Zoom"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is a 'Search Engine'?",
+    "answer": "A system that searches for resources on the internet based on keywords",
+    "id": "268",
+    "keywords": [
+      "Search Engine",
+      "system",
+      "search",
+      "resources",
+      "internet",
+      "keywords"
+    ],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Which platform allows for remote desktop access?",
+    "answer": "TeamViewer",
+    "id": "269",
+    "keywords": ["platform", "remote desktop access", "TeamViewer"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the role of 'Auto-fill' in internet browsers?",
+    "answer": "To automatically complete forms using saved information",
+    "id": "270",
+    "keywords": [
+      "Auto-fill",
+      "browser",
+      "role",
+      "automatically complete forms",
+      "saved information"
+    ],
+    "unit": "MS Excel"
+  },
+  {
+    "question": "Which of the following is a feature of virtual platforms like Zoom?",
+    "answer": "Screen sharing",
+    "id": "271",
+    "keywords": ["virtual platforms", "Zoom", "feature", "screen sharing"],
+    "unit": "Operate Computer"
+  },
+  {
+    "question": "What is the purpose of using 'File Compression Tools'?",
+    "answer": "To reduce file size for easier storage and transfer",
+    "id": "272",
+    "keywords": [
+      "File Compression Tools",
+      "purpose",
+      "reduce file size",
+      "storage",
+      "transfer"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be done when a hardware problem is detected?",
+    "answer": "The problem should be identified, recorded, and reported to the authority.",
+    "id": "273",
+    "keywords": [
+      "hardware problem",
+      "detected",
+      "identified",
+      "recorded",
+      "reported"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is a common problem that may be identified during hardware diagnostics?",
+    "answer": "Device power issue",
+    "id": "274",
+    "keywords": [
+      "hardware diagnostics",
+      "common problem",
+      "device power issue"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which of the following can cause a printing error?",
+    "answer": "Paper jam",
+    "id": "275",
+    "keywords": ["printing error", "cause", "paper jam"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What should be done if a device is not powering on?",
+    "answer": "Check the power source and cables",
+    "id": "276",
+    "keywords": [
+      "device",
+      "not powering on",
+      "check",
+      "power source",
+      "cables"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which software issue could cause an application to crash?",
+    "answer": "Application software error",
+    "id": "277",
+    "keywords": ["software issue", "application", "crash", "software error"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the first step in diagnosing network connectivity issues?",
+    "answer": "Check the network devices for connectivity",
+    "id": "278",
+    "keywords": [
+      "diagnosing",
+      "network connectivity",
+      "check",
+      "network devices"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should you do if the printer is showing offline?",
+    "answer": "Check the printer connection and status",
+    "id": "279",
+    "keywords": ["printer", "offline", "check", "printer connection", "status"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Which of the following can cause poor print quality?",
+    "answer": "Low ink or toner levels",
+    "id": "280",
+    "keywords": ["poor print quality", "cause", "low ink", "toner levels"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What is the procedure for fixing a device date and time mismatch?",
+    "answer": "Adjust the system's date and time settings",
+    "id": "281",
+    "keywords": [
+      "fix",
+      "device",
+      "date and time mismatch",
+      "adjust",
+      "system settings"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which of the following software can be used for Bangla typing?",
+    "answer": "Avro",
+    "id": "282",
+    "keywords": ["software", "Bangla typing", "Avro"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What type of error is commonly associated with print spooling?",
+    "answer": "Printing error",
+    "id": "283",
+    "keywords": ["print spooling", "error", "printing error"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "What action should be taken if a software update is needed?",
+    "answer": "Check and apply the latest updates",
+    "id": "284",
+    "keywords": ["software update", "action", "check", "apply latest updates"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which of the following is a device driver needed for a printer?",
+    "answer": "Printer driver",
+    "id": "285",
+    "keywords": ["device driver", "printer"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "How can you troubleshoot network connectivity?",
+    "answer": "Diagnose network connections and check devices",
+    "id": "286",
+    "keywords": [
+      "Troubleshooting",
+      "network connectivity",
+      "diagnose",
+      "check devices"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which of the following can be used to connect a network device to the internet?",
+    "answer": "Router",
+    "id": "287",
+    "keywords": ["network device", "connect", "internet", "router"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be done if the Ethernet cable is not working?",
+    "answer": "Check the cable for damage or try replacing it",
+    "id": "288",
+    "keywords": ["Ethernet cable", "not working", "check", "damage", "replace"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which tool is needed for fixing application software errors?",
+    "answer": "Application troubleshooting tool or reinstallation",
+    "id": "289",
+    "keywords": [
+      "tool",
+      "fixing",
+      "application software errors",
+      "troubleshooting",
+      "reinstallation"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is the purpose of uninstalling and reinstalling a device driver?",
+    "answer": "To fix driver-related issues or errors",
+    "id": "290",
+    "keywords": [
+      "uninstall",
+      "reinstall",
+      "device driver",
+      "fix",
+      "driver-related issues"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "Which of the following can cause a network connection issue?",
+    "answer": "Faulty Ethernet cable",
+    "id": "291",
+    "keywords": ["network connection issue", "cause", "faulty Ethernet cable"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is a common network device used for extending the wireless range?",
+    "answer": "Wireless Access Point",
+    "id": "292",
+    "keywords": [
+      "network device",
+      "extending",
+      "wireless range",
+      "Wireless Access Point"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is an example of a common problem with printer connections?",
+    "answer": "Printer status showing as offline",
+    "id": "293",
+    "keywords": ["printer", "connection problem", "status", "offline"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "Which of the following is an example of a network device?",
+    "answer": "Switch",
+    "id": "294",
+    "keywords": ["network device", "example", "switch"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be done when a printing error like paper jam occurs?",
+    "answer": "Clear the jam and check the paper path",
+    "id": "295",
+    "keywords": ["printing error", "paper jam", "clear", "check paper path"],
+    "unit": "MS Word"
+  },
+  {
+    "question": "How can software-related issues be fixed?",
+    "answer": "By reinstalling the software or applying updates",
+    "id": "296",
+    "keywords": ["software-related issues", "fix", "reinstall", "updates"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is a possible reason for an OS failure?",
+    "answer": "Corrupt system files",
+    "id": "297",
+    "keywords": ["OS failure", "reason", "corrupt system files"],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What action should be taken if a network device is not responding?",
+    "answer": "Restart the device or check its connections",
+    "id": "298",
+    "keywords": [
+      "network device",
+      "not responding",
+      "action",
+      "restart",
+      "check connections"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What should be done if the fonts in an application are not displaying correctly?",
+    "answer": "Install the required fonts or update the font settings",
+    "id": "299",
+    "keywords": [
+      "fonts",
+      "application",
+      "not displaying correctly",
+      "install",
+      "update font settings"
+    ],
+    "unit": "MS PowerPoint"
+  },
+  {
+    "question": "How should network devices be connected and disconnected to resolve issues?",
+    "answer": "Carefully follow the proper disconnection and reconnection procedures",
+    "id": "300",
+    "keywords": [
+      "network devices",
+      "connected",
+      "disconnected",
+      "resolve issues",
+      "procedures"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is a common troubleshooting step for diagnosing peripheral device faults?",
+    "answer": "Check the connections and ensure the device is powered on",
+    "id": "301",
+    "keywords": [
+      "troubleshooting",
+      "peripheral device",
+      "faults",
+      "check",
+      "connections",
+      "powered on"
+    ],
+    "unit": "Troubleshooting"
+  },
+  {
+    "question": "What is an example of a network fault that may need troubleshooting?",
+    "answer": "Network connectivity issues due to device misconfiguration",
+    "id": "302",
+    "keywords": [
+      "network fault",
+      "troubleshooting",
+      "connectivity issues",
+      "device misconfiguration"
+    ],
+    "unit": "Troubleshooting"
+  }
+]
