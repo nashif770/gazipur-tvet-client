@@ -214,7 +214,7 @@
       "question": "What is device driver?",
       "answer": "একটি ডিভাইস ড্রাইভার হল এমন একটি ফাইল সেট যা হার্ডওয়্যারকে কম্পিউটারের অপারেটিং সিস্টেমের সাথে যোগাযোগ করার মাধ্যমে কাজ করতে বলে।",
       "id": "31",
-      "keywords": ["device driver", "hardware", "operating system"],
+      "keywords": ["device driver", "Troubleshooting", "operating system"],
       "unit": "Troubleshooting"
     },
     {
@@ -307,8 +307,8 @@
       "id": "44",
       "keywords": [
         "OS failure",
-        "hardware",
-        "software",
+        "Troubleshooting",
+        "Operate Computer",
         "corruption",
         "incomplete installations"
       ],
@@ -437,7 +437,7 @@
       "answer": "গুগল ড্রাইভ, ওয়ানড্রাইভ, ড্রপবক্স, মেগা, পিক্লাউড।",
       "id": "66",
       "keywords": [
-        "cloud storage",
+        "Operate Computer",
         "services",
         "Google Drive",
         "OneDrive",
@@ -452,7 +452,7 @@
       "answer": "সিঙ্ক.কম, পিক্লাউড, আইসড্রাইভ, মেগা, আইড্রাইভ, ওয়ানড্রাইভ, গুগল ড্রাইভ, কুফর, ড্রপবক্স, বক্স।",
       "id": "67",
       "keywords": [
-        "cloud storage",
+        "Operate Computer",
         "services",
         "Sync.com",
         "pCloud",
@@ -501,11 +501,11 @@
       "id": "70",
       "keywords": [
         "antivirus",
-        "software",
+        "Operate Computer",
         "detect",
         "prevent",
         "remove",
-        "malware"
+        "Operate Computer"
       ],
       "unit": "Troubleshooting"
     },
@@ -513,7 +513,13 @@
       "question": "What is CC and BCC in Email?",
       "answer": "CC অর্থ 'কার্বন কপি' এবং BCC অর্থ 'ব্লাইন্ড কার্বন কপি'।",
       "id": "71",
-      "keywords": ["CC", "BCC", "email", "carbon copy", "blind carbon copy"],
+      "keywords": [
+        "CC",
+        "BCC",
+        "Operate Computer",
+        "carbon copy",
+        "blind carbon copy"
+      ],
       "unit": "Operate Computer"
     },
     {
@@ -542,7 +548,7 @@
       "answer": "মাইক্রোসফট পাওয়ারপয়েন্ট, গুগল স্লাইডস, প্রেজি, ক্যানভা, ভিসমি",
       "id": "74",
       "keywords": [
-        "presentation software",
+        "MS Powerpoint",
         "PowerPoint",
         "Google Slides",
         "Prezi",
@@ -571,7 +577,7 @@
       "question": "Name 2 Typing Application Software in Bangla.",
       "answer": "বিজয়, অভ্র",
       "id": "76",
-      "keywords": ["typing software", "Bangla", "Bijoy", "Avro"],
+      "keywords": ["Operate Computer", "Bangla", "Bijoy", "Avro"],
       "unit": "Operate Computer"
     },
     {
@@ -580,7 +586,7 @@
       "id": "77",
       "keywords": [
         "driver software",
-        "hardware",
+        "Troubleshooting",
         "operating system",
         "functions"
       ],
@@ -590,7 +596,7 @@
       "question": "What is the use of Ethernet Port?",
       "answer": "ইথারনেট পোর্ট ব্যবহার করা হয় একাধিক কম্পিউটার সংযোগ করার জন্য অথবা ইন্টারনেট অ্যাক্সেস করতে।",
       "id": "78",
-      "keywords": ["Ethernet port", "networking", "Internet", "computers"],
+      "keywords": ["Ethernet port", "Troubleshooting", "Internet", "computers"],
       "unit": "Troubleshooting"
     },
     {
@@ -726,9 +732,9 @@
       "id": "90",
       "keywords": [
         "firmware",
-        "software",
+        "Operate Computer",
         "ROM",
-        "hardware",
+        "Troubleshooting",
         "computer startup"
       ],
       "unit": "Troubleshooting"
@@ -749,12 +755,7 @@
       "question": "What does the 'Collate' option in printing settings do?",
       "answer": "এই অপশনটি একাধিক কপি প্রিন্ট করার সময় নথিগুলি ধারাবাহিক ক্রমে সাজায়।",
       "id": "92",
-      "keywords": [
-        "collate",
-        "printing",
-        "sequential order",
-        "multiple copies"
-      ],
+      "keywords": ["collate", "MS Word", "sequential order", "multiple copies"],
       "unit": "MS Word"
     },
     {
@@ -784,7 +785,7 @@
       "id": "96",
       "keywords": [
         "system software",
-        "hardware",
+        "Troubleshooting",
         "operating system",
         "device drivers",
         "utilities"
@@ -1038,6 +1039,617 @@
       "answer": "শিষ্টাচার হলো সামাজিক আচরণের প্রচলিত নিয়মাবলী, আর আচরণ হলো একজন ব্যক্তির আচরণের বা নিজেকে পরিচালনার ধরণ।",
       "id": "121",
       "keywords": ["etiquette", "manner", "social behavior"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is the short-cut key in PowerPoint to start slide show?",
+      "answer": "F5 / Shift+F5",
+      "id": "122",
+      "keywords": [
+        "shortcut",
+        "PowerPoint",
+        "start slide show",
+        "F5",
+        "Shift+F5"
+      ],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "How to use split screen in MS Word?",
+      "answer": "VIEW>Window>Split",
+      "id": "123",
+      "keywords": ["split screen", "MS Word", "VIEW", "Window", "Split"],
+      "unit": "MS Word"
+    },
+    {
+      "question": "Which type of chart will you use to compare performance of sales of two products?",
+      "answer": "কলাম চার্ট (Column Chart)",
+      "id": "124",
+      "keywords": ["chart", "compare sales", "two products", "Column Chart"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What is the best way to create another copy of a slide?",
+      "answer": "ডুপ্লিকেট স্লাইড (Duplicate Slide)",
+      "id": "125",
+      "keywords": ["copy slide", "PowerPoint", "Duplicate Slide"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "In Microsoft PowerPoint, in order to edit a chart, you can _______.",
+      "answer": "চার্ট অবজেক্টে ডাবল ক্লিক করুন। (Double click the chart object)",
+      "id": "126",
+      "keywords": ["edit chart", "PowerPoint", "double click"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "Which of the following should you use if you want all the slides in the presentation to have the same 'look'?",
+      "answer": "একটি প্রেজেন্টেশন ডিজাইন টেমপ্লেট। (A presentation design template)",
+      "id": "127",
+      "keywords": ["same look", "PowerPoint", "design template"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "If you want a PowerPoint object slide show to play continuously?",
+      "answer": "Slide Show ট্যাবে ক্লিক করুন > Set Up Slide Show ক্লিক করুন > Loop Continuously until 'Esc' চেক করুন। (Click the [Slide Show] tab > Set Up Slide Show > Check 'Loop continuously until Esc').",
+      "id": "128",
+      "keywords": ["PowerPoint", "play continuously", "loop slideshow"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "The slide that is used to introduce a topic and set the tone for the presentation is called?",
+      "answer": "টাইটেল স্লাইড (Title Slide)",
+      "id": "129",
+      "keywords": ["title slide", "PowerPoint", "introduction"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "Special effects used for introducing slides in a presentation are called?",
+      "answer": "স্লাইড ট্রানজিশন (Slide Transition)",
+      "id": "130",
+      "keywords": ["special effects", "slides", "transition"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "What causes system boot failure?",
+      "answer": "বুট সেটিং ভুল, সিস্টেম ফাইল দুর্নীতিগ্রস্ত, বুট লোডার ক্ষতিগ্রস্ত, বা হার্ড ড্রাইভ ত্রুটিপূর্ণ। (Incorrect boot settings, corrupt system files, corrupt boot loader, or faulty hard drive).",
+      "id": "131",
+      "keywords": ["system boot failure", "causes"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "Why is the COUNT function used in Excel?",
+      "answer": "COUNT ফাংশন নাম্বার থাকা সেলগুলো গুনে। (The COUNT function counts the number of cells containing numbers).",
+      "id": "132",
+      "keywords": ["COUNT function", "Excel", "numbers"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "Write down the list of printer errors?",
+      "answer": "ERROR 13 - পেপার জ্যাম, ERROR 14 - টোনার নেই, ERROR 16 - টোনার লো, ERROR 18 - MIO প্রস্তুত নয়, ERROR 20 - মেমরি ওভারফ্লো। (Error 13 - Paper Jam, Error 14 - No Toner, etc.)",
+      "id": "133",
+      "keywords": ["printer errors", "common issues"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is a scanner?",
+      "answer": "স্ক্যানার হলো একটি ডিভাইস যা ফিজিকাল ডকুমেন্ট বা ইমেজ ডিজিটাল ফরম্যাটে রূপান্তর করে। (A scanner digitizes physical documents or images into digital format).",
+      "id": "134",
+      "keywords": ["scanner", "device"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Which shortcut key do we use to start and end a PowerPoint?",
+      "answer": "শুরু করতে F5 এবং শেষ করতে ESC। (F5 to start and ESC to end).",
+      "id": "135",
+      "keywords": ["shortcut", "start PowerPoint", "end PowerPoint"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "Write down the name of 3 antiviruses.",
+      "answer": "ক্যাসপারস্কি, ম্যাকাফি, পান্ডা, নরটন। (Kaspersky, McAfee, Panda, Norton)",
+      "id": "136",
+      "keywords": [
+        "antivirus",
+        "examples",
+        "Kaspersky",
+        "McAfee",
+        "Panda",
+        "Norton"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Top 05 Most Common Computer Problems.",
+      "answer": "১. ধীর কম্পিউটার, ২. কম্পিউটার হ্যাং করা, ৩. ব্লু স্ক্রিন, ৪. সফটওয়্যার ত্রুটি, ৫. ধীর ইন্টারনেট। (1. Slow Computer, 2. Computer Freezes, 3. Blue Screen, 4. Software Errors, 5. Slow Internet)",
+      "id": "137",
+      "keywords": ["common problems", "computer issues", "troubleshooting"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is the use of Ethernet Port?",
+      "answer": "কম্পিউটারে ইন্টারনেট সংযোগের জন্য এটি ব্যবহৃত হয়। (It is used to connect the internet to a computer).",
+      "id": "138",
+      "keywords": ["Ethernet port", "internet connection", "computer"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is Driver Software?",
+      "answer": "ড্রাইভার সফটওয়্যার একটি কম্পিউটার প্রোগ্রাম যা একটি নির্দিষ্ট ডিভাইস পরিচালনা বা নিয়ন্ত্রণ করে। (Driver software is a computer program that operates or controls a specific device).",
+      "id": "139",
+      "keywords": ["driver software", "device control", "computer program"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is indentation?",
+      "answer": "প্যারাগ্রাফের শুরুর অংশ এবং মার্জিনের মধ্যে ফাঁকটিকে ইনডেন্টেশন বলা হয়। (The space between the start of a paragraph and the margin is called Indentation).",
+      "id": "140",
+      "keywords": ["indentation", "paragraph", "margin", "space"],
+      "unit": "MS Word"
+    },
+    {
+      "question": "What are charts in MS Excel?",
+      "answer": "তথ্যের গ্রাফিকাল উপস্থাপনা। (Graphical representation of data).",
+      "id": "141",
+      "keywords": ["charts", "Excel", "data representation"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What is animation pane in PowerPoint?",
+      "answer": "এটি স্লাইডে অ্যানিমেট করা অবজেক্টগুলির তালিকা প্রদর্শন করে। (Displays the list of animated objects on a slide).",
+      "id": "142",
+      "keywords": ["animation pane", "PowerPoint", "animated objects"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "What causes print failure?",
+      "answer": "প্রিন্টার ব্যর্থতার সাধারণ কারণ হলো কালি জমাট বাঁধা, কাগজ আটকে যাওয়া এবং হেড ব্যর্থতা। (The most common causes of printer failure are ink clogs, paper jams, and head failures).",
+      "id": "143",
+      "keywords": [
+        "print failure",
+        "printer issues",
+        "ink clogs",
+        "paper jams"
+      ],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "When should I replace toner?",
+      "answer": "যখন প্রিন্টার টোনারের মাত্রা ১০% -এ পৌঁছে যায়। (When printer toner levels reach 10%).",
+      "id": "144",
+      "keywords": ["replace toner", "printer", "toner level"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "How do we identify our network switch is bad?",
+      "answer": "ইন্ডিকেটরের কার্যকলাপ এবং একটি অন্ধকার পোর্টের কেবল একটি সুস্থ পোর্টে বদল করা। (Activity of indicators and swapping the cable in a 'dark' port with a cable in a healthy port).",
+      "id": "145",
+      "keywords": ["network switch", "bad switch", "troubleshooting"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "Write down four-word processing application software.",
+      "answer": "ওয়ার্ডপ্যাড, মাইক্রোসফট ওয়ার্ড, ওয়ার্ডপারফেক্ট, ওয়ার্ক পেজেস, ওপেনঅফিস রাইটার, নোটপ্যাড। (WordPad, Microsoft Word, WordPerfect, Work Pages, OpenOffice Writer, Notepad).",
+      "id": "146",
+      "keywords": ["word processing software", "applications"],
+      "unit": "MS Word"
+    },
+    {
+      "question": "What do you mean by filtering?",
+      "answer": "ফিল্টারিং বলতে শর্ত পূরণ করা সারিগুলি প্রদর্শন করাকে বোঝায়। (Filtering refers to displaying only the rows that meet certain conditions).",
+      "id": "147",
+      "keywords": ["filtering", "Excel", "conditions"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What happens when dollar signs ($) are entered in a cell address?",
+      "answer": "এটি একটি অ্যাবসোলিউট সেল রেফারেন্স তৈরি করে। (It creates an absolute cell reference).",
+      "id": "148",
+      "keywords": ["dollar sign", "cell address", "absolute reference"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "Why do we use 'Line Chart' in Excel?",
+      "answer": "প্রবণতা বা সময়ের সাথে পরিবর্তন দেখানোর জন্য। (To show trends or changes over time).",
+      "id": "149",
+      "keywords": ["line chart", "Excel", "trends", "time"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What does the IF function in Excel do?",
+      "answer": "শর্ত সত্য বা মিথ্যা কিনা তা পরীক্ষা করতে। (To check whether conditions are true or false).",
+      "id": "150",
+      "keywords": ["IF function", "Excel", "conditions"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What is a transition in PowerPoint?",
+      "answer": "অ্যানিমেশন ইফেক্ট যা স্লাইডে এক থেকে অন্য স্লাইডে যাওয়ার সময় ঘটে। (Animation effects that happen when moving from one slide to the next).",
+      "id": "151",
+      "keywords": ["transition", "PowerPoint", "animation effects"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "What do you understand by placeholder?",
+      "answer": "স্লাইডে নির্দিষ্ট বিষয়বস্তু রাখার জন্য নির্ধারিত স্থান। (Enclosed areas on the slide for specific content).",
+      "id": "152",
+      "keywords": ["placeholder", "PowerPoint", "slide content"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "What is a subfolder in a computer?",
+      "answer": "একটি ফোল্ডারের মধ্যে অবস্থিত আরেকটি ফোল্ডার। (One folder located within another folder).",
+      "id": "153",
+      "keywords": ["subfolder", "computer", "folder structure"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What are the main causes of OS failures?",
+      "answer": "হার্ডওয়্যার ত্রুটি বা সফটওয়্যার ক্র্যাশ, যা সাধারণত অপারেটিং সিস্টেমের বুট করতে অক্ষমতার কারণ হয়। (Hardware malfunction or software crash, usually causing the inability of the operating system to boot).",
+      "id": "154",
+      "keywords": ["OS failure", "hardware malfunction", "software crash"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is diagnostic in computer education?",
+      "answer": "কম্পিউটারের হার্ডওয়্যার সিস্টেমের সমস্যা খুঁজে বের করার একটি পদ্ধতি। (A method of finding problems with a computer's hardware systems).",
+      "id": "155",
+      "keywords": ["diagnostic", "computer education", "Troubleshooting"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is a handout in a PowerPoint presentation?",
+      "answer": "একটি উপস্থাপনা/নোট যা আপনি দর্শকদের প্রদান করেন। (A presentation/note that you give to the audience).",
+      "id": "156",
+      "keywords": ["handout", "PowerPoint", "presentation notes"],
+      "unit": "MS PowerPoint"
+    },
+    {
+      "question": "What is freeze pane in MS Excel?",
+      "answer": "স্ক্রল করার সময় সারি বা কলাম লক করার প্রক্রিয়া। (Lock rows or columns in place while scrolling).",
+      "id": "157",
+      "keywords": ["freeze pane", "Excel", "lock rows", "lock columns"],
+      "unit": "MS Excel"
+    },
+    {
+      "question": "What is printer toner?",
+      "answer": "প্রিন্টার টোনার একটি সূক্ষ্ম পাউডার যা লেজার প্রিন্টার, ফটোকপিয়ার এবং মাল্টিফাংশন প্রিন্টারে ব্যবহৃত হয়। (Printer toner is a fine powder that is used in laser printers, photocopiers, and multifunction printers).",
+      "id": "158",
+      "keywords": ["printer toner", "laser printers", "MS Word"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "How can you remove a paper jam?",
+      "answer": "১. কম্পিউটার থেকে প্রিন্ট কাজ বাতিল করুন।\n২. যত্নসহকারে আটকে থাকা কাগজ টেনে বের করুন।\n৩. সামনে কভার খুলুন।\n(1. Cancel the print job from your computer. 2. Gently pull out any jammed paper. 3. Open the front cover).",
+      "id": "159",
+      "keywords": ["paper jam", "printer", "remove paper"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is a network switch?",
+      "answer": "একটি নেটওয়ার্ক সুইচ দুটি বা আরও বেশি আইটি ডিভাইসকে একে অপরের সাথে যোগাযোগ করার অনুমতি দেয়। (A network switch allows two or more IT devices to communicate with one another).",
+      "id": "160",
+      "keywords": ["network switch", "IT devices", "communication"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "How can you remove a manual page break in Microsoft Word?",
+      "answer": "ম্যানুয়াল পেজ ব্রেক মুছতে হলে, কার্সরটি ম্যানুয়াল পেজ ব্রেকের আগে রাখুন এবং ব্যাকস্পেস বা ডিলিট কী চাপুন। (Place the cursor just before the manual page break, and press the Backspace or Delete key).",
+      "id": "161",
+      "keywords": ["manual page break", "remove", "Microsoft Word"],
+      "unit": "MS Word"
+    },
+    {
+      "question": "What does the \"Collate\" option in printing settings do?",
+      "answer": "এটি একটি ডকুমেন্টের একাধিক কপি প্রিন্ট করার সময় কপি গুলি সিকোয়েন্সিয়াল অর্ডারে সাজায়। (It arranges printed copies in sequential order when printing multiple copies of a document).",
+      "id": "162",
+      "keywords": ["collate", "printing settings", "print order"],
+      "unit": "MS Word"
+    },
+    {
+      "question": "GUI stands for?",
+      "answer": "গ্রাফিক্যাল ইউজার ইন্টারফেস। (Graphical User Interface).",
+      "id": "163",
+      "keywords": ["GUI", "Graphical User Interface"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "The fourth generation of computers, which technology was used?",
+      "answer": "ভেরি লার্জ স্কেল ইনটিগ্রেটেড (VLSI) সার্কিট ব্যবহার করা হয়েছিল। (Very Large Scale Integrated (VLSI) circuits were used).",
+      "id": "164",
+      "keywords": ["fourth generation", "technology", "VLSI"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is Application Software?",
+      "answer": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। (Application software are customized software designed for personal use).",
+      "id": "165",
+      "keywords": ["Application software", "customized", "personal use"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Types of malwares?",
+      "answer": "এগুলি বিভিন্ন ধরনের ম্যালওয়্যার: a) ভাইরাস b) র‍্যানসমওয়্যার c) রিমোট অ্যাক্সেস ম্যালওয়্যার d) বটনেট e) ক্রিপটোজ্যাক্কার f) ফাইললেস ম্যালওয়্যার g) ওয়ার্মস h) ট্রোজান হর্স i) রুটকিটস j) স্কেয়ারওয়্যার k) স্পাইওয়্যার l) অ্যাডওয়্যার m) ব্যাকডোর n) কীলগারস",
+      "id": "166",
+      "keywords": [
+        "malwares",
+        "viruses",
+        "ransomware",
+        "remote access malware",
+        "botnets",
+        "cryptojackers",
+        "fileless malware",
+        "worms",
+        "trojan horses",
+        "rootkits",
+        "scareware",
+        "spyware",
+        "adware",
+        "backdoor",
+        "keyloggers"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "How do I fix printer printing error?",
+      "answer": "প্রিন্টার প্রিন্টিং ত্রুটি ঠিক করার জন্য কিছু সাধারণ পদক্ষেপ:  প্রিন্টারটি আনপ্লাগ করুন এবং পুনরায় চালু করুন। কখনও কখনও পাওয়ার সাইক্লিং প্রিন্টারের সমস্যা সমাধান করতে পারে।  কেবল বা ওয়্যারলেস সংযোগ চেক করুন।  প্রিন্টারটি আনইনস্টল এবং পুনরায় ইনস্টল করুন।  প্রিন্টারের সর্বশেষ ড্রাইভার ইনস্টল করুন।  প্রিন্ট স্পুলার মুছুন এবং রিসেট করুন।  প্রিন্টারের অবস্থান 'অনলাইন' এ পরিবর্তন করুন।",
+      "id": "167",
+      "keywords": [
+        "printer error",
+        "fix",
+        "restart printer",
+        "reinstall printer",
+        "check connection",
+        "print spooler",
+        "driver installation"
+      ],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is Application Software?",
+      "answer": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। এই ধরনের সফটওয়্যারগুলি ব্যবহারকারীদের অনলাইন গবেষণা, এলার্ম সেট করা, ডিজাইনিং, অথবা এমনকি গেম খেলা সহ মৌলিক কাজগুলি সম্পাদন করতে সাহায্য করে। অ্যাপ্লিকেশন সফটওয়্যার ফ্রন্টএন্ডে চলে এবং সাধারণত শেষ-ব্যবহারকারীদের দ্বারা ব্যবহৃত হয়। এই সফটওয়্যারগুলি 'এন্ড-ইউজার প্রোগ্রাম' হিসাবেও পরিচিত। উদাহরণ: ওয়ার্ড প্রসেসর, মাল্টিমিডিয়া সফটওয়্যার, ওয়েব ব্রাউজার, গ্রাফিক্স সফটওয়্যার (ফটোশপ) ইত্যাদি।",
+      "id": "168",
+      "keywords": [
+        "application software",
+        "personal use",
+        "end-user programs",
+        "word processors",
+        "Operate Computer",
+        "graphics software",
+        "photoshop"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Write down 5 (Five) Web Browsers software name?",
+      "answer": "গুগল ক্রোম, মজিলা ফায়ারফক্স, মাইক্রোসফট এজ, ইন্টারনেট এক্সপ্লোরার, অপেরা সাফারি।",
+      "id": "169",
+      "keywords": [
+        "Operate Computer",
+        "Google Chrome",
+        "Mozilla Firefox",
+        "Microsoft Edge",
+        "Internet Explorer",
+        "Opera",
+        "Safari"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is Stream Yard?",
+      "answer": "স্ট্রিমইয়ার্ড হল একটি পেশাদার লাইভ স্ট্রিমিং এবং রেকর্ডিং স্টুডিও যা আপনার ব্রাউজারে কাজ করে। এটি আপনার কনটেন্ট লাইভ স্ট্রিম এবং রেকর্ড করার সবচেয়ে সহজ উপায়, অথবা ফেসবুক, ইউটিউব এবং অন্যান্য প্ল্যাটফর্মে লাইভ স্ট্রিম করতে পারেন।",
+      "id": "170",
+      "keywords": [
+        "Stream Yard",
+        "Operate Computer",
+        "recording studio",
+        "Facebook",
+        "YouTube",
+        "streaming"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Which feature in Word helps identify and correct grammatical errors in a document?",
+      "answer": "ওয়ার্ডে যে ফিচারটি আপনাকে ডকুমেন্টে ব্যাকরণগত ত্রুটি চিহ্নিত এবং সংশোধন করতে সাহায্য করে তা হল 'স্পেলিং এবং গ্রামার চেকার', যা 'রিভিউ' ট্যাবের অধীনে পাওয়া যায়।",
+      "id": "171",
+      "keywords": [
+        "Word",
+        "grammar errors",
+        "spelling and grammar checker",
+        "Review tab"
+      ],
+      "unit": "MS Word"
+    },
+    {
+      "question": "What does the 'Collate' option in printing settings do?",
+      "answer": "'কলেট' অপশনটি প্রিন্টিং সেটিংসে একাধিক কপির মধ্যে প্রিন্ট হওয়া নথিগুলিকে সিকোয়েন্সিয়াল অর্ডারে সাজায়।",
+      "id": "172",
+      "keywords": [
+        "Collate",
+        "printing settings",
+        "sequential order",
+        "multiple copies"
+      ],
+      "unit": "MS Word"
+    },
+    {
+      "question": "In the fourth generation of computers, which technology was used?",
+      "answer": "চতুর্থ প্রজন্মের কম্পিউটারগুলিতে ব্যবহৃত প্রযুক্তি হল 'ভেরি লার্জ স্কেল ইন্টিগ্রেটেড (VLSI) সার্কিটস'।",
+      "id": "173",
+      "keywords": ["fourth generation", "VLSI circuits", "computer technology"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What are the 3 virtual Video Conferencing Platforms?",
+      "answer": "Zoom, Google Meet, Skype, Google Hangouts",
+      "id": "174",
+      "keywords": [
+        "video conferencing",
+        "Zoom",
+        "Google Meet",
+        "Skype",
+        "Google Hangouts"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Write down 10 (Ten) Cloud Storage Services Name?",
+      "answer": "কিছু ক্লাউড স্টোরেজ সার্ভিস: ব্যক্তিগত এবং ব্যবসায়িক স্টোরেজ\n1. Sync.com – শেয়ারিং, ভার্সনিং, বড় ফাইল, এবং iPhone এর জন্য সেরা ক্লাউড স্টোরেজ\n2. pCloud – Windows, Mac, Linux এবং মিউজিকের জন্য সেরা অনলাইন স্টোরেজ\n3. Icedrive – উচ্চগতির জন্য সেরা ক্লাউড ড্রাইভ\n4. MEGA – ২০ জিবি ফ্রি ক্লাউড স্টোরেজ সহ অত্যন্ত সুরক্ষিত সার্ভিস\n5. IDrive – সেরা ক্লাউড স্টোরেজ এবং অনলাইন ব্যাকআপ হাইব্রিড\n6. OneDrive – অফিস ইন্টিগ্রেশনের জন্য সেরা ক্লাউড স্টোরেজ সার্ভিস\n7. Google Drive – ইন্টিগ্রেটেড অ্যাপ এবং শিক্ষার্থীদের জন্য শীর্ষ পছন্দ\n8. Koofr – মাল্টিপল ক্লাউড অ্যাকাউন্টের জন্য সেরা\n9. Dropbox – ক্লাউড সহযোগিতার জন্য সেরা\n10. Box – ব্যবসায়িক ক্লাউড স্টোরেজের জন্য দুর্দান্ত পছন্দ",
+      "id": "175",
+      "keywords": [
+        "Operate Computer",
+        "Sync.com",
+        "pCloud",
+        "Icedrive",
+        "MEGA",
+        "IDrive",
+        "OneDrive",
+        "Google Drive",
+        "Koofr",
+        "Dropbox",
+        "Box"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "Top 5 Most Common Computer Peripherals.",
+      "answer": "মাউস, কীবোর্ড, মনিটর, স্পিকার, প্রিন্টার",
+      "id": "176",
+      "keywords": [
+        "computer peripherals",
+        "Mouse",
+        "Keyboard",
+        "Monitor",
+        "Speaker",
+        "Printer"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is CC and BCC in Email?",
+      "answer": "CC এর অর্থ 'কার্বন কপি' এবং BCC এর অর্থ 'ব্লাইন্ড কার্বন কপি।' এই ফিচারগুলো আপনাকে অতিরিক্ত গ্রাহকদের কাছে মেইল ​​কপি পাঠানোর অনুমতি দেয়, য entweder প্রকাশ্যে বা গোপনে।",
+      "id": "177",
+      "keywords": ["CC", "BCC", "Operate Computer"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is the name of 3 Network Device?",
+      "answer": "সুইচ, রাউটার, মাইক্রোটিক, ওয়্যারলেস অ্যাক্সেস পয়েন্ট, হাব",
+      "id": "178",
+      "keywords": [
+        "network devices",
+        "Switch",
+        "Router",
+        "Microtik",
+        "Wireless Access Point",
+        "Hub"
+      ],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "Name 3 Best Email Provider Name:",
+      "answer": "জিমেইল, ইয়াহু, হটমেইল, আউটলুক",
+      "id": "179",
+      "keywords": ["Email Providers", "Gmail", "Yahoo", "Hotmail", "Outlook"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What are the 3 Examples of presentation software?",
+      "answer": "মাইক্রোসফট পাওয়ারপয়েন্ট, গুগল স্লাইডস, প্রেজি, ক্যানভা, ভিসমে",
+      "id": "180",
+      "keywords": [
+        "MS Powerpoint",
+        "PowerPoint",
+        "Google Slides",
+        "Prezi",
+        "Canva",
+        "Visme"
+      ],
+      "unit": "MS Powerpoint"
+    },
+    {
+      "question": "What is the 5 font Name?",
+      "answer": "এরিয়াল, ক্যালিব্রি, টাইমস নিউ রোমান, কুরো, ভার্দানা, বৃন্দা, তাহোমা",
+      "id": "181",
+      "keywords": [
+        "fonts",
+        "Arial",
+        "Calibri",
+        "Times New Roman",
+        "Kuro",
+        "Verdana",
+        "Vrinda",
+        "Tahoma"
+      ],
+      "unit": "Fonts"
+    },
+    {
+      "question": "Name 2 Typing Application Software in Bangla.",
+      "answer": "বিজয়, অভ্র",
+      "id": "182",
+      "keywords": ["Operate Computer", "Bangla", "Bijoy", "Avro"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is Driver Software?",
+      "answer": "একটি ড্রাইভার সফ্টওয়্যার ডিভাইসের সাথে হার্ডওয়্যার ফাংশন অ্যাক্সেস করার জন্য অপারেটিং সিস্টেম এবং অন্যান্য প্রোগ্রামগুলির জন্য একটি সফ্টওয়্যার ইন্টারফেস প্রদান করে।",
+      "id": "183",
+      "keywords": ["driver software", "hardware interface", "operating system"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is the use of Ethernet Port?",
+      "answer": "ইথারনেট পোর্ট নেটওয়ার্ক তৈরি করতে ব্যবহৃত হয়, যা ২ বা ততোধিক কম্পিউটার সংযুক্ত করে। এটি ইন্টারনেট অ্যাক্সেস করতেও ব্যবহৃত হয়।",
+      "id": "184",
+      "keywords": ["Ethernet Port", "Troubleshooting", "Internet"],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "Write down the name of 3 VIRUS",
+      "answer": "ট্রোজান, র‍্যানসমওয়্যার, আই লাভ ইউ, ক্রিপার, মরিস ওয়ার্ম, শ্লেয়ার, ওয়েলচিয়া, ওয়ানাক্রাই, মেলিসা, কোড রেড, কনফিকার।",
+      "id": "185",
+      "keywords": [
+        "viruses",
+        "Trojan",
+        "Ransomware",
+        "I Love You",
+        "Creeper",
+        "Morris Worm",
+        "Shlayer",
+        "WannaCry",
+        "Melissa",
+        "Code Red",
+        "Conficker"
+      ],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is the purpose of Antivirus?",
+      "answer": "অ্যান্টিভাইরাস একটি সফ্টওয়্যার যা ভাইরাস এবং অন্যান্য ধরনের ক্ষতিকারক সফ্টওয়্যার সনাক্ত ও মুছে ফেলার জন্য ডিজাইন করা হয়েছে।",
+      "id": "186",
+      "keywords": ["antivirus", "Operate Computer", "software removal"],
+      "unit": "Operate Computer"
+    },
+    {
+      "question": "What is the name of 5 Input Device?",
+      "answer": "মাউস, কীবোর্ড, মাইক্রোফোন, স্ক্যানার, জয়স্টিক",
+      "id": "187",
+      "keywords": [
+        "input devices",
+        "Mouse",
+        "Keyboard",
+        "Microphone",
+        "Scanner",
+        "Joystick"
+      ],
+      "unit": "Troubleshooting"
+    },
+    {
+      "question": "What is CPU?",
+      "answer": "সিপিইউ বা সেন্ট্রাল প্রসেসিং ইউনিট একটি কম্পিউটারের সবচেয়ে গুরুত্বপূর্ণ প্রসেসর। এটি গাণিতিক, লজিক্যাল, কন্ট্রোলিং এবং ইনপুট/আউটপুট অপারেশন সম্পাদন করে।",
+      "id": "188",
+      "keywords": ["CPU", "central processing unit", "processor"],
       "unit": "Troubleshooting"
     }
   ]
