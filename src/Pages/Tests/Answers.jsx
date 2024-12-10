@@ -18,14 +18,14 @@ const Answers = () => {
 
   return (
     <div className="bg-cover bg-center min-h-screen p-6 text-black">
-      <div className="gap-4 mb-8 flex items-center flex-col-reverse p-3">
+      <div className="gap-4 mb-8 flex items-center flex-col p-3 ">
         <Link to="/tests">
           <button className="w-full sm:w-[150px] md:w-[200px] bg-red-600 text-white py-2 rounded-lg shadow-md hover:bg-red-700 transition">
             Back to Tests
           </button>
         </Link>
+        <QuestionSetButtons onSetSelect={getSelection} />
       </div>
-      <QuestionSetButtons onSetSelect={getSelection} />
 
       <section className="flex flex-col items-center justify-center">
         <div className="bg-teal-500 p-4 rounded-lg w-full max-w-3xl mb-6">

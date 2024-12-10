@@ -74,7 +74,7 @@ const McqPage = ({ questions }) => {
 
       swal({
         title: "Congrats",
-        text: `You managed to get ( ${result.length} ) correct answers`,
+        text: `You managed to get ( ${result.length} ) out of ${questions.length} questions correct`,
         icon: "success",
         button: "Proceed",
       }).then(() => {
