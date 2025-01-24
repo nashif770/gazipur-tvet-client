@@ -5,27 +5,28 @@ import Navbar from "../Pages/Shared/Navbar";
 
 const Main = () => {
   const location = useLocation();
-  console.log("location", location);
 
+  // Paths where Navbar and Footer should be hidden
   const noHeaderFooter =
-    location.pathname.includes("login") ||
-    location.pathname.includes("registration");
+    location.pathname === "/login" || location.pathname === "/registration";
 
   return (
     <div className="min-h-screen flex flex-col">
-      {/* Navbar will stick to the top */}
-      <header className="sticky top-0 z-50">
-        <Navbar />
-      </header>
+      {/* Conditionally render Navbar */}
+      {!noHeaderFooter && (
+        <header className="sticky top-0 z-50">
+          <Navbar />
+        </header>
+      )}
 
-      {/* The content will stretch and take up remaining space between Navbar and Footer */}
+      {/* Dynamic content */}
       <main className="flex-grow">
         <Outlet />
       </main>
 
-      {/* Footer will stick to the bottom unless noHeaderFooter is true */}
+      {/* Conditionally render Footer */}
       {!noHeaderFooter && (
-        <footer className="mt-auto">
+        <footer>
           <Footer />
         </footer>
       )}
