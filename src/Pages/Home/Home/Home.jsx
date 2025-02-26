@@ -10,7 +10,7 @@ const Home = () => {
   // Fetch the Message of the Day from the backend
   const fetchMessage = async () => {
     try {
-      const response = await fetch("http://localhost:5000/motd");
+      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd");
       if (!response.ok) throw new Error("Failed to fetch the message");
       const data = await response.json();
       setMessageOfTheDay(data.message);
@@ -22,7 +22,7 @@ const Home = () => {
   // Submit the custom message to the backend
   const submitMessage = async () => {
     try {
-      const response = await fetch("http://localhost:5000/motd", {
+      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
