@@ -8,6 +8,7 @@ import RandomizedTest from "../Pages/Tests/RandomizedTest/RandomizedTest";
 import Answers from "../Pages/Tests/Answers";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
 import Written from "../Pages/ShortQuestion/writtenAnswers/Written";
+import Videos from "../Pages/Videos/Videos";
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
       {
         path: "shortQuestions",
         element: <ShortQuestion></ShortQuestion>,
+      },
+      {
+        path: "videos",
+        element: <Videos></Videos>,
       },
       {
         path: "written",

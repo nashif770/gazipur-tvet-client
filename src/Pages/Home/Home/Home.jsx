@@ -3,137 +3,154 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../../0.providers/AuthProvider";
 
 const Home = () => {
-  const { user } = useContext(AuthContext); // Get the user context
-  const [customMessage, setCustomMessage] = useState(""); // State for the input
-  const [messageOfTheDay, setMessageOfTheDay] = useState(""); // State for the fetched message
+  const { user } = useContext(AuthContext);
+  const [customMessage, setCustomMessage] = useState("");
+  const [messageOfTheDay, setMessageOfTheDay] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-  // Fetch the Message of the Day from the backend
-  const fetchMessage = async () => {
+  // API call abstraction
+  const fetchMessage = async (abortController) => {
     try {
-      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd");
-      if (!response.ok) throw new Error("Failed to fetch the message");
+      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd", {
+        signal: abortController?.signal
+      });
+      if (!response.ok) throw new Error("Failed to fetch message");
       const data = await response.json();
       setMessageOfTheDay(data.message);
-    } catch (error) {
-      console.error("Error fetching message:", error);
+      setError("");
+    } catch (err) {
+      if (err.name !== 'AbortError') {
+        setError("Failed to load message. Please try again later.");
+        console.error("Fetch error:", err);
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
-  // Submit the custom message to the backend
   const submitMessage = async () => {
+    if (!customMessage.trim()) return;
+    
     try {
       const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          // Add authorization header if required
+          ...(user?.token && { "Authorization": `Bearer ${user.token}` })
         },
         body: JSON.stringify({ message: customMessage }),
       });
-      if (!response.ok) throw new Error("Failed to submit the message");
-      await fetchMessage(); // Refresh the message after submission
-      setCustomMessage(""); // Clear the input
-    } catch (error) {
-      console.error("Error submitting message:", error);
+      
+      if (!response.ok) throw new Error("Submission failed");
+      await fetchMessage();
+      setCustomMessage("");
+      alert("Message submitted successfully!");
+    } catch (err) {
+      setError("Failed to submit message. Please try again.");
+      console.error("Submission error:", err);
     }
   };
 
-  // Load the message when the component mounts
   useEffect(() => {
-    fetchMessage();
+    const abortController = new AbortController();
+    fetchMessage(abortController);
+    return () => abortController.abort();
   }, []);
 
   return (
-    <div className="relative overflow-auto bg-cover bg-center">
+    <div className="relative overflow-auto bg-cover bg-center min-h-screen">
       <div className="flex flex-col items-center justify-center text-center p-6">
-        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white mb-6">
-          Welcome to TVET Test
-        </h1>
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-white mb-10">
-          Let's dive in
-        </p>
-        <Link to="/tests">
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition duration-300 ease-in-out mb-4">
+        {/* Header Section */}
+        <div className="mb-8">
+          <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">
+            Welcome to TVET Test
+          </h1>
+          <p className="text-lg sm:text-xl text-white">
+            Let's dive in
+          </p>
+        </div>
+
+        {/* Main Test Button */}
+        <Link to="/tests" className="mb-8">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
             Start Test
           </button>
         </Link>
 
-        {/* Message of the Day */}
-
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl text-white mb-6">
-          Click the links below
-        </p>
-
-        {/* Links Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 w-full max-w-md">
+        {/* Quick Links Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl mb-8">
           {[
-            {
-              name: "Google Drive",
-              url: "https://drive.google.com/drive/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA?usp=sharing",
-            },
-            {
-              name: "Student Form",
-              url: "https://forms.gle/5vo44MAanrWsTpXC8",
-            },
-            {
-              name: "Keyboard Practice",
-              url: "https://rededge.is-a.dev/Keyboard-Hero/",
-            },
-            {
-              name: "Typing Practice",
-              url: "https://monkeytype.com/",
-            },
+            { name: "Google Drive", url: "https://drive.google.com/..." },
+            { name: "Student Form", url: "https://forms.gle/..." },
+            { name: "Keyboard Practice", url: "https://rededge.is-a.dev/..." },
+            { name: "Typing Practice", url: "https://monkeytype.com/" }
           ].map((link, index) => (
-            <div
+            <a
               key={index}
-              className="flex flex-col items-center bg-white rounded-md p-4"
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-4 bg-white/90 backdrop-blur-sm rounded-lg hover:bg-white transition-colors duration-300"
             >
-              <a
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-base sm:text-lg font-semibold text-blue-600 hover:underline"
-              >
+              <span className="text-blue-600 font-medium hover:text-blue-800">
                 {link.name}
-              </a>
-            </div>
+              </span>
+            </a>
           ))}
         </div>
-        <div className="mt-6">
-          <h2 className="text-xl sm:text-2xl font-semibold mb-2 text-white">
+
+        {/* Message of the Day Section */}
+        <div className="w-full max-w-2xl">
+          <h2 className="text-xl font-semibold text-white mb-4">
             Message of the Day
           </h2>
-          <div className="bg-white bg-opacity-90 text-black rounded-lg p-4 mb-6 shadow-md w-full">
-            {user && (
-              <div>
+          
+          <div className="bg-white/90 backdrop-blur-sm rounded-lg p-6 shadow-xl">
+            {user?.email && (
+              <div className="mb-4">
                 <input
                   type="text"
-                  placeholder="Type your message of the day..."
+                  placeholder="Type your message here..."
                   value={customMessage}
                   onChange={(e) => setCustomMessage(e.target.value)}
-                  className="w-full p-2 mb-4 border rounded bg-white"
+                  className="w-full p-2 mb-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+                  aria-label="Message input field"
                 />
                 <button
                   onClick={submitMessage}
-                  className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
+                  disabled={!customMessage.trim()}
+                  className="bg-green-600 hover:bg-green-700 text-white font-medium px-6 py-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-all"
                 >
-                  Submit
+                  Submit Message
                 </button>
               </div>
             )}
 
-            <div className="flex items-center justify-between mt-4 flex-col">
-              <p className="text-base sm:text-xl">
-                {messageOfTheDay || "No message of the day available"}
-              </p>
-              <button
-                onClick={() => {
-                  navigator.clipboard.writeText(messageOfTheDay);
-                  alert("Message copied to clipboard!");
-                }}
-                className="bg-blue-500 hover:bg-blue-700 mt-3 text-white font-bold py-1 px-4 rounded"
-              >
-                Copy
-              </button>
+            <div className="space-y-4">
+              {loading ? (
+                <div className="text-gray-600">Loading message...</div>
+              ) : error ? (
+                <div className="text-red-600">{error}</div>
+              ) : (
+                <>
+                  <p className="text-gray-800 text-lg break-words">
+                    {messageOfTheDay || "No message available today"}
+                  </p>
+                  <button
+                    onClick={() => {
+                      navigator.clipboard.writeText(messageOfTheDay);
+                      alert("Copied to clipboard!");
+                    }}
+                    disabled={!messageOfTheDay}
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
+                    aria-label="Copy message to clipboard"
+                  >
+                    Copy Message
+                  </button>
+                </>
+              )}
             </div>
           </div>
         </div>
