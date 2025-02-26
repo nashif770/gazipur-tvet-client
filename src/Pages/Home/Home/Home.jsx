@@ -53,7 +53,7 @@ const Home = () => {
         </p>
         <Link to="/tests">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 sm:py-3 sm:px-8 rounded-full shadow-lg transition duration-300 ease-in-out mb-4">
-            Start MCQ Test
+            Start Test
           </button>
         </Link>
 
