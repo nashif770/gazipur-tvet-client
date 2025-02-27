@@ -82,9 +82,8 @@ const Home = () => {
         {/* Quick Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl mb-8">
           {[
-            { name: "Google Drive", url: "https://drive.google.com/..." },
-            { name: "Student Form", url: "https://forms.gle/..." },
-            { name: "Keyboard Practice", url: "https://rededge.is-a.dev/..." },
+            { name: "Google Drive", url: "https://drive.google.com/drive/u/1/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA" },
+            { name: "Keyboard Practice", url: "https://rededge.is-a.dev/Keyboard-Hero/" },
             { name: "Typing Practice", url: "https://monkeytype.com/" }
           ].map((link, index) => (
             <a
