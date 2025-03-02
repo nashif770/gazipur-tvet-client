@@ -78,7 +78,7 @@ const McqPage = ({ questions }) => {
         icon: "success",
         button: "Proceed",
       }).then(() => {
-        window.location.href = "/tests"; // Redirect or reload page
+        window.location.href = "https://uceptvet.netlify.app/"; // Redirect or reload page
       });
     } else {
       swal({
