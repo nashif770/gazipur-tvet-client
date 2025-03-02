@@ -18,15 +18,22 @@ const Written = () => {
 
   const evaluateAnswers = () => {
     const newPercentages = {};
+
     randomQuestions.forEach((question) => {
-      const studentAnswer = studentAnswers[question.id]?.toLowerCase() || "";
-      const keywordMatches = question.keywords.filter((keyword) =>
-        studentAnswer.includes(keyword.toLowerCase())
-      );
-      const percentage =
-        (keywordMatches.length / question.keywords.length) * 100;
-      newPercentages[question.id] = percentage;
+      const studentAnswer =
+        studentAnswers[question.id]?.trim().toLowerCase() || "";
+      const correctAnswer = question.answer?.en?.trim().toLowerCase() || ""; // Assuming English answer
+
+      if (!correctAnswer) {
+        newPercentages[question.id] = 0; // No answer available
+        return;
+      }
+
+      // Calculate similarity percentage
+      const similarity = getSimilarityPercentage(studentAnswer, correctAnswer);
+      newPercentages[question.id] = similarity;
     });
+
     setPercentages(newPercentages);
     setSubmitted(true);
   };
@@ -49,6 +56,37 @@ const Written = () => {
     setPercentages({});
     setStudentAnswers({});
     setSubmitted(false);
+  };
+
+  const getSimilarityPercentage = (studentAnswer, correctAnswer) => {
+    const editDistance = levenshteinDistance(studentAnswer, correctAnswer);
+    const maxLength = Math.max(studentAnswer.length, correctAnswer.length);
+
+    if (maxLength === 0) return 100; // Both answers are empty, consider it 100% correct
+
+    return ((maxLength - editDistance) / maxLength) * 100;
+  };
+
+  const levenshteinDistance = (a, b) => {
+    const matrix = Array(a.length + 1)
+      .fill(null)
+      .map(() => Array(b.length + 1).fill(null));
+
+    for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
+    for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
+
+    for (let i = 1; i <= a.length; i++) {
+      for (let j = 1; j <= b.length; j++) {
+        const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+        matrix[i][j] = Math.min(
+          matrix[i - 1][j] + 1, // Deletion
+          matrix[i][j - 1] + 1, // Insertion
+          matrix[i - 1][j - 1] + cost // Substitution
+        );
+      }
+    }
+
+    return matrix[a.length][b.length];
   };
 
   const units = [
@@ -125,10 +163,6 @@ const Written = () => {
                 <>
                   <p className={`${percentageClass} mt-2`}>
                     Correctness: {percentage.toFixed(1)}%
-                  </p>
-                  <p className="mt-2 text-gray-700">
-                    <strong>Keywords: </strong>
-                    {question.keywords.join(", ")}
                   </p>
                 </>
               )}

@@ -1880,7 +1880,7 @@
       "question": "How do I fix printer printing error?",
       "answer": {
         "en": "Some common steps to fix printer printing errors: 1. Unplug the printer and restart it. Sometimes power cycling can resolve printer issues. 2. Check the cable or wireless connection. 3. Uninstall and reinstall the printer. 4. Install the latest printer driver. 5. Clear and reset the print spooler. 6. Change the printer's status to 'Online'.",
-        "bn": "প্রিন্টার প্রিন্টিং ত্রুটি ঠিক করার জন্য কিছু সাধারণ পদক্ষেপ:  প্রিন্টারটি আনপ্লাগ করুন এবং পুনরায় চালু করুন। কখনও কখনও পাওয়ার সাইক্লিং প্রিন্টারের সমস্যা সমাধান করতে পারে।  কেবল বা ওয়্যারলেস সংযোগ চেক করুন।  প্রিন্টারটি আনইনস্টল এবং পুনরায় ইনস্টল করুন।  প্রিন্টারের সর্বশেষ ড্রাইভার ইনস্টল করুন।  প্রিন্ট স্পুলার মুছুন এবং রিসেট করুন।  প্রিন্টারের অবস্থান 'অনলাইন' এ পরিবর্তন করুন।"
+        "bn": "প্রিন্টার প্রিন্টিং ত্রুটি ঠিক করার জন্য কিছু সাধারণ পদক্ষেপ: 1. প্রিন্টারটি আনপ্লাগ করুন এবং পুনরায় চালু করুন। কখনও কখনও পাওয়ার সাইক্লিং প্রিন্টারের সমস্যা সমাধান করতে পারে। 2. কেবল বা ওয়্যারলেস সংযোগ চেক করুন। 3. প্রিন্টারটি আনইনস্টল এবং পুনরায় ইনস্টল করুন। 4 প্রিন্টারের সর্বশেষ ড্রাইভার ইনস্টল করুন। 5. প্রিন্ট স্পুলার মুছুন এবং রিসেট করুন। 6. প্রিন্টারের অবস্থান 'অনলাইন' এ পরিবর্তন করুন।"
       },
 
       "keywords": [
@@ -1898,8 +1898,8 @@
       "id": "146",
       "question": "What is Application Software?",
       "answer": {
-        "en": "Application software is customized software designed for personal use. These types of software help users perform basic tasks such as online research, setting alarms, designing, or even playing games. Application software runs on the front-end and is typically used by end-users. These software are also known as 'end-user programs'. Examples: Word processors, multimedia software, web browsers, graphics software (Photoshop), etc.",
-        "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। এই ধরনের সফটওয়্যারগুলি ব্যবহারকারীদের অনলাইন গবেষণা, এলার্ম সেট করা, ডিজাইনিং, অথবা এমনকি গেম খেলা সহ মৌলিক কাজগুলি সম্পাদন করতে সাহায্য করে। অ্যাপ্লিকেশন সফটওয়্যার ফ্রন্টএন্ডে চলে এবং সাধারণত শেষ-ব্যবহারকারীদের দ্বারা ব্যবহৃত হয়। এই সফটওয়্যারগুলি 'এন্ড-ইউজার প্রোগ্রাম' হিসাবেও পরিচিত। উদাহরণ: ওয়ার্ড প্রসেসর, মাল্টিমিডিয়া সফটওয়্যার, ওয়েব ব্রাউজার, গ্রাফিক্স সফটওয়্যার (ফটোশপ) ইত্যাদি।"
+        "en": "Application software is customized software designed for personal use. These types of software help users perform basic tasks such as online research, setting alarms, designing, or even playing games. Examples: Word processors, multimedia software, web browsers, graphics software (Photoshop), etc.",
+        "bn": "অ্যাপ্লিকেশন সফটওয়্যার হল কাস্টমাইজড সফটওয়্যার যা ব্যক্তিগত ব্যবহারের জন্য ডিজাইন করা হয়। এই ধরনের সফটওয়্যারগুলি ব্যবহারকারীদের অনলাইন গবেষণা, এলার্ম সেট করা, ডিজাইনিং, অথবা এমনকি গেম খেলা সহ মৌলিক কাজগুলি সম্পাদন করতে সাহায্য করে। উদাহরণ: ওয়ার্ড প্রসেসর, মাল্টিমিডিয়া সফটওয়্যার, ওয়েব ব্রাউজার, গ্রাফিক্স সফটওয়্যার (ফটোশপ) ইত্যাদি।"
       },
 
       "keywords": [
