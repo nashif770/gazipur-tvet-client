@@ -34,7 +34,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-neutral text-neutral-content shadow-lg">
+    <div className="navbar bg-slate-300">
+    {/* <div className="navbar bg-neutral text-neutral-content shadow-lg"> */}
       <div className="navbar-start">
         {/* Dropdown for mobile view */}
         <div className="dropdown bg-white">
@@ -63,27 +64,27 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <Link to="/" className="btn btn-ghost normal-case text-xl font-bold">
+        <Link to="/" className="btn btn-ghost normal-case text-xl font-bold  bg-white shadow-2xl rounded-xl px-8">
           TVET
         </Link>
       </div>
 
       {/* Navigation Links for larger screens */}
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navOptions}</ul>
+        <ul className="bg-white menu menu-horizontal shadow-2xl rounded-xl flex gap-2">{navOptions}</ul>
       </div>
 
       <div className="navbar-end">
         {user ? (
           <>
-            <div className="mr-4">
+            <div className="mr-4 bg-white shadow-2xl rounded-xl p-3 px-8">
               <span className="text-lg font-semibold">
                 {user.displayName || "User"}
               </span>
             </div>
             <button
               onClick={handleLogOut}
-              className="btn btn-primary hover:bg-red-600"
+              className="btn bg-white shadow-2xl rounded-xl p-3 px-8 hover:bg-red-600 hover:text-white border-none"
             >
               Logout
             </button>
