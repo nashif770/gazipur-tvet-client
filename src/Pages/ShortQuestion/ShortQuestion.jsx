@@ -100,7 +100,7 @@ const ShortQuestion = () => {
           </button>
         </div>
          {/* Search Input Field */}
-        <div className="m-4">
+        {/* <div className="m-4">
           <input
             type="text"
             value={searchTerm}
@@ -108,7 +108,7 @@ const ShortQuestion = () => {
             placeholder="Search questions..."
             className="w-full px-4 py-2 border border-gray-300 rounded-3xl"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* Questions Display */}

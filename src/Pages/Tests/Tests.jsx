@@ -23,7 +23,7 @@ const Tests = () => {
         {/* Page Title */}
         <div className="text-center mt-6">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Choose Your Test
+            Select Test
           </h1>
 
           {/* Navigation Buttons */}
