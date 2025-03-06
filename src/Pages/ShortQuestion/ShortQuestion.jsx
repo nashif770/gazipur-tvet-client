@@ -6,6 +6,13 @@ const ShortQuestion = () => {
   const [selectedUnit, setSelectedUnit] = useState("All");
   const [selectLang, setSelectLang] = useState("en"); // State for selected language
   const [dropdownOpen, setDropdownOpen] = useState(false); // State for dropdown visibility
+  const [searchTerm, setSearchTerm] = useState(""); // State for search term
+
+  // Extract unique units from the questions data
+  const uniqueUnits = [
+    "All", // Default option
+    ...[...new Set(shortQuestions.questions?.map((question) => question.unit))], // Extract unique units
+  ];
 
   // Filter questions based on selected unit
   const filteredQuestions =
@@ -15,15 +22,12 @@ const ShortQuestion = () => {
           (question) => question.unit === selectedUnit
         );
 
-  // List of possible units for filtering
-  const units = [
-    "All",
-    "MS Word",
-    "MS PowerPoint",
-    "MS Excel",
-    "Troubleshooting",
-    "Operate Computer",
-  ];
+  // Search filter: Filter questions based on the search term
+  const searchedQuestions = filteredQuestions?.filter((question) =>
+    question.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    question.answer.en.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    question.answer.bn.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <div className="container mx-auto py-8">
@@ -46,11 +50,10 @@ const ShortQuestion = () => {
             Switch to {selectLang === "en" ? "Bengali" : "English"}
           </button>
         </div>
-
         {/* Dropdown Menu (Visible when open) */}
         {dropdownOpen && (
           <div className="mt-4 bg-gray-100 p-4 rounded md:hidden">
-            {units.map((unit) => (
+            {uniqueUnits.map((unit) => (
               <button
                 key={unit}
                 onClick={() => {
@@ -68,11 +71,12 @@ const ShortQuestion = () => {
             ))}
           </div>
         )}
+        
 
         {/* Desktop Unit Filter Buttons */}
         <div className="hidden md:flex justify-between items-center">
           <div>
-            {units.map((unit) => (
+            {uniqueUnits.map((unit) => (
               <button
                 key={unit}
                 onClick={() => setSelectedUnit(unit)}
@@ -95,11 +99,21 @@ const ShortQuestion = () => {
             Switch to {selectLang === "en" ? "Bengali" : "English"}
           </button>
         </div>
+         {/* Search Input Field */}
+        <div className="m-4">
+          <input
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Search questions..."
+            className="w-full px-4 py-2 border border-gray-300 rounded-3xl"
+          />
+        </div>
       </div>
 
       {/* Questions Display */}
       <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-3 mt-4">
-        {filteredQuestions?.map((question, index) => (
+        {searchedQuestions?.map((question, index) => (
           <div
             key={index}
             className="rounded-lg shadow-md p-6 bg-gray-300 min-h-72"

@@ -17,8 +17,11 @@ const Answers = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-black">
+    <div className="min-h-screen flex flex-col items-center  text-black">
       {/* Navigation & Selection */}
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold m-6">
+        Go Back to Take Test
+      </h1>
       <div className="w-full max-w-3xl text-center mt-3">
         <Link to="/tests">
           <button className="w-full sm:w-[150px] md:w-[200px] bg-red-600 text-white py-2 rounded-lg shadow-md hover:bg-red-700 transition">
@@ -32,7 +35,7 @@ const Answers = () => {
 
       {/* Answer Section */}
       {testSet && (
-        <section className="w-full max-w-5xl mt-6">
+        <section className="w-full max-w-5xl mt-2">
           <div className="bg-teal-600 p-4 rounded-lg text-center text-white font-bold text-xl md:text-2xl">
             Answers ({testSet})
           </div>
@@ -47,9 +50,12 @@ const Answers = () => {
                   <h3 className="text-lg font-bold mb-2">
                     {answers.question_set}/{answers.id}: Question {index + 1}
                   </h3>
-                  <p className="text-sm mb-4 text-gray-800">{answers.question}</p>
+                  <p className="text-sm mb-4 text-gray-800">
+                    {answers.question}
+                  </p>
                   <p className="text-sm font-semibold">
-                    <span className="font-bold">Answer:</span> {answers.correct_answer}
+                    <span className="font-bold">Answer:</span>{" "}
+                    {answers.correct_answer}
                   </p>
                 </div>
               ))

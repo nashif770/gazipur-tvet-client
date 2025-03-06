@@ -20,7 +20,7 @@ const QuestionSetButtons = ({ onSetSelect }) => {
   );
 
   return (
-    <div className="p-6 m-auto text-center w-full max-w-5xl">
+    <div className="p-4 sm:p-6 m-auto text-center w-full max-w-5xl">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 max-h-80 overflow-y-auto p-2">
         {paginatedSets.map((button, index) => (
           <button
@@ -34,30 +34,30 @@ const QuestionSetButtons = ({ onSetSelect }) => {
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 flex-wrap">
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 flex-wrap items-center">
         <button
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
-          className={`px-4 py-2 rounded w-[100px] ${
+          className={`px-4 py-2 rounded w-[100px] text-white transition-all ${
             currentPage === 1
               ? "bg-gray-300 cursor-not-allowed"
-              : "bg-blue-500 hover:bg-blue-600 "
+              : "bg-blue-500 hover:bg-blue-600"
           }`}
         >
           Previous
         </button>
-        <div className="w-[200px] font-semibold text-lg overflow-hidden text-white">
-            Page {currentPage} of {totalPages}
+        <div className="w-[150px] sm:w-[200px] font-semibold text-lg text-black bg-white p-2 rounded-lg shadow-md">
+          Page {currentPage} of {totalPages}
         </div>
         <button
           onClick={() =>
             setCurrentPage((prev) => Math.min(prev + 1, totalPages))
           }
           disabled={currentPage === totalPages}
-          className={`px-4 py-2 w-[100px] rounded ${
+          className={`px-4 py-2 w-[100px] rounded text-white transition-all ${
             currentPage === totalPages
               ? "bg-gray-300 cursor-not-allowed"
-              : "bg-blue-500 hover:bg-blue-600 text-white"
+              : "bg-blue-500 hover:bg-blue-600"
           }`}
         >
           Next

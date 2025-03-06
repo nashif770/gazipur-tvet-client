@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import useMCQ from "../../0.hooks/useMCQ";
 import McqPage from "../../0.Components/McqPage";
 import { Link } from "react-router-dom";
@@ -18,19 +18,25 @@ const Tests = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white">
-      <div className="max-w-4xl w-full mx-auto px-6 py-10">
+    <div className="min-h-screen flex flex-col text-white px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl w-full mx-auto">
         {/* Page Title */}
-        <div className="text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold mb-6">Choose Your Test</h1>
+        <div className="text-center mt-6">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
+            Choose Your Test
+          </h1>
 
           {/* Navigation Buttons */}
-          <div className="flex justify-center space-x-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mb-6">
             <Link to="/randomized">
-              <button className="btn btn-primary">Random Test</button>
+              <button className="btn btn-primary text-sm sm:text-base px-4 py-2">
+                Random Test
+              </button>
             </Link>
             <Link to="/answers">
-              <button className="btn btn-success">View Answers</button>
+              <button className="btn btn-success text-sm sm:text-base px-4 py-2">
+                View Answers
+              </button>
             </Link>
           </div>
         </div>
@@ -41,7 +47,7 @@ const Tests = () => {
         {/* Test Section */}
         {testSet && (
           <>
-            <div className="bg-teal-600 text-white text-center font-bold text-2xl p-4 mt-8 rounded-lg">
+            <div className="bg-teal-600 text-white text-center font-bold text-xl sm:text-2xl p-4 mt-8 rounded-lg">
               Take Test (<span>{testSet}</span>)
             </div>
             <div className="overflow-x-auto mt-4">
