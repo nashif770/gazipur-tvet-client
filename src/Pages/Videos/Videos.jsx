@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Videos = () => {
-  // Video Data
+  // Video Data (same as before)
   const videoCategoriesBasics = [
     {
       title: "Excel Beginner Functions",
@@ -29,7 +29,7 @@ const Videos = () => {
       ],
     },
     {
-      title: "Excel Intermediat Functions",
+      title: "Excel Intermediate Functions",
       videos: [
         {
           name: "SUMIF – Adds values based on a condition.",
@@ -62,7 +62,7 @@ const Videos = () => {
       ],
     },
     {
-      title: "Excel Advance Functions",
+      title: "Excel Advanced Functions",
       videos: [
         {
           name: "RANK – Assigns rank to values within a dataset.",
@@ -75,6 +75,7 @@ const Videos = () => {
       ],
     },
   ];
+
   const videoCategories = [
     {
       title: "MS Word - Job 1",
@@ -139,59 +140,65 @@ const Videos = () => {
     },
   ];
 
+  const [visibleCategory, setVisibleCategory] = useState(null);
+
+  const toggleCategoryVisibility = (categoryIndex) => {
+    setVisibleCategory(visibleCategory === categoryIndex ? null : categoryIndex);
+  };
+
   return (
     <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
       <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">Video Library</h1>
-      
-      {/* Basic Video Category */}
-      <div className="bg-slate-400 p-6 w-full max-w-6xl rounded-lg shadow-md mb-6">
-        <h2 className="text-2xl font-bold text-white mb-4">Basic</h2>
-        {videoCategoriesBasics.map((category, index) => (
-          <div key={index} className="mb-8">
-            <h3 className="text-xl font-semibold text-gray-700 mb-4">{category.title}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {category.videos.map((video, vidIndex) => (
-                <div
-                  key={vidIndex}
-                  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition"
-                >
-                  <iframe
-                    className="w-full h-56 rounded-lg"
-                    src={video.url}
-                    title={video.name}
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="text-center mt-2 font-semibold">{video.name}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+
+      {/* Buttons in a Row */}
+      <div className="flex flex-wrap justify-center space-x-4 mb-6">
+        {videoCategoriesBasics.concat(videoCategories).map((category, index) => (
+          <button
+            key={index}
+            onClick={() => toggleCategoryVisibility(index)}
+            className="bg-blue-500 text-white py-2 px-4 rounded-md mb-4 hover:bg-blue-600 transition"
+          >
+            {category.title}
+          </button>
         ))}
       </div>
-      
-      {/* General Video Categories */}
+
+      {/* Display Videos */}
       <div className="w-full max-w-6xl">
-        {videoCategories.map((category, index) => (
+        {videoCategoriesBasics.concat(videoCategories).map((category, index) => (
           <div key={index} className="mb-8">
-            <h3 className="text-2xl font-semibold text-gray-700 mb-4">{category.title}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {category.videos.map((video, vidIndex) => (
-                <div
-                  key={vidIndex}
-                  className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition"
-                >
-                  <iframe
-                    className="w-full h-56 rounded-lg"
-                    src={video.url}
-                    title={video.name}
-                    frameBorder="0"
-                    allowFullScreen
-                  ></iframe>
-                  <p className="text-center mt-2 font-semibold">{video.name}</p>
+            {visibleCategory === index && (
+              <div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {category.videos.map((video, vidIndex) => (
+                    <div
+                      key={vidIndex}
+                      className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition"
+                    >
+                      <iframe
+                        className="w-full h-56 rounded-lg"
+                        src={video.url}
+                        title={video.name}
+                        frameBorder="0"
+                        allowFullScreen
+                        loading="lazy"
+                      ></iframe>
+                      <p className="text-center mt-2 font-semibold">{video.name}</p>
+                      <div className="text-center mt-4">
+                        <a
+                          href={video.url.replace("embed", "watch")}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition"
+                        >
+                          Watch on YouTube
+                        </a>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              </div>
+            )}
           </div>
         ))}
       </div>
