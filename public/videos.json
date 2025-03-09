@@ -1,0 +1,195 @@
+[
+    {
+      "title": "SUM – Adds a range of numbers.",
+      "url": "https://www.youtube.com/embed/-u-9f3QrdAQ?si=eoJ83yTKiHEbdhlR",
+      "name": "SUM – Adds a range of numbers.",
+      "category": "Excel Beginner Functions"
+    },
+    {
+      "title": "MAX, Min – Returns the highest, Lowest value in a range.",
+      "url": "https://www.youtube.com/embed/E2xl9E0lLrU?si=XhggtLhUEFh-283M",
+      "name": "MAX, Min – Returns the highest, Lowest value in a range.",
+      "category": "Excel Beginner Functions"
+    },
+    {
+      "title": "AVERAGE – Finds the mean of a range.",
+      "url": "https://www.youtube.com/embed/QpdLjWjlHYM?si=WEgp1zy2PihlJ--K",
+      "name": "AVERAGE – Finds the mean of a range.",
+      "category": "Excel Beginner Functions"
+    },
+    {
+      "title": "LEN – Counts the number of characters in a cell.",
+      "url": "https://www.youtube.com/embed/FooybTed-5M?si=IHLSi49WpX75VY1l",
+      "name": "LEN – Counts the number of characters in a cell.",
+      "category": "Excel Beginner Functions"
+    },
+    {
+      "title": "TRIM – Removes extra spaces from text.",
+      "url": "https://www.youtube.com/embed/lx-V_pyfDU4?si=PpSpVWuI5P2jBt6N",
+      "name": "TRIM – Removes extra spaces from text.",
+      "category": "Excel Beginner Functions"
+    },
+    {
+      "title": "SUMIF – Adds values based on a condition.",
+      "url": "https://www.youtube.com/embed/weFgBnZwWlk?si=pl1-RGoa9xPQ92xK",
+      "name": "SUMIF – Adds values based on a condition.",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "SUMIFS – Adds values based on multiple conditions.",
+      "url": "https://www.youtube.com/embed/5ccvb4TwpGc?si=kR77KZKuMZbi7BvY",
+      "name": "SUMIFS – Adds values based on multiple conditions.",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "AVERAGEA – Similar to AVERAGE but counts text as 0.",
+      "url": "https://www.youtube.com/embed/rWHjebVWX48?si=1ECcPq2v-btJRgKk",
+      "name": "AVERAGEA – Similar to AVERAGE but counts text as 0.",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "IF – Returns different results based on a condition.",
+      "url": "https://www.youtube.com/embed/hX5BA8tY5jg?si=LTvjvV9pVZOTC3K1",
+      "name": "IF – Returns different results based on a condition.",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "AND, OR, IF",
+      "url": "https://www.youtube.com/embed/mmPdatpcnTo?si=foFkbgBsGXEhQ2Dr",
+      "name": "AND, OR, IF",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "COUNT, COUNTA, CountIf",
+      "url": "https://www.youtube.com/embed/n12-7HAXBdQ?si=xlLN08iH0q-YzS6L",
+      "name": "COUNT, COUNTA, CountIf",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "CONCATENATE (or TEXTJOIN in newer versions) – Joins multiple text strings.",
+      "url": "https://www.youtube.com/embed/Aqib7yjiZw4?si=ldyvPB4atTs5SGBJ",
+      "name": "CONCATENATE (or TEXTJOIN in newer versions) – Joins multiple text strings.",
+      "category": "Excel Intermediate Functions"
+    },
+    {
+      "title": "RANK – Assigns rank to values within a dataset.",
+      "url": "https://www.youtube.com/embed/dNxc63gJMPA?si=N_CNDaRRSF4_f-ch",
+      "name": "RANK – Assigns rank to values within a dataset.",
+      "category": "Excel Advanced Functions"
+    },
+    {
+      "title": "VLOOKUP – Searches for a value in a table and returns",
+      "url": "https://www.youtube.com/embed/rqnIF__i5XU?si=MvBaHq1k3wK7xJEK",
+      "name": "VLOOKUP – Searches for a value in a table and returns",
+      "category": "Excel Advanced Functions"
+    },
+    {
+      "title": "Set 1",
+      "url": "https://www.youtube.com/embed/Kv7bMZNcDp0",
+      "name": "Set 1",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 2",
+      "url": "https://www.youtube.com/embed/mlUdvGXfWew",
+      "name": "Set 2",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 3",
+      "url": "https://www.youtube.com/embed/wyPT9rIgMzQ",
+      "name": "Set 3",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 4",
+      "url": "https://www.youtube.com/embed/Xs91VQs-vRg",
+      "name": "Set 4",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 5",
+      "url": "https://www.youtube.com/embed/MsX6qXvMi5k",
+      "name": "Set 5",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 6",
+      "url": "https://www.youtube.com/embed/pi6Dk8TK6wc",
+      "name": "Set 6",
+      "category": "MS Word - Job 1"
+    },
+    {
+      "title": "Set 1",
+      "url": "https://www.youtube.com/embed/29wHqMJh03A?si=3F10qb0eghy4dgWz",
+      "name": "Set 1",
+      "category": "MS Excel - Job 2"
+    },
+    {
+      "title": "Set 2",
+      "url": "https://www.youtube.com/embed/DY1lL7gFO0Y?si=lYpvaOU-W9YRsnBc",
+      "name": "Set 2",
+      "category": "MS Excel - Job 2"
+    },
+    {
+      "title": "Set 3",
+      "url": "https://www.youtube.com/embed/TjbHEtplo_I?si=laJ5Xn3EYBHdwidY",
+      "name": "Set 3",
+      "category": "MS Excel - Job 2"
+    },
+    {
+      "title": "Set 4",
+      "url": "https://www.youtube.com/embed/7O_oMh0mtXI?si=agqM7OR2ePGwGNxb",
+      "name": "Set 4",
+      "category": "MS Excel - Job 2"
+    },
+    {
+      "title": "Set 5",
+      "url": "https://www.youtube.com/embed/eNkRVYzuvNY",
+      "name": "Set 5",
+      "category": "MS Excel - Job 2"
+    },
+    {
+      "title": "Set 1",
+      "url": "https://www.youtube.com/embed/4YPq6F3gFB4",
+      "name": "Set 1",
+      "category": "MS PowerPoint - Job 3"
+    },
+    {
+      "title": "Set 2",
+      "url": "https://www.youtube.com/embed/tRmy2xEXFkM",
+      "name": "Set 2",
+      "category": "MS PowerPoint - Job 3"
+    },
+    {
+      "title": "Set 3",
+      "url": "https://www.youtube.com/embed/jUhc5cYGxts",
+      "name": "Set 3",
+      "category": "MS PowerPoint - Job 3"
+    },
+    {
+      "title": "Set 4",
+      "url": "https://www.youtube.com/embed/YEPf0anvEvY",
+      "name": "Set 4",
+      "category": "MS PowerPoint - Job 3"
+    },
+    {
+      "title": "Set 5",
+      "url": "https://www.youtube.com/embed/4o8m_yiBvS4",
+      "name": "Set 5",
+      "category": "MS PowerPoint - Job 3"
+    },
+    {
+      "title": "Zoom Basics",
+      "url": "https://www.youtube.com/embed/mcjoZMmK4n0",
+      "name": "Zoom Basics",
+      "category": "Zoom Meeting - Job 4(B)"
+    },
+    {
+      "title": "Google Forms Tutorial",
+      "url": "https://www.youtube.com/embed/lemx0LW7ABY",
+      "name": "Google Forms Tutorial",
+      "category": "Google Form - Job 4(A)"
+    }
+  ]
+  
