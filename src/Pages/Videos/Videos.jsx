@@ -108,6 +108,7 @@ const Videos = () => {
           url: "https://www.youtube.com/embed/7O_oMh0mtXI?si=agqM7OR2ePGwGNxb",
         },
         { name: "Set 5", url: "https://www.youtube.com/embed/eNkRVYzuvNY" },
+        { name: "Set 6", url: "https://www.youtube.com/embed/egCLzl0kC-w?si=-7NhJE32uKTaBSOD" },
       ],
     },
     {
