@@ -1,0 +1,762 @@
+[
+  {
+    "title": "200 Years Ago - The Meteor Cataclysm",
+    "summary": "A meteor storm annihilates civilization, leaving survivors in ruins. A mysterious Plague follows, decimating humanity.",
+    "tags": [
+      "meteor",
+      "apocalypse",
+      "plague",
+      "civilization collapse",
+      "disaster"
+    ],
+    "details": {
+      "event_type": "Cataclysm",
+      "impact": "Global destruction, cities obliterated, vast loss of life.",
+      "survivors": "Scattered tribes and scattered survivors in ruins.",
+      "aftereffects": "A world shaped by destruction, with the emergence of new challenges and dangers."
+    }
+  },
+  {
+    "title": "195 Years Ago - The Plague and Titan Strain",
+    "summary": "Post-Plague children are born with uncontrollable, godlike powers called Titan Quirks. Civilization collapses again as chaos spreads.",
+    "tags": ["plague", "mutation", "Titan Quirks", "power", "collapse"],
+    "details": {
+      "event_type": "Mutation and Collapse",
+      "impact": "Birth of individuals with godlike powers, leading to chaos.",
+      "survivors": "Humanity in turmoil, struggling to adapt.",
+      "aftereffects": "Civilization's fragile recovery completely undone by uncontrollable powers."
+    }
+  },
+  {
+    "title": "150–100 Years Ago - The Titan Wars",
+    "summary": "Fifty years of catastrophic conflict caused by Titan-powered individuals. Warlords rise, geography is rewritten, and peace is forgotten.",
+    "tags": ["Titan Wars", "warlords", "territorial conflict", "apocalyptic"],
+    "details": {
+      "event_type": "Conflict",
+      "impact": "Destruction of cities, rewriting of geography, loss of history.",
+      "survivors": "Those who survive live in fear, constantly displaced.",
+      "aftereffects": "A dark age of fear, where Titans rule and power is everything."
+    }
+  },
+  {
+    "title": "100 Years Ago - The Great Dimming",
+    "summary": "Titan powers fade with new generations. Quirks become manageable. Humanity begins to rebuild without the threat of apocalyptic abilities.",
+    "tags": ["Great Dimming", "power evolution", "hope", "rebirth"],
+    "details": {
+      "event_type": "Power Evolution",
+      "impact": "Quirks become safer, less destructive, allowing for recovery.",
+      "survivors": "Generations who now live in a world of controlled power.",
+      "aftereffects": "Hope is reborn. Humanity begins to rebuild civilization without fear of total annihilation."
+    }
+  },
+  {
+    "title": "90–80 Years Ago - Rise of Heroic Orders",
+    "summary": "Ordinary survivors become the first heroes. Heroic Orders form to protect people and restore order in a lawless world.",
+    "tags": ["heroes", "heroic orders", "protection", "justice"],
+    "details": {
+      "event_type": "Hero Emergence",
+      "impact": "Rise of organizations dedicated to preserving the last shreds of order and safety.",
+      "survivors": "Heroes and citizens, coming together to fight against oppression.",
+      "aftereffects": "A sense of justice begins to rise from the ashes, marking the dawn of a new age of heroes."
+    }
+  },
+  {
+    "title": "85–80 Years Ago - Rebuilding Governments",
+    "summary": "Governments reform around Quirk regulation. Councils are formed to classify and manage abilities. Heroic Orders are legitimized.",
+    "tags": ["government", "Quirk regulation", "law", "order", "bureaucracy"],
+    "details": {
+      "event_type": "Reformation",
+      "impact": "A new system of governance based on managing Quirks. Centralized councils are formed.",
+      "survivors": "Politicians, administrators, and Quirk specialists rise to power.",
+      "aftereffects": "A more organized, but fragile, government system begins to emerge."
+    }
+  },
+  {
+    "title": "80 Years Ago - The Global Quirk Accord",
+    "summary": "An international treaty regulates Quirk use to prevent Titan-level threats. Neutral Zones are created for diplomacy and trade.",
+    "tags": [
+      "Global Quirk Accord",
+      "treaty",
+      "Quirk regulation",
+      "global peace"
+    ],
+    "details": {
+      "event_type": "Global Diplomacy",
+      "impact": "International law to regulate Quirk use, preventing the rise of another Titan-like threat.",
+      "survivors": "Governments and leaders worldwide sign the treaty to stabilize global power.",
+      "aftereffects": "Neutral Zones and international peace are established, but challenges remain."
+    }
+  },
+  {
+    "title": "60 Years Ago - The War of Divisions",
+    "summary": "Governments weaponize heroes to maintain control. Rebellions rise. The Anti-Quirk Coalition forms, and the world teeters on collapse.",
+    "tags": [
+      "War of Divisions",
+      "rebellions",
+      "government manipulation",
+      "resistance",
+      "corruption"
+    ],
+    "details": {
+      "event_type": "Civil War",
+      "impact": "Political manipulation of heroes. A divided world, where trust is shattered.",
+      "survivors": "Rebellions, uprisings, and new factions rise to challenge the status quo.",
+      "aftereffects": "A world still in turmoil, with blurred lines between heroes and villains."
+    }
+  },
+  {
+    "title": "Present Day - A Fragile Peace",
+    "summary": "Global ceasefire holds. Heroes are both tools of order and symbols of resistance. The balance between control and freedom remains uncertain.",
+    "tags": ["fragile peace", "control", "resistance", "balance"],
+    "details": {
+      "event_type": "Peace and Struggle",
+      "impact": "A delicate peace is held together by those with power. A constant threat of rebellion lingers.",
+      "survivors": "People now live in an era of uneasy peace, with hope and fear coexisting.",
+      "aftereffects": "A new era of governance and heroism, though its stability is constantly threatened by hidden tensions."
+    }
+  },
+  {
+    "title": "The Founding of the Hero Association: Guardians, Not Rulers",
+    "summary": "In the aftermath of the War of Divisions, surviving leaders and guild heads unite to establish the Heroic Accords, forming the Hero Association to regulate and guide heroism.",
+    "tags": [
+      "Hero Association",
+      "Heroic Accords",
+      "post-war order",
+      "Quirk regulation",
+      "justice"
+    ],
+    "details": {
+      "event_type": "Founding",
+      "impact": "Creation of a global regulatory body to oversee independent hero organizations, ensuring no hero abuses their power.",
+      "principles": [
+        "No More Titans – Strict control over Quirk training to prevent world-breaking powers.",
+        "The Chain of Mercy – Heroes must protect all lives, including those of enemies.",
+        "The Oath of Unity – Heroes must cooperate to tackle global threats.",
+        "No Government Control Over Heroes – Heroes must be independent, serving the people, not political interests."
+      ],
+      "survivors": "The leaders and guild heads of the surviving hero organizations and political factions.",
+      "aftereffects": "The Hero Association is formed, leading to a decentralized yet ethically governed system of global heroism."
+    }
+  },
+  {
+    "title": "The New Order: Smaller Hero Organizations and the Role of the Government",
+    "summary": "Heroes operate in smaller organizations under the Hero Association's oversight, with governments still relying on Quirked individuals in military and law enforcement roles.",
+    "tags": [
+      "Hero organizations",
+      "government roles",
+      "military",
+      "Quirked individuals",
+      "hero autonomy"
+    ],
+    "details": {
+      "event_type": "Regulation and Structure",
+      "impact": "The formation of smaller, specialized hero organizations working independently but adhering to ethical standards enforced by the Hero Association.",
+      "survivors": "Quirked individuals serving as heroes in independent organizations and those working under governments in military or law enforcement.",
+      "aftereffects": "Heroes regain public trust as independent protectors, while government-employed Quirked individuals become secondary, seen as tools of control rather than hope."
+    }
+  },
+  {
+    "title": "The Rise of a New Era",
+    "summary": "With the Hero Association’s guidance, heroes become symbols of justice and unity, overshadowing government-employed Quirked individuals in the eyes of the public.",
+    "tags": ["Hero symbolism", "public trust", "new era", "global heroism"],
+    "details": {
+      "event_type": "Cultural Shift",
+      "impact": "Heroes, regulated by the Hero Association, emerge as the true defenders of the people, gaining more prestige than government Quirked individuals.",
+      "survivors": "Heroes who upheld the ethical standards of the Heroic Accords and those who benefited from their protection.",
+      "aftereffects": "Governments still exist but are now secondary to the autonomous, global influence of the Hero Association and independent hero organizations."
+    }
+  },
+  {
+    "title": "The Formation of the Academy System",
+    "summary": "The need for structured Quirk training leads to the creation of the Academy System, centralizing hero education and preventing past mistakes.",
+    "tags": [
+      "Academy System",
+      "Quirk training",
+      "hero education",
+      "Battle Schools",
+      "Heroic Accords"
+    ],
+    "details": {
+      "event_type": "Educational Reform",
+      "impact": "A centralized system of hero education is established to ensure the ethical and controlled use of Quirks.",
+      "survivors": "Young Quirked individuals who enter the Academy System for training and specialization.",
+      "aftereffects": "Hero training becomes more structured, focused on ethical use and specialization, ensuring future generations of heroes follow the Accords."
+    }
+  },
+  {
+    "title": "The Battle Schools",
+    "summary": "Battle Schools are established as the entry point for hero training, focusing on Quirk control, combat skills, and moral foundations.",
+    "tags": [
+      "Battle Schools",
+      "Quirk control",
+      "combat training",
+      "hero discipline",
+      "training system"
+    ],
+    "details": {
+      "event_type": "Training Institution",
+      "impact": "The first schools dedicated to training young Quirked individuals in combat and control, under strict supervision.",
+      "survivors": "Young Quirked individuals who enter the schools to begin their training as heroes.",
+      "aftereffects": "Battle Schools become the foundation for all hero education, teaching both physical control and moral responsibility."
+    }
+  },
+  {
+    "title": "The Specializations",
+    "summary": "Graduates of the Battle Schools enter specialized tracks for different areas of heroism, including law enforcement, medical response, and global defense.",
+    "tags": [
+      "Specializations",
+      "law enforcement",
+      "medical response",
+      "global defense",
+      "specialized tracks"
+    ],
+    "details": {
+      "event_type": "Specialization",
+      "impact": "Graduates of Battle Schools choose a specific track that suits their abilities and interests, focusing on particular areas of public service.",
+      "survivors": "Young heroes choosing their paths after completing the foundational Battle School training.",
+      "aftereffects": "The specialization of hero skills ensures that various facets of public service and protection are addressed by dedicated individuals."
+    }
+  },
+  {
+    "title": "The Rankings System",
+    "summary": "A Ranking System is implemented to monitor the abilities, accomplishments, and ethical behavior of heroes, preventing corruption and abuse of power.",
+    "tags": [
+      "Ranking System",
+      "hero accountability",
+      "ethical behavior",
+      "power regulation"
+    ],
+    "details": {
+      "event_type": "Accountability Mechanism",
+      "impact": "A system to monitor and track the progress of heroes, ensuring that no individual becomes too powerful or abuses their influence.",
+      "survivors": "All members of the hero community, as they are subject to the Rankings System's scrutiny.",
+      "aftereffects": "The Rankings System ensures that the most powerful heroes maintain their responsibility to the public and adhere to ethical standards."
+    }
+  },
+  {
+    "title": "The First Fully-Fledged Hero Academy",
+    "summary": "After 120 years of fragmented hero training, the first fully-formed Hero Academy is founded, centralizing the training and education of heroes from around the world.",
+    "tags": [
+      "Hero Academy",
+      "centralized education",
+      "global training",
+      "hero development"
+    ],
+    "details": {
+      "event_type": "Institutionalization",
+      "impact": "The Hero Academy becomes the central institution for training the next generation of global heroes, consolidating previous educational elements into one comprehensive system.",
+      "survivors": "Future heroes from around the world, trained in the Academy's holistic system.",
+      "aftereffects": "The Academy becomes the heart of global hero training, producing well-rounded, ethical heroes prepared for any challenge."
+    }
+  },
+  {
+    "title": "The Founding of the Hero Association: Guardians, Not Rulers",
+    "summary": "In the aftermath of the War of Divisions, surviving leaders and guild heads unite to establish the Heroic Accords, forming the Hero Association to regulate and guide heroism.",
+    "tags": [
+      "Hero Association",
+      "Heroic Accords",
+      "post-war order",
+      "Quirk regulation",
+      "justice"
+    ],
+    "details": {
+      "event_type": "Founding",
+      "impact": "Creation of a global regulatory body to oversee independent hero organizations, ensuring no hero abuses their power.",
+      "principles": [
+        "No More Titans – Strict control over Quirk training to prevent world-breaking powers.",
+        "The Chain of Mercy – Heroes must protect all lives, including those of enemies.",
+        "The Oath of Unity – Heroes must cooperate to tackle global threats.",
+        "No Government Control Over Heroes – Heroes must be independent, serving the people, not political interests."
+      ],
+      "survivors": "The leaders and guild heads of the surviving hero organizations and political factions.",
+      "aftereffects": "The Hero Association is formed, leading to a decentralized yet ethically governed system of global heroism."
+    }
+  },
+  {
+    "title": "The New Order: Smaller Hero Organizations and the Role of the Government",
+    "summary": "Heroes operate in smaller organizations under the Hero Association's oversight, with governments still relying on Quirked individuals in military and law enforcement roles.",
+    "tags": [
+      "Hero organizations",
+      "government roles",
+      "military",
+      "Quirked individuals",
+      "hero autonomy"
+    ],
+    "details": {
+      "event_type": "Regulation and Structure",
+      "impact": "The formation of smaller, specialized hero organizations working independently but adhering to ethical standards enforced by the Hero Association.",
+      "survivors": "Quirked individuals serving as heroes in independent organizations and those working under governments in military or law enforcement.",
+      "aftereffects": "Heroes regain public trust as independent protectors, while government-employed Quirked individuals become secondary, seen as tools of control rather than hope."
+    }
+  },
+  {
+    "title": "The Rise of a New Era",
+    "summary": "With the Hero Association’s guidance, heroes become symbols of justice and unity, overshadowing government-employed Quirked individuals in the eyes of the public.",
+    "tags": ["Hero symbolism", "public trust", "new era", "global heroism"],
+    "details": {
+      "event_type": "Cultural Shift",
+      "impact": "Heroes, regulated by the Hero Association, emerge as the true defenders of the people, gaining more prestige than government Quirked individuals.",
+      "survivors": "Heroes who upheld the ethical standards of the Heroic Accords and those who benefited from their protection.",
+      "aftereffects": "Governments still exist but are now secondary to the autonomous, global influence of the Hero Association and independent hero organizations."
+    }
+  },
+  {
+    "title": "The Formation of the Academy System",
+    "summary": "The need for structured Quirk training leads to the creation of the Academy System, centralizing hero education and preventing past mistakes.",
+    "tags": [
+      "Academy System",
+      "Quirk training",
+      "hero education",
+      "Battle Schools",
+      "Heroic Accords"
+    ],
+    "details": {
+      "event_type": "Educational Reform",
+      "impact": "A centralized system of hero education is established to ensure the ethical and controlled use of Quirks.",
+      "survivors": "Young Quirked individuals who enter the Academy System for training and specialization.",
+      "aftereffects": "Hero training becomes more structured, focused on ethical use and specialization, ensuring future generations of heroes follow the Accords."
+    }
+  },
+  {
+    "title": "The Battle Schools",
+    "summary": "Battle Schools are established as the entry point for hero training, focusing on Quirk control, combat skills, and moral foundations.",
+    "tags": [
+      "Battle Schools",
+      "Quirk control",
+      "combat training",
+      "hero discipline",
+      "training system"
+    ],
+    "details": {
+      "event_type": "Training Institution",
+      "impact": "The first schools dedicated to training young Quirked individuals in combat and control, under strict supervision.",
+      "survivors": "Young Quirked individuals who enter the schools to begin their training as heroes.",
+      "aftereffects": "Battle Schools become the foundation for all hero education, teaching both physical control and moral responsibility."
+    }
+  },
+  {
+    "title": "The Specializations",
+    "summary": "Graduates of the Battle Schools enter specialized tracks for different areas of heroism, including law enforcement, medical response, and global defense.",
+    "tags": [
+      "Specializations",
+      "law enforcement",
+      "medical response",
+      "global defense",
+      "specialized tracks"
+    ],
+    "details": {
+      "event_type": "Specialization",
+      "impact": "Graduates of Battle Schools choose a specific track that suits their abilities and interests, focusing on particular areas of public service.",
+      "survivors": "Young heroes choosing their paths after completing the foundational Battle School training.",
+      "aftereffects": "The specialization of hero skills ensures that various facets of public service and protection are addressed by dedicated individuals."
+    }
+  },
+  {
+    "title": "The Rankings System",
+    "summary": "A Ranking System is implemented to monitor the abilities, accomplishments, and ethical behavior of heroes, preventing corruption and abuse of power.",
+    "tags": [
+      "Ranking System",
+      "hero accountability",
+      "ethical behavior",
+      "power regulation"
+    ],
+    "details": {
+      "event_type": "Accountability Mechanism",
+      "impact": "A system to monitor and track the progress of heroes, ensuring that no individual becomes too powerful or abuses their influence.",
+      "survivors": "All members of the hero community, as they are subject to the Rankings System's scrutiny.",
+      "aftereffects": "The Rankings System ensures that the most powerful heroes maintain their responsibility to the public and adhere to ethical standards."
+    }
+  },
+  {
+    "title": "The First Fully-Fledged Hero Academy",
+    "summary": "After 120 years of fragmented hero training, the first fully-formed Hero Academy is founded, centralizing the training and education of heroes from around the world.",
+    "tags": [
+      "Hero Academy",
+      "centralized education",
+      "global training",
+      "hero development"
+    ],
+    "details": {
+      "event_type": "Institutionalization",
+      "impact": "The Hero Academy becomes the central institution for training the next generation of global heroes, consolidating previous educational elements into one comprehensive system.",
+      "survivors": "Future heroes from around the world, trained in the Academy's holistic system.",
+      "aftereffects": "The Academy becomes the heart of global hero training, producing well-rounded, ethical heroes prepared for any challenge."
+    }
+  },
+  {
+    "world_overview": {
+      "major_powers": [
+        {
+          "name": "Unified Republic of Terranova (URT)",
+          "summary": "A global tech and media titan, the URT is a powerhouse of innovation and industrial growth, home to Capsule Corp. Despite its technological advancements, shadowy power struggles and rumors of extraterrestrial origins lurk beneath its surface.",
+          "tags": [
+            "Tech Power",
+            "Media Influence",
+            "Espionage",
+            "Extraterrestrial",
+            "Hovertech",
+            "Industrial Growth"
+          ],
+          "details": {
+            "capital": "Terranova City",
+            "technological_advancements": "Hovertech, artificial intelligence, quantum computing, space exploration.",
+            "internal_conflict": "Espionage, corporate rivalries, power struggles within Capsule Corp.",
+            "mysteries": "Capsule Corp's possible extraterrestrial connections and unknown origins.",
+            "perception": "A tech-driven utopia on the outside, but divided internally with rumors of manipulation and covert agendas."
+          }
+        },
+        {
+          "name": "The Eastern Dominion",
+          "summary": "A dynastic empire focused on maintaining control over Quirk regulation, developing government-controlled heroes to preserve its unchallenged authority. Its rulers are deeply suspicious of the URT's unchecked technological advancements and safeguard their own interests.",
+          "tags": [
+            "Dynastic Empire",
+            "Hero Control",
+            "Quirk Registry",
+            "Authoritarian",
+            "Suspicion",
+            "Government Loyalists"
+          ],
+          "details": {
+            "capital": "Imperial City of Arashima",
+            "government_type": "Absolute monarchy with an elite hero training program.",
+            "heroes": "Strictly government-trained, loyal to the state and its ideologies.",
+            "focus": "Control over Quirk regulation and hero development to ensure unchallenged rule.",
+            "perception": "A rigid, highly disciplined regime with little tolerance for dissent, constantly wary of external threats, especially from the URT."
+          }
+        },
+        {
+          "name": "The Free Zones",
+          "summary": "A network of independent city-states and wild territories where lawlessness prevails. These zones are a haven for rogue heroes, mercenaries, vigilantes, and criminals, offering freedom from political control but also a harsh and unpredictable life.",
+          "tags": [
+            "Independent",
+            "Anarchy",
+            "Rogue Heroes",
+            "Mercenaries",
+            "Vigilantes",
+            "Lawless",
+            "Freedom"
+          ],
+          "details": {
+            "capital": "No central government, various city-states and territories with self-appointed rulers.",
+            "social_structure": "Diverse, with no single governing body. Ranges from wild territories to fortified rogue cities.",
+            "economy": "Unregulated, largely built on mercenary work, criminal activities, and black markets.",
+            "notable_figures": "Rogue heroes, vigilantes, mercenaries, and criminals who embrace freedom above all else.",
+            "perception": "Seen by some as a land of opportunity, but the brutal reality is that survival often means embracing chaos and danger."
+          }
+        },
+        {
+          "name": "The Southern Coalition",
+          "summary": "A spiritual-tech alliance that blends ancient ki practices with modern Quirk science, the Southern Coalition is a bastion of balance between mysticism and cutting-edge technology. However, internal divisions and secretive experiments are pushing the Coalition toward a crossroads between preserving tradition and embracing technological advancement.",
+          "tags": [
+            "Spiritual-Tech",
+            "Ancient Tradition",
+            "Ki Practices",
+            "Mysticism",
+            "Tech-Fusion",
+            "Internal Tensions"
+          ],
+          "details": {
+            "capital": "Sanctuary of Trivana",
+            "philosophy": "Balance between ancient spiritual practices and modern technological progress.",
+            "key_institutions": "Spiritual sanctuaries, temples of ki training, research labs for Quirk science.",
+            "tensions": "Debates between traditionalists who seek to preserve ancient practices and those advocating for the integration of more futuristic technologies.",
+            "secretive_experiments": "Rogue factions conducting secret experiments that threaten to upset the Coalition's fragile unity.",
+            "perception": "A place of spiritual enlightenment and innovation, yet divided by internal strife over the future of the Coalition."
+          }
+        }
+      ]
+    }
+  },
+  {
+    "society_structure": {
+      "houses": {
+        "name": "Houses",
+        "summary": "Houses are noble families that shape legacy, embodying values such as sacrifice, honor, and responsibility. Each House carries the responsibility of upholding its family name, producing generations of heroes who train not only their combat skills but their character and philosophy of heroism.",
+        "tags": [
+          "Legacy",
+          "Bloodline",
+          "Heroism",
+          "Tradition",
+          "Family Responsibility",
+          "Noble",
+          "Heroic Training"
+        ],
+        "details": {
+          "role_in_society": "Houses are influential in shaping public perception, guiding the youth, and serving as protectors and leaders, though they do not govern. They produce heroes of varying types, such as warriors, tacticians, or elemental masters, with an unspoken vow to serve others.",
+          "family_name": "Houses do not grant fame or riches but an immense weight of responsibility to uphold the honor of their ancestors.",
+          "training": "Children from noble families undergo intense training in both combat and the philosophical foundations of heroism, making them not only skilled fighters but also paragons of character.",
+          "future_of_houses": "With the rise of heroes without family names, the role of Houses is uncertain. Will they continue to hold sway, or fade as new, instinct-driven heroes rise to prominence?"
+        }
+      },
+      "clans": {
+        "name": "Clans",
+        "summary": "Clans are powerful entities formed through necessity, alliances, and shared ideals. They are often born during times of war, crisis, or political upheaval and have grown to shape the course of history.",
+        "tags": [
+          "Alliance",
+          "Shared Ideals",
+          "Power Structures",
+          "Military Influence",
+          "Crisis-born",
+          "Political Influence"
+        ],
+        "details": {
+          "role_in_society": "Clans are large power structures formed from multiple Houses, uniting their traditions, heroes, and resources. They control training academies, military operations, and hold significant political, economic, and religious power.",
+          "influence": "Though Clans do not govern, their influence can rival that of entire nations, and they are often called upon to mediate peace or offer aid in times of crisis.",
+          "internal_dynamics": "Clans are rife with internal politics and rivalries. Disputes over leadership and differing doctrines can create tension, but they remain one of the most stabilizing forces in the world.",
+          "younger_generation": "Rising stars, especially those from places like Horizon Crest, face crucial decisions about joining a Clan or resisting the power structures that have shaped the world for generations.",
+          "future_of_clans": "The future of Clans is uncertain. Will they remain stabilizing forces or become obsolete and self-destructive as the world evolves?"
+        }
+      },
+      "village_of_sadara": {
+        "name": "The Village of Sadara",
+        "summary": "Sadara is a remote, cliffside village located in the Broken Territories, known for its harmony with nature and integration of alien technology. Though primitive in appearance, Sadara hides advanced technology beneath its peaceful, disciplined existence.",
+        "tags": [
+          "Remote Village",
+          "Harmony with Nature",
+          "Ancient Technology",
+          "Ki Mastery",
+          "Martial Arts",
+          "Hidden Legacy",
+          "Capsule Corp Origins"
+        ],
+        "details": {
+          "location": "Situated in the Broken Territories, surrounded by forests and wastelands, Sadara thrives in isolation, untouched by the chaos of the outside world.",
+          "daily_life": "The villagers live disciplined lives focused on training in ki mastery and martial arts from a young age, blending ancient forms with energy control.",
+          "technology": "Sadara integrates alien technology, such as solar panels, underground aquifers, and energy-powered lights, into its daily systems. These technologies were repurposed from ancient alien relics.",
+          "founding_of_capsule_corp": "Fifty years ago, Sadara secretly founded Capsule Corp, turning alien technology into modern innovations. While the world sees Capsule Corp as a tech giant, Sadara views it as a quiet bridge to reconnect with the larger world.",
+          "perception": "Though humble and peaceful, Sadara's people possess immense strength. The village, by design, remains isolated from the chaos outside, focused on preserving balance and tradition.",
+          "hidden truth": "People of sadara arrived with the meteors 200 years ago, they spread the plague to enhance people. People of sadara are the decendent of the saiyans."
+        }
+      }
+    }
+  },
+  {
+    "clans": {
+      "shikdar_clan": {
+        "name": "The Shikdar Clan",
+        "summary": "The Shikdar Clan, the main clan of Sadara Village, once unknown, became prominent with the rise of Capsule Corp. Rooted in the traditions of ki control and combat, the Clan’s Houses—Rahman and Ahmed—are known for their deep mastery of these arts. Though Sadara is their stronghold, their influence is beginning to expand beyond the village.",
+        "tags": [
+          "Ki Control",
+          "Combat Mastery",
+          "Sadara",
+          "Tradition",
+          "Family Legacy",
+          "Rising Influence",
+          "Mystery"
+        ],
+        "details": {
+          "origins": "Once hidden in the shadows, the Shikdar Clan’s Houses—Rahman and Ahmed—have begun to emerge into the world stage as Capsule Corp’s rise brings attention to their formidable skills in ki control and martial arts.",
+          "clan_strengths": "The Shikdar Clan has a rich tradition of martial arts and energy control, honed through generations in Sadara. Their warriors are known for their raw power and mystical energy manipulation.",
+          "relationship_with_capsule_corp": "Capsule Corp’s growing prominence has brought attention to the Shikdar Clan, with many outside Sadara starting to recognize their power and potential.",
+          "future_of_the_clan": "While still a mysterious force to the outside world, the Shikdar Clan’s influence continues to expand. As their warriors gain prominence, they will need to decide whether to remain a secluded powerhouse or step into the global arena."
+        }
+      }
+    }
+  },
+  {
+    "nashif_ahmed": {
+      "name": "Nashif Ahmed",
+      "Role": "Main Character",
+      "summary": "Nashif is the son of the village head, a playful and carefree individual who is often underestimated. However, he is sharp and formidable in battle. His motivation stems from his deep bond with his family, particularly his cousin, Apu Rahman.",
+      "tags": [
+        "Carefree",
+        "Underestimated",
+        "Sharp Fighter",
+        "Family-Oriented",
+        "Leader's Son",
+        "Playful",
+        "Tactical",
+        "Burst DPS"
+      ],
+      "details": {
+        "gender": "Male",
+        "age": 14,
+        "height": "5'4\"",
+        "quirk": "Ki Bolt – Fires focused energy balls (registered)",
+        "affiliation": "Academy, Class 1C (1st Year)",
+        "role": "Mage / Burst DPS",
+        "skills": [
+          "Strategic thinking",
+          "Improvisation",
+          "Fast reflexes",
+          "Basic martial arts"
+        ],
+        "moveset": "Draco Meteor – Nashif launches a ki orb into the sky, which splits into smaller meteors that explode on impact, causing widespread devastation. Perfect for crowd control.",
+        "weapons": {
+          "close_range": "Echo Spear – A collapsible spear that converts between short and long forms. It’s light enough for rapid movements but can extend for reach or piercing power. Paired with a compact right hand energy shield for parrying and defense.",
+          "ranged": "Shock Lancer – A compact, high-frequency energy rifle with ricochet rounds. Fires fast and charges shots to explode on impact."
+        },
+        "appearance": "Average height, wiry build, messy black hair, sharp light brown eyes",
+        "personality": "Lazy and self-centered, he’s the embodiment of a carefree attitude, avoiding responsibility and often making dad jokes. In combat, he excels under pressure with surprising strategy. Though non-committal, he’s deeply loyal and cares genuinely for those close to him.",
+        "combat_style": "Tactical trickster: uses feints, baiting, terrain. Prefers mid-range and bombardment.",
+        "family": "Ahmed",
+        "clan": "Shikdar",
+        "background": "Grew up in the hidden village of Sadara. Lazy but obedient to family. Avoids initiative but shows hidden brilliance in battle.",
+        "relationship_with_apu": "His close bond with his older cousin, Apu Rahman, is a central motivation in his life. Together, they aim to prove the value of Sadara’s ways to the outside world."
+      }
+    },
+    "apu_rahman": {
+      "name": "Apu Rahman",
+      "Role": "Main Character",
+      "summary": "Apu is Nashif’s cousin, known for his calm demeanor and protective nature. A martial arts prodigy with exceptional strength and speed, he believes deeply in Sadara’s traditions and seeks to demonstrate their value in the larger world.",
+      "tags": [
+        "Calm",
+        "Protective",
+        "Martial Arts Prodigy",
+        "Strength",
+        "Speed",
+        "Traditionalist",
+        "Tank",
+        "Leader"
+      ],
+      "details": {
+        "gender": "Male",
+        "age": 14,
+        "height": "6'1\"",
+        "quirk": "Anchor Drive – Superhuman strength and speed (registered)",
+        "affiliation": "Academy, Class 1C (1st Year)",
+        "role": "Tank / Bruiser",
+        "skills": [
+          "Martial arts mastery",
+          "Defensive tactics",
+          "Leadership",
+          "Aura control"
+        ],
+        "moveset": "Anchor Slam – Slams the ground with massive force, stunning foes, then charges forward like an unstoppable wall.",
+        "weapons": {
+          "close_range": "Gravemind – A heavy war hammer that amplifies his aura through impact. The hammer can generate localized shockwaves and is paired with a full-body kinetic shield for absorbing enemy momentum and turning it into counter-force.",
+          "ranged": "Breaker Shotgun – An automatic shotgun modified to fire concussive rounds that stagger or knock back multiple enemies. Designed to support close-quarters tanking."
+        },
+        "appearance": "Towering frame, broad chest, calm dark eyes",
+        "personality": "Calm, charismatic, and laid-back, he’s a natural leader who doesn’t try hard to assert himself, yet people trust his judgment effortlessly. Though lazy at times, he steps up when needed, showing loyalty and a strong sense of justice.",
+        "combat_style": "Martial artist: defensive stances, absorbs damage, counters with raw power.",
+        "family": "Rahman",
+        "clan": "Shikdar",
+        "background": "Raised with honor in Sadara. Grew up taking responsibility and looking after others. Believes strongly in Sadara’s traditions and seeks to show their value to the outside world.",
+        "relationship_with_nashif": "Acts as a protector and mentor to Nashif. Their bond is unshakable, and Apu often steps up to guide Nashif when things get serious."
+      }
+    }
+  },
+  {
+    "mercenary_network": {
+      "overview": {
+        "name": "The Mercenary Network",
+        "summary": "A decentralized web of independent fighters, private armies, and freelance operators driven by contracts rather than ideals. In an era where trust in governments and hero associations is fading, mercenaries operate outside the constraints of ethics, taking on missions deemed too dangerous or controversial for registered heroes.",
+        "tags": [
+          "Decentralized",
+          "Independent",
+          "Freelance",
+          "Warfare",
+          "No Ethics",
+          "Private Armies",
+          "Controversial Missions"
+        ],
+        "details": {
+          "function": "Mercenaries work on contracts from governments, corporations, and rogue factions, executing operations such as city raids, assassinations, escort missions, and border defense. These operations are often outside the purview of the official hero system, giving them the freedom to operate in a morally ambiguous space.",
+          "ethics": "Unlike the Heroic Accords, mercenaries are not bound by ethics committees or any global framework. They operate for money, prestige, or personal gain, and will take on almost any mission as long as the price is right."
+        }
+      },
+      "mercenary_hubs": {
+        "locations": [
+          {
+            "name": "Iron Quay",
+            "description": "A floating black market city built on sunken warships. Known for its illegal tech mods and weapon upgrades, it's a hotbed for mercenary activity and shady deals.",
+            "tags": [
+              "Black Market",
+              "Weapon Upgrades",
+              "Illegal Tech",
+              "Floating City"
+            ]
+          },
+          {
+            "name": "Ashgate",
+            "description": "A desert fortress that has been converted into a mercenary headquarters. It houses the War Ledger, the largest contract database in the world, where mercenaries post and take contracts.",
+            "tags": ["Desert Fortress", "Contract Database", "Mercenary HQ"]
+          },
+          {
+            "name": "Echo Hollow",
+            "description": "An abandoned Titan battleground, now home to nomadic mercenary tribes. It's a sacred place for veteran fighters, where combat traditions are passed down.",
+            "tags": ["Titan Battleground", "Nomadic Tribes", "Veteran Fighters"]
+          }
+        ]
+      },
+      "mercenary_classifications": {
+        "1": {
+          "name": "Frontliners",
+          "role": "Storm the front, draw enemy fire, dominate close-quarters.",
+          "traits": [
+            "High durability",
+            "Devastating power",
+            "Fearsome reputation"
+          ],
+          "quote": "Let the bullets bounce off me."
+        },
+        "2": {
+          "name": "Tacticians",
+          "role": "Command squad-level ops, execute ambushes, plan full assaults.",
+          "traits": [
+            "Precise",
+            "Calculating",
+            "Ex-military or rogue commanders"
+          ],
+          "quote": "Wars are won before the first shot."
+        },
+        "3": {
+          "name": "Shadows",
+          "role": "Infiltration, tracking, intelligence retrieval.",
+          "traits": ["Fast", "Silent", "Cyber-enhanced or mutation-adapted"],
+          "quote": "You won’t see me coming."
+        },
+        "4": {
+          "name": "Techrunners",
+          "role": "Disable defense systems, create battlefield tools, control drones.",
+          "traits": ["Inventive", "Sneaky", "Heavily augmented"],
+          "quote": "Give me 10 seconds and a dataport."
+        },
+        "5": {
+          "name": "Medshots",
+          "role": "Emergency rescue, trauma recovery, combat buffs.",
+          "traits": ["Medical gear experts", "Illegal biotech users"],
+          "quote": "I don’t heal. I resurrect."
+        },
+        "6": {
+          "name": "Freelance Elites",
+          "role": "One-man armies. High-profile, high-fee. Rare.",
+          "traits": ["Legendary skill", "Highly adaptable", "Morally fluid"],
+          "quote": "If I’m here, someone’s already dead."
+        }
+      },
+      "war_ledger": {
+        "name": "The War Ledger",
+        "summary": "The global, encrypted database tracking contracts, kill counts, and reputation stats. All mercenaries are tracked here, and their success or failure affects their standing. Those who succeed gain access to rare gear, high-priority contracts, and private intelligence networks.",
+        "tags": [
+          "Global Database",
+          "Mercenary Reputation",
+          "Contracts",
+          "Bounty Boards"
+        ],
+        "details": {
+          "importance": "The War Ledger is the lifeblood of the Mercenary Network. It holds mercenaries accountable and ensures that contracts are completed on time. A mercenary’s profile and reputation are all that matter in this world, and failure to deliver can result in severe consequences.",
+          "failure_consequences": "Failure to complete a contract results in loss of credibility. Fail twice, and a mercenary is blacklisted. Fail three times, and they disappear from the ledger entirely."
+        }
+      }
+    },
+    "protagonists_in_mercenary_network": {
+      "nashif_and_apu": {
+        "role": "Mercenary Branch of Horizon Crest Academy",
+        "summary": "Nashif and Apu now operate under the mercenary branch of Horizon Crest Academy, an elite team known for their precision, zero-casualty runs, and unparalleled melee combat prowess.",
+        "tags": [
+          "Mercenary Branch",
+          "Horizon Crest Academy",
+          "Precision",
+          "Zero-Casualty",
+          "Melee Dominance"
+        ],
+        "details": {
+          "background": "Nashif and Apu, both skilled warriors from Sadara, have become part of Horizon Crest’s mercenary division. Their team is renowned for completing high-risk missions with minimal casualties, showcasing their skill and discipline.",
+          "reputation": "With their precise strategies and unstoppable combat techniques, Nashif and Apu have earned a reputation as two of the most feared and respected mercenaries in the industry."
+        }
+      }
+    }
+  }
+]

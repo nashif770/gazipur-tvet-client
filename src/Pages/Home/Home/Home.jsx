@@ -12,15 +12,18 @@ const Home = () => {
   // API call abstraction
   const fetchMessage = async (abortController) => {
     try {
-      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd", {
-        signal: abortController?.signal
-      });
+      const response = await fetch(
+        "https://gazipur-tvet-server-1.onrender.com/motd",
+        {
+          signal: abortController?.signal,
+        }
+      );
       if (!response.ok) throw new Error("Failed to fetch message");
       const data = await response.json();
       setMessageOfTheDay(data.message);
       setError("");
     } catch (err) {
-      if (err.name !== 'AbortError') {
+      if (err.name !== "AbortError") {
         setError("Failed to load message. Please try again later.");
         console.error("Fetch error:", err);
       }
@@ -31,18 +34,21 @@ const Home = () => {
 
   const submitMessage = async () => {
     if (!customMessage.trim()) return;
-    
+
     try {
-      const response = await fetch("https://gazipur-tvet-server-1.onrender.com/motd", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          // Add authorization header if required
-          ...(user?.token && { "Authorization": `Bearer ${user.token}` })
-        },
-        body: JSON.stringify({ message: customMessage }),
-      });
-      
+      const response = await fetch(
+        "https://gazipur-tvet-server-1.onrender.com/motd",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            // Add authorization header if required
+            ...(user?.token && { Authorization: `Bearer ${user.token}` }),
+          },
+          body: JSON.stringify({ message: customMessage }),
+        }
+      );
+
       if (!response.ok) throw new Error("Submission failed");
       await fetchMessage();
       setCustomMessage("");
@@ -65,26 +71,37 @@ const Home = () => {
         {/* Header Section */}
         <div className="mb-8">
           <h1 className="text-2xl sm:text-4xl font-bold text-white mb-4">
-            Welcome to TVET Test
+            Welcome to Computer Operation Test Website
           </h1>
-          <p className="text-lg sm:text-xl text-white">
-            Let's dive in
-          </p>
+          <p className="text-lg sm:text-xl text-white">Let's dive in</p>
         </div>
 
         {/* Main Test Button */}
-        <Link to="/tests" className="mb-8">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
-            Start Test
-          </button>
-        </Link>
+        <div className="flex justify-center gap-10">
+          <Link to="/tests" className="mb-8">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+              RTO Candidate Test
+            </button>
+          </Link>
+          <Link to="/rplpage" className="mb-8">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105">
+              "RPL" Candidate Test
+            </button>
+          </Link>
+        </div>
 
         {/* Quick Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl mb-8">
           {[
-            { name: "Google Drive", url: "https://drive.google.com/drive/u/1/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA" },
-            { name: "Keyboard Practice", url: "https://rededge.is-a.dev/Keyboard-Hero/" },
-            { name: "Typing Practice", url: "https://monkeytype.com/" }
+            {
+              name: "Google Drive",
+              url: "https://drive.google.com/drive/u/1/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA",
+            },
+            {
+              name: "Keyboard Practice",
+              url: "https://rededge.is-a.dev/Keyboard-Hero/",
+            },
+            { name: "Typing Practice", url: "https://monkeytype.com/" },
           ].map((link, index) => (
             <a
               key={index}
@@ -105,7 +122,7 @@ const Home = () => {
           <h2 className="text-xl font-semibold text-white mb-4">
             Message of the Day
           </h2>
-          
+
           <div className="bg-white/90 backdrop-blur-sm rounded-lg p-6 shadow-xl">
             {user?.email && (
               <div className="mb-4">

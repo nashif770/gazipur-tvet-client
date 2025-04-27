@@ -16,6 +16,8 @@ const Answers = () => {
     setTestSet(sets);
   };
 
+  console.log(filteredMCQs)
+
   return (
     <div className="min-h-screen flex flex-col items-center  text-black">
       {/* Navigation & Selection */}
@@ -48,7 +50,7 @@ const Answers = () => {
                   className=" bg-gray-300 rounded-lg p-4 shadow-md hover:shadow-lg transition"
                 >
                   <h3 className="text-lg font-bold mb-2">
-                    {answers.question_set}/{answers.id}: Question {index + 1}
+                    {answers.question_set}/{answers.id}: Question {index + 1}:
                   </h3>
                   <p className="text-sm mb-4 text-gray-800">
                     {answers.question}

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 
-const QuizCards = ({ question, id, getAnswers }) => {
+const QuizCards = ({ question, id, getAnswers, rpl }) => {
   const handleOptionChange = (option) => {
     const answeredQuestion = {
       question_id: question.id,
@@ -16,10 +16,16 @@ const QuizCards = ({ question, id, getAnswers }) => {
 
   return (
     <div className="bg-gray-700 rounded-lg m-3 p-3">
-      <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
-        {question?.question_set}/{question.id} - Question {id} :{" "}
-        {question.question}
-      </h3>
+      {!rpl ? (
+        <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
+          {question?.question_set}/{question.id} - Question {id} :{" "}
+          {question.question}
+        </h3>
+      ) : (
+        <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
+          Question {id} : {question.question}
+        </h3>
+      )}
       <div className="grid grid-cols-1 gap-4">
         {question.options.map((option, index) => (
           <div key={index} className="flex items-center">

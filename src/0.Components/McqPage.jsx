@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 import QuizCards from "./QuizCards";
 import swal from "sweetalert"; // SweetAlert for alerts
 
-const McqPage = ({ questions }) => {
+const McqPage = ({ questions, rpl }) => {
   const [answers, setAnswers] = useState([]);
   const [startTime, setStartTime] = useState(null); // Track quiz start time
   const [timer, setTimer] = useState(300); // 5 minutes in seconds
+
+  let recieveRpl = rpl
 
   // Reset when questions change
   useEffect(() => {
@@ -104,6 +106,7 @@ const McqPage = ({ questions }) => {
 
         {questions.map((question, index) => (
           <QuizCards
+          rpl = {recieveRpl}
             key={question.id || index}
             question={question}
             id={`${index + 1}`}

@@ -9,6 +9,7 @@ import Answers from "../Pages/Tests/Answers";
 import ShortQuestion from "../Pages/ShortQuestion/ShortQuestion";
 import Written from "../Pages/ShortQuestion/writtenAnswers/Written";
 import Videos from "../Pages/Videos/Videos";
+import RplPage from "../Pages/RplPage/RplPage";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: "registration",
         element: <Registration></Registration>,
+      },
+      {
+        path: "rplpage",
+        element: <RplPage></RplPage>,
       },
     ],
   },
