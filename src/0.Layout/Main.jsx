@@ -26,7 +26,7 @@ const Main = () => {
 
       {/* Conditionally render Footer */}
       {!noHeaderFooter && (
-        <footer>
+        <footer className="sticky bottom-0">
           <Footer />
         </footer>
       )}

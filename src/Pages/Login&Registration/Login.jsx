@@ -20,10 +20,6 @@ const Login = () => {
 
   const { signIn } = useContext(AuthContext);
 
-  // useEffect(() => {
-  //   loadCaptchaEnginge(4);
-  // }, []);
-
   const handleLogin = (event) => {
     event.preventDefault();
     const form = event.target;
@@ -42,16 +38,6 @@ const Login = () => {
       navigate(from, { replace: true });
     });
   };
-
-  // const handleValidateCaptcha = (event) => {
-  //   const user_captcha_value = event.target.value;
-  //   if (validateCaptcha(user_captcha_value)) {
-  //     setDisabled(false);
-  //   } else {
-  //     setDisabled(true);
-  //     alert("Wrong Captcha");
-  //   }
-  // };
 
   return (
     <div className="hero min-h-screen max-h-[720px] bg-base-200">
@@ -90,23 +76,6 @@ const Login = () => {
                 required
               />
             </div>
-            {/* <div className="form-control mt-3 w-4/6 m-auto">
-              <label className="label m-auto">
-                <LoadCanvasTemplate />
-              </label>
-              <input
-                type="text"
-                name="captcha"
-                placeholder="Type the above text"
-                className="input input-bordered"
-                onBlur={handleValidateCaptcha}
-                required
-              />
-              <h2 className="bg-slate-100 my-3 rounded text-center text-sm">
-                {" "}
-                Type the Captcha to unlock Login{" "}
-              </h2>
-            </div> */}
             <div className="form-control mt-6">
               <input
                 // disabled={disabled}
