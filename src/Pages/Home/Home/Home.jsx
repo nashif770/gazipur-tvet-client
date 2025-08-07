@@ -2,6 +2,22 @@ import React, { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../0.providers/AuthProvider";
 
+const button = [
+  {
+    name: "Word Practice",
+    url: "https://drive.google.com/drive/u/1/folders/1L9Bo2UU-5fZ0FHvAieoCWdAJY15CG2FO",
+  },
+  {
+    name: "Excel Practice",
+    url: "https://drive.google.com/drive/u/1/folders/16nEBzvodsEQ9CgjkahdeRpd23EUJFKnP",
+  },
+  {
+    name: "PowerPoint Practice",
+    url: "https://drive.google.com/drive/u/1/folders/1bXfvxLf-5yQeWiM38bJSwi7B38X8Dl8S",
+  },
+  { name: "Typing Practice", url: "https://monkeytype.com/" },
+];
+
 const Home = () => {
   const { user } = useContext(AuthContext);
   const [customMessage, setCustomMessage] = useState("");
@@ -92,17 +108,7 @@ const Home = () => {
 
         {/* Quick Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl mb-8">
-          {[
-            {
-              name: "Google Drive",
-              url: "https://drive.google.com/drive/u/1/folders/1YN-N4qxWbvTeyCJwWEgrsG0eaMWgZnuA",
-            },
-            {
-              name: "Keyboard Practice",
-              url: "https://rededge.is-a.dev/Keyboard-Hero/",
-            },
-            { name: "Typing Practice", url: "https://monkeytype.com/" },
-          ].map((link, index) => (
+          {button.map((link, index) => (
             <a
               key={index}
               href={link.url}
