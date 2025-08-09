@@ -37,7 +37,7 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="bg-slate-300 shadow-lg px-4 sm:px-6 lg:px-8">
+    <nav className="bg-gray-800 shadow-lg px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto flex items-center justify-between py-3">
         {/* Mobile Dropdown */}
         <div className="lg:hidden">

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6 px-4">
+    <footer className="bg-gray-800 text-gray-300 py-2 px-4">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
-        <aside className="flex items-center space-x-3 mb-4 md:mb-0">
+        <aside className="flex items-center space-x-3 mb-2 md:mb-0">
           <svg
             width="40"
             height="40"
