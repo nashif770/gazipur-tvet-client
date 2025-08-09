@@ -23,10 +23,11 @@ const ShortQuestion = () => {
         );
 
   // Search filter: Filter questions based on the search term
-  const searchedQuestions = filteredQuestions?.filter((question) =>
-    question.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    question.answer.en.toLowerCase().includes(searchTerm.toLowerCase()) || 
-    question.answer.bn.toLowerCase().includes(searchTerm.toLowerCase())
+  const searchedQuestions = filteredQuestions?.filter(
+    (question) =>
+      question.question.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      question.answer.en.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      question.answer.bn.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -71,19 +72,18 @@ const ShortQuestion = () => {
             ))}
           </div>
         )}
-        
 
         {/* Desktop Unit Filter Buttons */}
         <div className="hidden md:flex justify-between items-center">
-          <div>
+          <div className="hidden md:flex items-center space-x-2">
             {uniqueUnits.map((unit) => (
               <button
                 key={unit}
                 onClick={() => setSelectedUnit(unit)}
-                className={`px-4 py-2 mx-2 rounded ${
+                className={`text-xs px-4 py-2 rounded-md transition-colors duration-400 ease-in-out font-medium shadow-2xl ${
                   selectedUnit === unit
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-200 text-black"
+                    ? "bg-blue-600 text-white hover:bg-blue-700"
+                    : "bg-gray-100 text-gray-700 hover:bg-blue-500"
                 }`}
               >
                 {unit}
@@ -94,12 +94,12 @@ const ShortQuestion = () => {
           {/* Language Toggle Button (Desktop) */}
           <button
             onClick={() => setSelectLang(selectLang === "en" ? "bn" : "en")}
-            className="px-4 py-2 bg-green-500 text-white rounded"
+            className="mx-3 px-4 py-2 bg-green-500 text-white rounded"
           >
             Switch to {selectLang === "en" ? "Bengali" : "English"}
           </button>
         </div>
-         {/* Search Input Field */}
+        {/* Search Input Field */}
         {/* <div className="m-4">
           <input
             type="text"

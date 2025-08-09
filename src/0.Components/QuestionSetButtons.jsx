@@ -20,12 +20,12 @@ const QuestionSetButtons = ({ onSetSelect }) => {
   );
 
   return (
-    <div className="p-4 sm:p-6 m-auto text-center w-full max-w-5xl">
+    <div className="p-2 sm:p-6 m-auto text-center w-full max-w-5xl  text-sm">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 max-h-80 overflow-y-auto p-2">
         {paginatedSets.map((button, index) => (
           <button
             key={index}
-            className="bg-white text-black hover:text-white font-bold rounded-lg hover:bg-cyan-600 w-full h-[50px] transition-transform duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
+            className="bg-white text-black text-sm hover:text-white font-bold rounded-lg hover:bg-cyan-600 w-full h-[40px] transition-transform duration-200 ease-in-out transform hover:scale-105 focus:outline-none"
             onClick={() => onSetSelect(button.set)}
           >
             {button.set}
@@ -34,7 +34,7 @@ const QuestionSetButtons = ({ onSetSelect }) => {
       </div>
 
       {/* Pagination Controls */}
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4 flex-wrap items-center">
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-2 flex-wrap items-center">
         <button
           onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 1))}
           disabled={currentPage === 1}
@@ -54,7 +54,7 @@ const QuestionSetButtons = ({ onSetSelect }) => {
             setCurrentPage((prev) => Math.min(prev + 1, totalPages))
           }
           disabled={currentPage === totalPages}
-          className={`px-4 py-2 w-[100px] rounded text-white transition-all ${
+          className={`px-2 py-2 w-[100px] rounded text-white transition-all ${
             currentPage === totalPages
               ? "bg-gray-300 cursor-not-allowed"
               : "bg-blue-500 hover:bg-blue-600"

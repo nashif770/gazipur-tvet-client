@@ -16,24 +16,21 @@ const Answers = () => {
     setTestSet(sets);
   };
 
-  console.log(filteredMCQs)
+  console.log(filteredMCQs);
 
   return (
     <div className="min-h-screen flex flex-col items-center  text-black">
       {/* Navigation & Selection */}
-      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold m-6">
-        Go Back to Take Test
-      </h1>
       <div className="w-full max-w-3xl text-center mt-3">
         <Link to="/tests">
           <button className="w-full sm:w-[150px] md:w-[200px] bg-red-600 text-white py-2 rounded-lg shadow-md hover:bg-red-700 transition">
             Back to Tests
           </button>
         </Link>
+        <QuestionSetButtons onSetSelect={getSelection} />
       </div>
 
       {/* Question Set Selection */}
-      <QuestionSetButtons onSetSelect={getSelection} />
 
       {/* Answer Section */}
       {testSet && (

@@ -15,90 +15,117 @@ const Navbar = () => {
 
   const navOptions = (
     <>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/">Home</Link>
+      <li>
+        <Link to="/" className="block py-2 px-4 hover:bg-gray-700 rounded-lg">
+          Home
+        </Link>
       </li>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/tests">Tests</Link>
+      <li>
+        <Link
+          to="/tests"
+          className="block py-2 px-4 hover:bg-gray-700 rounded-lg"
+        >
+          Tests
+        </Link>
       </li>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/shortQuestions">Short Questions</Link>
+      <li>
+        <Link
+          to="/shortQuestions"
+          className="block py-2 px-4 hover:bg-gray-700 rounded-lg"
+        >
+          Short Questions
+        </Link>
       </li>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/written">Written Test</Link>
+      <li>
+        <Link
+          to="/written"
+          className="block py-2 px-4 hover:bg-gray-700 rounded-lg"
+        >
+          Written Test
+        </Link>
       </li>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/rplpage">RPL Test</Link>
+      <li>
+        <Link
+          to="/rplpage"
+          className="block py-2 px-4 hover:bg-gray-700 rounded-lg"
+        >
+          RPL Test
+        </Link>
       </li>
-      <li className="py-2 px-4 hover:bg-gray-200 rounded-lg">
-        <Link to="/videos">Videos</Link>
+      <li>
+        <Link
+          to="/videos"
+          className="block py-2 px-4 hover:bg-gray-700 rounded-lg"
+        >
+          Videos
+        </Link>
       </li>
     </>
   );
 
   return (
-    <nav className="bg-gray-800 shadow-lg px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto flex items-center justify-between py-3">
-        {/* Mobile Dropdown */}
-        <div className="lg:hidden">
-          <div className="dropdown">
-            <button tabIndex={0} className="btn bg-white p-2 rounded-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </button>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-50 p-2 bg-white text-black shadow-lg rounded-lg w-52"
-            >
-              {navOptions}
-            </ul>
-          </div>
-        </div>
-
+    <nav className="bg-gray-800 text-white shadow-lg">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link
-          to="/"
-          className="text-xl font-bold bg-white shadow-md rounded-lg px-4 py-2"
-        >
+        <Link to="/" className="text-xl font-bold">
           TVET
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden lg:flex">
-          <ul className="flex space-x-4">{navOptions}</ul>
+        <div className="hidden lg:flex flex-grow justify-center">
+          <ul className="flex items-center space-x-4">{navOptions}</ul>
         </div>
 
         {/* User Section */}
         <div className="flex items-center space-x-4">
           {user ? (
             <>
-              <span className="hidden sm:block text-lg font-semibold bg-white shadow-md rounded-lg px-4 py-2">
+              <span className="text-lg font-semibold hidden sm:block">
                 {user.displayName || "User"}
               </span>
               <button
                 onClick={handleLogOut}
-                className="btn bg-white shadow-md rounded-lg px-4 py-2 hover:bg-red-600 hover:text-white border-none"
+                className="btn bg-red-500 text-white shadow-md rounded-lg px-4 py-2 hover:bg-red-600 border-none"
               >
                 Logout
               </button>
             </>
           ) : (
-            <Link to="/login" className="btn btn-primary px-4 py-2">
+            <Link
+              to="/login"
+              className="btn bg-blue-500 text-white shadow-md rounded-lg px-4 py-2 hover:bg-blue-600"
+            >
               Login
             </Link>
           )}
+
+          {/* Mobile Dropdown */}
+          <div className="lg:hidden">
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content z-[1] mt-3 p-2 shadow bg-gray-700 rounded-box w-52"
+              >
+                {navOptions}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

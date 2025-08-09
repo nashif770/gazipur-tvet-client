@@ -15,14 +15,14 @@ const QuizCards = ({ question, id, getAnswers, rpl }) => {
   };
 
   return (
-    <div className="bg-gray-700 rounded-lg m-3 p-3">
+    <div className="bg-gray-700 rounded-lg m-3 p-3 text-sm">
       {!rpl ? (
-        <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
+        <h3 className="text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
           {question?.question_set}/{question.id} - Question {id} :{" "}
           {question.question}
         </h3>
       ) : (
-        <h3 className="text-lg text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
+        <h3 className="text-white font-bold border bg-teal-500 border-none p-2 rounded-lg mb-4">
           Question {id} : {question.question}
         </h3>
       )}
@@ -38,7 +38,7 @@ const QuizCards = ({ question, id, getAnswers, rpl }) => {
             />
             <label
               htmlFor={`option_${id}_${index}`}
-              className="text-base text-white cursor-pointer"
+              className="text-white cursor-pointer text-sm"
             >
               {option}
             </label>

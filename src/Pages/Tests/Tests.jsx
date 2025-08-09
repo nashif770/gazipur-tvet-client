@@ -21,13 +21,9 @@ const Tests = () => {
     <div className="min-h-screen flex flex-col text-white px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl w-full mx-auto">
         {/* Page Title */}
-        <div className="text-center mt-6">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Select Test
-          </h1>
-
+        <div className="text-center mt-2">
           {/* Navigation Buttons */}
-          <div className="flex flex-wrap justify-center gap-4 mb-6">
+          <div className="flex flex-wrap justify-center gap-4 mb-2">
             <Link to="/randomized">
               <button className="btn btn-primary text-sm sm:text-base px-4 py-2">
                 Random Test
@@ -47,10 +43,10 @@ const Tests = () => {
         {/* Test Section */}
         {testSet && (
           <>
-            <div className="bg-teal-600 text-white text-center font-bold text-xl sm:text-2xl p-4 mt-8 rounded-lg">
+            <div className="bg-teal-600 text-white text-center font-bold text-xl sm:text-xl p-2 rounded-lg">
               Take Test (<span>{testSet}</span>)
             </div>
-            <div className="overflow-x-auto mt-4">
+            <div className="overflow-x-auto mt-2">
               <McqPage questions={filteredMCQs} testSet={testSet} />
             </div>
           </>
