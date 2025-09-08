@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from "react";
 import QuizCards from "./QuizCards";
-import swal from "sweetalert"; // SweetAlert for alerts
+import swal from "sweetalert";
 
 const McqPage = ({ questions, rpl }) => {
   const [answers, setAnswers] = useState([]);
-  const [startTime, setStartTime] = useState(null); // Track quiz start time
+  const [startTime, setStartTime] = useState(null);
   const [timer, setTimer] = useState(300); // 5 minutes in seconds
 
-  let recieveRpl = rpl
+  const recieveRpl = rpl;
 
-  // Reset when questions change
   useEffect(() => {
     setStartTime(null);
     setTimer(300);
@@ -17,7 +16,6 @@ const McqPage = ({ questions, rpl }) => {
   }, [questions]);
 
   const getAnswers = (data) => {
-    // Start timer on first answer selection
     if (startTime === null) {
       setStartTime(Date.now());
     }
@@ -33,12 +31,10 @@ const McqPage = ({ questions, rpl }) => {
       } else {
         updatedAnswers.push(data);
       }
-
       return updatedAnswers;
     });
   };
 
-  // Timer countdown
   useEffect(() => {
     if (startTime !== null && timer > 0) {
       const interval = setInterval(() => {
@@ -48,7 +44,6 @@ const McqPage = ({ questions, rpl }) => {
     }
   }, [timer, startTime]);
 
-  // Auto-submit when timer reaches 0
   useEffect(() => {
     if (timer === 0) {
       answerSubmit(true);
@@ -57,10 +52,23 @@ const McqPage = ({ questions, rpl }) => {
 
   const answerSubmit = (autoSubmit = false) => {
     if (!autoSubmit) {
-      const userConfirmed = window.confirm("Are you sure you want to submit?");
-      if (!userConfirmed) return;
+      swal({
+        title: "Are you sure?",
+        text: "Once submitted, you will not be able to change your answers.",
+        icon: "warning",
+        buttons: ["Cancel", "Yes, Submit"],
+        dangerMode: true,
+      }).then((willSubmit) => {
+        if (willSubmit) {
+          processSubmission();
+        }
+      });
+    } else {
+      processSubmission();
     }
+  };
 
+  const processSubmission = () => {
     const answerCollection = answers.map((answer) => ({
       answer: answer.answer,
       id: answer.question_id,
@@ -80,7 +88,7 @@ const McqPage = ({ questions, rpl }) => {
         icon: "success",
         button: "Proceed",
       }).then(() => {
-        window.location.href = "https://uceptvet.netlify.app/"; // Redirect or reload page
+        window.location.href = "https://uceptvet.netlify.app/";
       });
     } else {
       swal({
@@ -92,21 +100,28 @@ const McqPage = ({ questions, rpl }) => {
     }
   };
 
+  const timerColor = timer <= 60 ? "bg-red-500 animate-pulse" : "bg-red-500";
+
   return (
-    <div className="flex flex-col items-center w-full mx-auto px-4 min-h-screen relative">
-      {/* Timer Display */}
-      <div className="fixed bottom-4 right-4 bg-red-500 text-white py-2 px-4 rounded-lg text-lg font-semibold">
-        {Math.floor(timer / 60)}:{timer % 60 < 10 ? "0" + (timer % 60) : timer % 60}
+    <div className="flex flex-col items-center w-full mx-auto px-2 min-h-screen relative text-sm">
+      {/* Timer Display - Sticky and Anxiety-Inducing */}
+      <div
+        className={`fixed top-20 right-4 z-50 py-3 px-6 rounded-xl text-3xl font-bold text-white shadow-lg transition-colors ${timerColor}`}
+      >
+        <span>
+          {Math.floor(timer / 60)}:
+          {timer % 60 < 10 ? "0" + (timer % 60) : timer % 60}
+        </span>
       </div>
 
       <div className="w-full md:w-3/4 lg:w-1/2 flex-grow">
-        <h2 className="text-center font-semibold py-4 bg-gray-100 text-gray-800 rounded-lg text-xl mb-4 shadow-sm">
+        <h2 className="text-center font-semibold py-4 bg-gray-100 text-gray-800 rounded-lg text-sm mb-4 shadow-sm">
           {questions.length} Questions
         </h2>
 
         {questions.map((question, index) => (
           <QuizCards
-          rpl = {recieveRpl}
+            rpl={recieveRpl}
             key={question.id || index}
             question={question}
             id={`${index + 1}`}
