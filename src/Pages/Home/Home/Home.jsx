@@ -15,6 +15,14 @@ const button = [
     name: "PowerPoint Practice",
     url: "https://drive.google.com/drive/u/1/folders/1bXfvxLf-5yQeWiM38bJSwi7B38X8Dl8S",
   },
+  {
+    name: "Legacy Practice",
+    url: "https://drive.google.com/drive/u/1/folders/1TowMF08sVIEOEjn-l11cNQKscsuF17Uk",
+  },
+  {
+    name: "Upload Files",
+    url: "https://drive.google.com/drive/u/1/folders/1gN_24S0CKNHluu5wnq4aHFdPhF2vzNlJ",
+  },
   { name: "Typing Practice", url: "https://monkeytype.com/" },
 ];
 
