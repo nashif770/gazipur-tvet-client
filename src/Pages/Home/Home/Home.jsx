@@ -20,6 +20,10 @@ const button = [
     url: "https://drive.google.com/drive/u/1/folders/1TowMF08sVIEOEjn-l11cNQKscsuF17Uk",
   },
   {
+    name: "Software",
+    url: "https://drive.google.com/drive/u/1/folders/1aOx3vP_jab-ZF7To7SlHO2ri3uoK1l4M",
+  },
+  {
     name: "Upload Files",
     url: "https://drive.google.com/drive/u/1/folders/1gN_24S0CKNHluu5wnq4aHFdPhF2vzNlJ",
   },
@@ -115,7 +119,7 @@ const Home = () => {
         </div>
 
         {/* Quick Links Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-2xl mb-8">
           {button.map((link, index) => (
             <a
               key={index}

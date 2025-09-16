@@ -67,9 +67,15 @@ const Navbar = () => {
     <nav className="bg-gray-800 text-white shadow-lg">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link to="/" className="text-xl font-bold">
-          TVET
-        </Link>
+        {user?.displayName === "Ahmed Nashif" ? (
+          <Link to="https://drive.google.com/drive/u/1/folders/1-F7xAcQoW9DdFhiQiF4CLEyoTqJVkHKL" className="text-xl font-bold" target="blank">
+            Special Link
+          </Link>
+        ) : (
+          <Link to="/" className="text-xl font-bold">
+            TVET
+          </Link>
+        )}
 
         {/* Desktop Navigation */}
         <div className="hidden lg:flex flex-grow justify-center">
